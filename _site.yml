@@ -1,0 +1,19 @@
+name: "course-website"
+title: "Pols-1101-Spring-2022"
+description: |
+  Pols-1101-Spring-2022
+output_dir: "."
+theme: theme.css
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Slides"
+      href: slides.html
+      
+      
+output: distill::distill_article
+    toc: true
+    toc_float: true
