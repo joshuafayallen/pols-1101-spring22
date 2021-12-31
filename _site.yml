@@ -1,7 +1,7 @@
 name: "course-website"
-title: "Pols-1101-Spring-2022"
+title: "Pols 1101 Spring 2022"
 description: |
-  Pols-1101-Spring-2022
+  The slides for this class will live here!
 output_dir: "."
 theme: theme.css
 navbar:
