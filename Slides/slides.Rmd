@@ -5,6 +5,7 @@ date: "12/30/2021"
 description: |
   This page will be updated to include the slides from each weeks lectures! 
   I hope to have them up before each class. 
+output: distill::distill_article
 ---
 
 Lorem ipsum hopefully this works

@@ -1,8 +1,10 @@
 ---
 title: "Pols 1101 Spring 2022"
+author: "Josh Allen"
 description: |
   This website is where all the slides for this class will live.
 site: distill::distill_website
 ---
 
-
+# Course Description
+ As a college-level introduction to American government and politics, the primary goal of this course is to give you the knowledge and skills you need to be an effective and responsible participant in American democracy. It is designed to teach the historical development, nature, and operations of American government and its political system so that you may leave the course with the requisite knowledge for engaging in democratic processes and for understanding the rights and responsibilities of democratic citizenship
