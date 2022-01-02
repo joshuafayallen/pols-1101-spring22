@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Class One</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Josh Allen" />
+    <meta name="date" content="2021-12-27" />
+    <script src="Class-01_files/header-attrs/header-attrs.js"></script>
+    <link href="Class-01_files/remark-css/default.css" rel="stylesheet" />
+    <link href="Class-01_files/panelset/panelset.css" rel="stylesheet" />
+    <script src="Class-01_files/panelset/panelset.js"></script>
+    <script src="Class-01_files/clipboard/clipboard.min.js"></script>
+    <link href="Class-01_files/shareon/shareon.min.css" rel="stylesheet" />
+    <script src="Class-01_files/shareon/shareon.min.js"></script>
+    <link href="Class-01_files/xaringanExtra-shareagain/shareagain.css" rel="stylesheet" />
+    <script src="Class-01_files/xaringanExtra-shareagain/shareagain.js"></script>
+    <link href="Class-01_files/tachyons/tachyons.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Class One
+## Getting to Know Me, The Class, and What Not
+### Josh Allen
+### 2021-12-27
+
+---
+
+
+
+
+
+
+&lt;style type="text/css"&gt;
+/*
+Title: GSU Xaraingan Theme
+Author: Josh Allen
+Updated: 12/26/2021
+Description: A GSU theme for Xaringan presentations. Modifid based on 
+             Joseph V. Casillas's Rutgers theme and Tuo Wang's UW-Madison Theme
+References: https://github.com/jvcasillas/ru_xaringan, https://github.com/ttuowang/Xaringan-wisconsin-theme. Colors and Logo from https://commkit.gsu.edu/university-logos/
+*/
+
+
+
+a, a &gt; code {
+  color: #cc0033; /* rgb(249, 38, 114) */
+  text-decoration: none;
+}
+
+/* slightly lower and bigger than default */
+.footnote {
+  position: absolute;
+  bottom: 1em;
+  padding-right: 4em;
+  font-size: 95%;
+}
+
+/* important code slightly red */
+.remark-code-line-highlighted {
+  background-color: #FFD3DE !important;
+}
+
+/* color tweak */
+.inverse {
+  background-color: #8f9186;
+  color: #FFFFFF;
+  text-shadow: 0 0 20px #333;
+}
+
+/* slightly spacing change */
+.inverse h1, .inverse h2, .inverse h3 {
+  color: #f3f3f3;
+  line-height: 1.0em;
+}
+
+/* Two-column layout */
+.left-column {
+  color: #777;
+    width: 30%;
+  height: 92%;
+  float: left;
+  font-size: 18px;
+}
+
+.left-column h2:last-of-type, .left-column h3:last-child {
+  color: #000;
+}
+
+.left-column1 {
+  color: #777;
+    width: 34%;
+  height: 92%;
+  float: left;
+  font-size: 18px;
+}
+
+.right-column {
+  width: 67%;
+  float: right;
+  padding-top: 0em;
+}
+
+.right-column1 {
+  width: 63%;
+  float: right;
+  padding-top: 0em;
+}
+
+.pull-left {
+  float: left;
+  width: 47%;
+}
+.pull-right {
+  float: right;
+  width: 47%;
+}
+.pull-right ~ * {
+  clear: both;
+}
+
+img, video, iframe {
+  max-width: 100%;
+}
+table {
+  margin: auto;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+}
+table thead th { border-bottom: 1px solid #ddd; }
+th, td { padding: 5px; }
+thead, tfoot, tr:nth-child(even) { background: #eee }
+
+@page { margin: 0; }
+
+/* adjust table horizontal spacing */
+th, td {
+    padding:0 15px 0 15px;
+}
+
+.remark-slide table {
+  margin: auto;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+}
+.remark-slide table thead th { border-bottom: 1px solid #ddd; }
+th, td { padding: 5px; }
+.remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) { background: #eee }
+
+/* leave this alone */
+@page { margin: 0; }
+@media print {
+  .remark-slide-scaler {
+    width: 100% !important;
+    height: 100% !important;
+    transform: scale(1) !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~*/
+/* gsu additions */
+/*~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* Title slide */
+
+/* Add image and change bg color */
+.title-slide {
+  background-image: url(https://commkit.gsu.edu/files/2019/06/PrimaryLogo3color.jpg);
+  background-position: 100% 0%;
+  background-size: 300px;
+  background-color: #fff;
+  padding-left: 100px;  /* delete this for 4:3 aspect ratio */
+}
+
+/* H1 fonts */
+.title-slide h1 {
+  color: #0039A6;
+  padding-top: 100px;
+  font-weight: normal;
+  font-size: 60px;
+  text-align: left;
+  text-shadow: none;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+/* H2 fonts */
+.title-slide h2 {
+  color: #CC0000;
+  font-size: 34px;
+  text-align: left;
+  text-shadow: none;
+  padding-bottom: 20px;
+  margin-top: 0px;
+}
+
+/* H3 fonts */
+.title-slide h3 {
+  font-size: 28px;
+  font-weight: normal;
+  color: #666666;
+  text-align: left;
+  text-shadow: none;
+  padding-bottom: 15px;
+  margin: 0px;
+  line-height: 1;
+}
+
+/* Remove slide count shadow */
+.title-slide .remark-slide-number {
+  text-shadow: none;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~*/
+/* Global adjustments */
+/*~~~~~~~~~~~~~~~~~~~~*/
+
+/* Add padding to all slides for 16:9 aspect ratio */
+.remark-slide-content {
+  padding-left: 100px;  /* delete this for 4:3 aspect ratio */
+  font-size: 21px;
+}
+
+/* Color adjustments for text */
+
+strong {
+  color: #ea5455;
+}
+
+.bold { font-weight: bold; }
+
+.gsu-blue{
+  color: #0039A6;
+}
+
+.gsu-dark{
+  color: #776E64;
+}
+
+.gsu-gray-blue{
+  color: #dadfe1;
+}
+
+.gsu-gray-darker{
+  color: #646569;
+}
+
+.gsu-gray-darkest{
+  color: #282728;
+}
+
+.gsu-anchor-color{
+  color: #0479a8;
+}
+
+.p1-yellow {
+  color: #f9ed69;
+}
+
+.p1-orange {
+  color: #f08a5d;
+}
+
+.p1-darkred {
+  color: #b83b5e;
+}
+
+.p1-purple {
+  color: #6a2c70;
+}
+
+.p2-green {
+  color: #95e1d3;
+}
+
+.p2-blue {
+  color: #769fcd;
+  font-weight: bold;
+}
+
+.p2-yellow {
+  color: #fce38a;
+  font-weight: bold;
+}
+
+.p2-red {
+  color: #f38181;
+}
+
+/* Color adjustments to headers */
+h1 {
+  color: #0039A6;
+}
+
+h2 {
+  color: #CC0000;
+}
+h3 {
+  color: #776E64;
+}
+
+/* Font size tags */
+.big {
+  font-size: 1.5em;
+}
+
+
+
+
+
+/* gsu blockquote */
+gsu-blockquote-red {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-left: solid 20px #c5050c;
+  border-right: solid 20px #c5050c;
+  background-color: #dadfe1	;
+  padding: 1em;
+  color: #000000;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+
+gsu-blockquote-blue {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-left: solid 20px #0039A6;
+  border-right: solid 20px #0039A6;
+  background-color: #dadfe1	;
+  padding: 1em;
+  color: #000000;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+gsu-blockquote-alt {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-left: solid 20px #776E64;
+  border-right: solid 20px #776E64;
+  background-color: #dadfe1	;
+  padding: 1em;
+  color: #000000;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+/*~~~~~~~~~~~~~~*/
+/* I like the frames*/
+/* and cols in Allison Hill's */
+/* https://alison.netlify.app/ares-kind-tools/*/
+/*~~~~~~~~~~~~~~*/
+
+.frame h1 {
+  color: #0039A6;
+  padding-bottom: 1.0em !important;
+  border-bottom: 3px solid var(#7899d4ff);
+}
+
+
+
+
+/*~~~~~~~~~~~~~~*/
+/* Highlight    */
+/*~~~~~~~~~~~~~~*/
+
+.highlight-last-item &gt; ul &gt; li, 
+.highlight-last-item &gt; ol &gt; li {
+  opacity: 0.5;
+}
+.highlight-last-item &gt; ul &gt; li:last-of-type,
+.highlight-last-item &gt; ol &gt; li:last-of-type {
+  opacity: 1;
+}
+
+.bold-last-item &gt; ul &gt; li:last-of-type,
+.bold-last-item &gt; ol &gt; li:last-of-type {
+  font-weight: bold;
+}
+&lt;/style&gt;
+
+&lt;style type="text/css"&gt;
+/*
+GSU fonts
+Author: Josh Allen
+Updated: 05/24/2021
+
+I am just borrowing fonts used in the https://www.andrewheiss.com/blog/ 
+*/
+
+/* Add maven for code font (keep other xaringan defaults */
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&amp;display=swap');
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700);
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&amp;display=swap');
+
+body { font-family:'Roboto', 'Barlow Semi Condensed', 'Palatino Linotype', 'Book Antiqua', Palatino, 'Microsoft YaHei', 'Songti SC', serif; }
+
+h1, h2, h3 {
+  font-family: 'Archivo Narrow';
+  font-weight: normal;
+}
+
+/*
+h2, h3 {
+  font-family: 'Roboto Condensed';
+  font-weight: normal;
+}
+*/
+
+.remark-code, .remark-inline-code { font-family: 'Inconsolata', monospace; }
+.remark-code-line-highlighted     { background-color: #ffff88; }
+&lt;/style&gt;
+
+
+
+
+
+
+---
+layout: false
+# Outline 
+
+- About me 
+
+- About This Class
+
+- misc
+
+???
+Today will be pretty light we are just going to go over some of the very very basics of the class. A bit about me and what not. Than hopefully we will get out of here pretty quickly. Just
+a few notes if there is a nickname or name that you go by that isn't on the official 
+role than just email me I'll put it into my little spreadsheet. If you have 
+any trouble with reading the slides or the viz than also email me.
+---
+
+
+---
+class: center, middle,  inverse
+# About Me 
+
+---
+
+---
+# What to Call Me
+
+.panelset[
+.panel[.panel-name[Josh Allen]
+&lt;center&gt;
+&lt;div class="figure"&gt;
+&lt;img src="images-all/josh_allen_bills.png" alt="Josh Allen " width="90%" /&gt;
+&lt;p class="caption"&gt;Josh Allen &lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+]
+
+.panel[.panel-name[Mr Allen]
+&lt;center&gt;
+&lt;div class="figure"&gt;
+&lt;img src="images-all/Tim_allen.jpg" alt="Mr Allen" width="90%" /&gt;
+&lt;p class="caption"&gt;Mr Allen&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+]
+
+.panel[.panel-name[Professor Allen]
+&lt;center&gt;
+&lt;img src="images-all/me.png" width="40%" /&gt;
+&lt;/center&gt;
+]
+]
+
+???
+I mean if we are going to be honest I probably will respond to various versions of my name. But, I would prefer Professor Allen for a variety of reasons. I will get a little grumpy if you start calling me Mr. Allen because while the age gap between 18 and 27 may seem massive. I am in fact not my father. 
+
+---
+
+
+---
+class: center
+
+
+
+.pull-left[
+## Professional Things
+- I am a 3rd Year PhD Student in the Political Science Department
+
+- Research Interests: Political legacies of Repression and Political violence
+
+- Number of Times I have taught this class: 1 
+
+- Number of Times I have taught this class in person: 0]
+
+--
+
+.pull-right[
+## Personal Stuff  
+- I am a huge nerd who will make graphs for fun
+
+- generally in my free time you can find me at home watching sports or various tv shows
+
+- or with my dog Melonie at the dog park.
+]
+
+???
+So this is like my first time teaching this class in person so there will no doubt be some struggles lecturing and responding to questions. So while I know it may be frustrating at times but I promise you I am trying my best
+---
+
+
+---
+
+# Dog Pictures
+
+
+.pull-left[
+
+&lt;img src="images-all/melon.png" width="100%" /&gt;
+
+
+]
+
+.pull-right[
+
+&lt;img src="images-all/melon_uno.png" width="100%" /&gt;
+
+
+]
+
+
+???
+I have like a million pictures of my dog. These were from like a month ago. I will sprinkle in dog pictures 
+whenever possible. So on the right there is the Meloonie. On the right you have the melonie and
+her boyfriend Uno.
+---
+
+class: center, middle,  inverse
+# About the class 
+
+
+---
+# Where are the Slides
+
+- The slides live in the github repo at the top of the syllabus 
+
+- Instead of putting them on icollege and fighting with iCollege they live in the youin public for you to use  forever
+
+- Practically the HTML version of the slides are gonna be the ones I use in class. 
+
+- The PDF versions of the slides will just be there for you guys to take notes on if you would like. 
+
+
+???
+Without getting into the the technical stuff to much basically each of the presentations are there own self contained webpage. The only difference between the HTML and PDF versions are going to be that some of the media and gifs are not gonna show up. 
+
+---
+
+---
+##  Schedule for the Semester
+
+
+
+
+&lt;img src="Class-01_files/figure-html/unnamed-chunk-6-1.png" width="100%" /&gt;
+
+
+???
+This calendar is just taken directly from the syllabus. For February 10
+I will try and get somebody to cover the class. March 10th I don't anticipate many
+of you will be here since it is the class before spring break. So I will try
+and figure out a lecture that is kind of fun and useful. I will let you know closer
+to the actual date, but I wouldnt anticipate y'all having class
+---
+
+
+---
+## How to Do Well in This Class
+
+- Do the reading
+
+- Take good notes
+
+- Ask questions when you do not understand something
+
+- Participate
+
+???
+I know what you are thinking. "No shit professor Allen" and you know fair.
+I tend to take the view that this class is more about you guys understanding the 
+mechanics of politics. What I see the role of this class is for y'all to develop
+skills that you will use a lot. Mostly how to collaborate with peers and learning
+to ask for help when you do not understand something. This takes lots of practice.
+But they are ultimately things you will use a lot. Lots of things in your professional
+career are basically like large group projects. Free-riding in this case will have
+consequences. So practice being a good teammate now because there are like next
+to zero costs.
+---
+
+
+---
+
+## Makeup of This Class
+
+
+&lt;img src="Class-01_files/figure-html/unnamed-chunk-7-1.png" width="100%" /&gt;
+
+
+???
+I just pulled the data I was given from this class. My bet is that most of conditional 
+on you sticking in that major will take a class with the other major in this class. 
+So get used to working together and helping eachother out.
+---
+
+
+
+---
+
+background-image: url(https://content.gallup.com/origin/gallupinc/GallupSpaces/Production/Cms/PMCMS/yu19hlkifeqot5afgos7hg.jpg)
+# Outline 
+
+- What are Governments and what do they do?
+
+- What Else is Out There?
+
+- American Government 
+
+
+---
+
+---
+class: center, middle
+# Definining What We Mean
+---
+
+---
+
+class: center, left
+# What are Governments and What Do they Do?
+
+.pull-left[
+
+&lt;img src="/Users/Josh/Dropbox/Teaching/Spring-2022/slides/images-all/capitol.png" width="100%" /&gt;
+
+]
+
+.pull-right[
+&lt;img src="/Users/Josh/Dropbox/Teaching/Spring-2022/slides/images-all/state_of_the_union.png" width="100%" /&gt;
+
+]
+
+???
+Typically we think of government as focused within these individuals. Which is fair
+we see these people all the time in their various capacities. We know their names
+and every 2, 4, or 6 years they are on tv 24/7 asking to be re-elected 
+---
+
+---
+class: center, right
+
+## Government 
+
+.pull-left[
+&lt;img src="/Users/Josh/Dropbox/Teaching/Spring-2022/slides/images-all/dmv.png" width="100%" /&gt;
+
+]
+
+.pull-right[
+&lt;img src="/Users/Josh/Dropbox/Teaching/Spring-2022/slides/images-all/highway.png" width="100%" /&gt;
+
+
+]
+???
+Government extends to lots and lots of stuff that you may or may not think about. Whether it be zoning, permitting, in some cases what policies universities can and cannot enact. Government pretty much touches everything.
+
+
+---
+
+## Defintion of Government
+### Textbook's Definition
+A Set of institutions that 
+
+1. Endure overtime 
+--
+
+2. Has **authority over the people** of a specific territory
+--
+
+3. Authoritatively **makes and enforces laws**
+
+
+---
+
+
+---
+
+## A Common Defintion
+
+
+.pull-left[ 
+### Long Version
+
+we have to say that a state is a human community that (successfully) claims the monopoly of the legitimate use of physical force within a given territory...... Specifically, at the present time, the right to use physical force is ascribed to other institutions or to individuals only to the extent to which the state permits it..... Hence, 'politics' for us means striving to share power or
+striving to influence the distribution of power, either among states or among groups within a state
+]
+
+--
+.pull-right[
+
+### TL;DR
+we have to say that a state is a human community that (successfully) claims the monopoly of the legitimate use of physical force within a given territory
+]
+
+???
+So the most common way we start to understand the state in Political Science is with 
+this old dead white guy named Max Weber. He was a fellow writing in the late 19th 
+century. He defines the state this way. The book takes great issue wit this definition for god knows what reason. But it is kind of focused on the all the other stuff that government does. All its forms
+and what not. I personally think it is dumb
+---
+
+
+---
+
+## Why is the Book's Definition longer?
+
+
+--
+
+- The minimalist aspect of it
+
+--
+
+- the overemphasis of the coercive aspects of government 
+
+--
+
+- Federalism
+
+--
+
+- Popular Sovereignty 
+
+???
+There are huge debates about the state and statemaking,
+but in general it is accepted that the stuff that the book mentions is wrapped up in Weber. The debate is long and honestly kind of boring. But what you need to know is that the book has lots of opinions. Most of which I kind of disagree with
+The Federalism thing is also technically wrong because Weber says that other things can use 
+force if and only if the state delegates them that authority. The book also makes the point that highest authority aka soveriegnty resides in the people. And that there is an inherent tension between the governemtn and the people in this arrangement 
+---
+
+
+---
+
+## Why is Weber so Popular
+
+Think about other rule making organizations
+
+--
+
+The state is one among many in some respect (Midgal 1988, Spruyt 1996)
+
+ What makes the state so special?
+
+--
+
+The definition is minimal
+
+???
+According Weber and many the most basic function of the state is to dominate other 
+social organizations. The state is the sole authority to use violence to enforce 
+their rules. The PTA, GSU student gov, etc cannot use violence to enforce those rules
+It would be pretty jarring if the local HOA started to kill people for violations of 
+HOA policies. 
+
+---
+
+
+
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"slideNumberFormat": "%current%",
+"highlightStyle": "github",
+"highlightLines": true,
+"ratio": "16:9",
+"countIncrementalSlides": true,
+"navigation": {
+"scroll": false
+}
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
