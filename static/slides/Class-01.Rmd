@@ -14,10 +14,9 @@ output:
       ratio: 16:9
       countIncrementalSlides: true
       navigation:
-        scroll: false
+        scroll: true
 ---
-
-
+class: cente
 ```{r preamble, child=here::here("preamble.Rmd")}
 ```
 
@@ -179,6 +178,7 @@ Without getting into the the technical stuff to much basically each of the prese
 
 
 ```{r, include = TRUE, echo= FALSE}
+
 
 advdate <- function(obj, adv) {
  ttues <- obj + 7*(adv-1)
@@ -484,10 +484,7 @@ HOA policies.
 ---
 
 
----
-# Test slide
 
----
 
 
 
