@@ -127,11 +127,7 @@ enableEmoji = true
     url = "/about/"
     weight = 1
 
-  [[menu.header]]
-    name = "Syllabus"
-    title = "Syllabus"
-    url = "/project/"
-    weight = 3
+
   [[menu.header]]
     name = "Slides"
     title = "Slides"
