@@ -1,10 +1,9 @@
-```{R, setup, include = F, warnings = FALSE, cache = TRUE}
+```{R, setup, include = F, warnings = FALSE}
 
 devtools::install_github("gadenbuie/xaringanExtra")
 devtools::install_github("gadenbuie/countdown")
-
 pacman::p_load("tidyverse", "patchwork", "modelsummary", "ggridges", "kableExtra",
-               "gameofthrones", "MetBrewer", "viridis", "here", "lubridate",
+               "gameofthrones","viridis", "here", "lubridate",
                "stevemisc", "xaringanExtra", "flair", "countdown")
 
 

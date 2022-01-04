@@ -16,13 +16,12 @@ output:
       navigation:
         scroll: true
 ---
-class: cente
-```{r preamble, child=here::here("preamble.Rmd")}
+class: clear, middle
+
+```{r preamble, child = here::here('preamble.Rmd')}
 ```
 
-
 ---
-layout: false
 # Outline 
 
 - About me 
@@ -112,7 +111,7 @@ class: center
 
 - Bay Area Expat
 
-- Walk up song: Man of the Year Schoolboy Q
+- Walk up song: Man of the Year- Schoolboy Q
 
 - or with my dog Melonie at the dog park.
 ]
@@ -159,7 +158,7 @@ class: center, middle,  inverse
 
 - The slides live in the github repo at the top of the syllabus 
 
-- Instead of putting them on icollege and fighting with iCollege they live in the youin public for you to use  forever
+- Instead of putting them on icollege and fighting with iCollege they live on a website
 
 - Practically the HTML version of the slides are gonna be the ones I use in class. 
 
@@ -175,20 +174,7 @@ Without getting into the the technical stuff to much basically each of the prese
 ##  Schedule for the Semester
 
 
-
-
-```{r, include = TRUE, echo= FALSE}
-
-
-advdate <- function(obj, adv) {
- ttues <- obj + 7*(adv-1)
- tthurs <- obj + 4 + 7*(adv-1)
- tues <- format(ttues, format="%m/%d")
- tthurs <- format(tthurs, format="%m/%d")
- zadv <- sprintf("%02d", adv)
- tmp <- paste("Week ",zadv,sep='',", ", ttues," - ",tthurs)
- return(tmp)
-}
+```{r, include = TRUE, echo= FALSE, out.width="95%", out.height="100%"}
 
 
 mon <- ymd(20220110)
@@ -205,7 +191,16 @@ not_here_dates <- c(
 
 # You can adjust this as you see fit. Basically: add assignment types (e.g. papers, quizzes).
 # My intro class was fairly simple: just exams.
-exam_dates <- c(ymd(20220228), ymd(20220401), ymd(20220429))
+exam_dates <- c(ymd(20220207), ymd(20220321), ymd(20220425))
+
+
+ncchr_extra = ymd(20220227)
+
+
+activities = c(ymd(20220130), ymd(20220306), ymd(20220417))
+
+
+exam_weeks = c(6, 12, 17)
 
 # What are the full dates of the semester? Here, I'll exclude exam week as I like to do.
 # In this case: 6 January to 23 April
@@ -222,35 +217,42 @@ wom <- function(date) {
 tibble(date = seq(ymd(20220101), ymd(20220430), by=1))  %>%
   mutate(mon = lubridate::month(date, label=T, abbr=F), # get month label
          wkdy = weekdays(date, abbreviate=T), # get weekday label
-         wkdy = fct_relevel(wkdy, "Sun", "Mon", "Tue", "Wed", "Thu","Fri","Sat"), # make sure Sunday comes first
+         wkdy = fct_relevel(wkdy, "Sun", "Mon", "Tue", "Wed", "Thu","Fri","Sat"),
+         weeks = lubridate::isoweek(date),# make sure Sunday comes first
          semester = ifelse(date %in% semester_dates, 1, 0), # is date part of the semester?
          exams = ifelse(date %in% exam_dates, 1, 0), # is it an exam?
          not_here = ifelse(date %in% not_here_dates, 1, 0), # is it a day off?
          day = lubridate::mday(date), # get day of month to add later as a label
          # Below: our custom wom() function
-         week = wom(date)) -> Cal
+         week = wom(date),
+         exam_week = case_when(weeks %in% exam_weeks ~ "1",
+                               !weeks %in% exam_weeks ~ "0"),
+         ncchr = ifelse(date == ncchr_extra, 1, 0),
+         activities = ifelse(date %in% activities, 1, 0)) -> Cal
 
-# Create a category variable, for filling.
-# I can probably make this a case_when(), but this will work.
 
-Cal %>%
+
+
+
+Cal = Cal %>%
   mutate(category = NA,
          category = ifelse(semester == 1, "Semester", category),
          category = ifelse(semester == 1 & wkdy %in% c("Tue", "Thu"), "Class Day", category),
-         category = ifelse(exams == 1, "Exams", category),
-         category = ifelse(is.na(category) | (semester == 1 & not_here == 1), "NA", category)) -> Cal
+         category = ifelse(exam_week == 1, "Exams", category),
+         category = ifelse(is.na(category) | (semester == 1 & not_here == 1), "NA", category),                 
+         category = ifelse(ncchr == 1, "Extra Credit NCCHR", category),
+      category = ifelse(activities == 1, "Activity", category)) 
 
 calendar = Cal %>%
   ggplot(.,aes(wkdy, week)) +
-  # custom theme stuff below
-  # theme_steve_web() +
   theme_allen() +
   theme(panel.grid.major.x = element_blank(),
         panel.grid.major.y = element_blank(),
         axis.line.y = element_blank(),
         axis.line.x = element_blank(),
         panel.border = element_blank(),
-        axis.ticks.x = element_blank()) +
+        axis.ticks.x = element_blank(),
+        legend.position = "right") +
   # geom_tile and facet_wrap will do all the heavy lifting
   geom_tile(alpha=0.8, aes(fill=category), color="black", size=.45) +
   facet_wrap(vars(mon), scales="free", ncol=3) +
@@ -262,10 +264,12 @@ calendar = Cal %>%
   scale_fill_manual(values=c("Class Day"="steelblue",
                              "Semester"="lightsteelblue",
                              "NA" = "white", # I like these whited out...
-                             "Exams"="indianred4"),
+                             "Exams"="indianred4",
+                             "Extra Credit NCCHR" = "coral",
+                             "Activity" = "darkgoldenrod"),
                     #... but also suppress a label for a non-class semester day
-                    breaks=c("Class Day","Exams")) +
-  labs(fill = "", x="", y="")  
+                    breaks=c("Class Day","Exams", "Extra Credit NCCHR", "Activity")) +
+  labs(fill = "", x="", y="", caption = "Note Exams Close at 11:59 Pm")  
 
 
 calendar
@@ -454,7 +458,7 @@ and what not. I personally think it is dumb
 There are huge debates about the state and statemaking,
 but in general it is accepted that the stuff that the book mentions is wrapped up in Weber. The debate is long and honestly kind of boring. But what you need to know is that the book has lots of opinions. Most of which I kind of disagree with
 The Federalism thing is also technically wrong because Weber says that other things can use 
-force if and only if the state delegates them that authority. The book also makes the point that highest authority aka soveriegnty resides in the people. And that there is an inherent tension between the governemtn and the people in this arrangement 
+force if and only if the state delegates them that authority. The book also makes the point that highest authority aka sovereignty resides in the people. And that there is an inherent tension between the government and the people in this arrangement 
 ---
 
 
