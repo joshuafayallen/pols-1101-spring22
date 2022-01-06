@@ -155,17 +155,17 @@ class: center, middle,  inverse
 ---
 # Where are the Slides?
 
-- The slides live in the github repo at the top of the syllabus 
-
-- Instead of putting them on icollege and fighting with iCollege they live on a website
+- The slides live on the website I put in the announcement [here](https://sppols110122.netlify.app/)
 
 - Practically the HTML version of the slides are gonna be the ones I use in class. 
 
 - The PDF versions of the slides will just be there for you guys to take notes on if you would like. 
 
+- If you are curious about how they are made just visit [this link](https://github.com/joshuafayallen/pols-1101-spring22/tree/main/static/slides) and click on the file with the ".Rmd" extension
+
 
 ???
-Without getting into the the technical stuff to much basically each of the presentations are there own self contained webpage. The only difference between the HTML and PDF versions are going to be that some of the media and gifs are not gonna show up. 
+Without getting into the the technical stuff to much basically each of the presentations are there own self contained webpage. The only difference between the HTML and PDF versions are going to be that some of the media and gifs are not gonna show up. This shouldn't be to big of an issue because for the most part it is just going to be pictures and what not that I am done fighting. 
 
 ---
 
@@ -397,10 +397,10 @@ to zero costs.
 ---
 # Break Time 
 
-```{r}
+
+```{r, echo=FALSE}
 countdown::countdown(minutes = 5, play_sound = TRUE)
 ```
-
 
 ---
 
@@ -412,14 +412,16 @@ class: section, center, middle, inverse
 
 ---
 
-
-
 ---
-class: center, middle
-# Definining What We Mean
+## What is a Government and What Does it Do?
+
+
+
+![](https://media.giphy.com/media/cNxai6sNvsplKYw8FD/giphy.gif)
+
+???
+Obviously as a Pols PhD student this could be a much longer conversation and has been the subject of a lot of study but let us wrap it up in a concise little definition and get outta here
 ---
-
-
 
 ---
 
@@ -511,10 +513,7 @@ we have to say that a state is a human community that (successfully) claims the 
 ]
 
 ???
-So the most common way we start to understand the state in Political Science is with 
-this old dead white guy named Max Weber. He was a fellow writing in the late 19th 
-century. He defines the state this way. The book takes great issue wit this definition for god knows what reason. But it is kind of focused on the all the other stuff that government does. All its forms
-and what not. I personally think it is dumb
+So the most common way we start to understand the state in Political Science is withthis old dead white guy named Max Weber. He was a fellow writing in the late 19th century. He defines the state this way. The book takes great issue wit this definition for god knows what reason. But it is kind of focused on the all the other stuff that government does. All its forms and what not. I personally think it is dumb
 ---
 
 
@@ -572,7 +571,14 @@ HOA policies.
 
 ---
 
+---
 
+
+
+
+ ![](https://media.giphy.com/media/DAtJCG1t3im1G/giphy.gif)
+
+---
 
 
 
