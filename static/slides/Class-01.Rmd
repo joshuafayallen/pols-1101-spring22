@@ -86,12 +86,10 @@ I mean if we are going to be honest I probably will respond to various versions 
 
 
 ---
-class: center
-
-
+## About Me 
 
 .pull-left[
-## Professional Things
+## Professional Stuff
 - I am a 3rd Year PhD Student in the Political Science Department
 
 - Research Interests: Political legacies of Repression and Political violence
@@ -110,9 +108,9 @@ class: center
 
 - Bay Area Expat
 
-- Walk up song: Man of the Year- Schoolboy Q
+- Walk up song: Act Up- Rich Brian 
 
-- or with my dog Melonie at the dog park.
+- Generally can be found at a gym, my couch, or at the dog park with my dog Melonie
 ]
 
 ???
