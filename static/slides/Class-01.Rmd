@@ -277,11 +277,7 @@ calendar
 
 
 ???
-This calendar is just taken directly from the syllabus. For February 10
-I will try and get somebody to cover the class. March 10th I don't anticipate many
-of you will be here since it is the class before spring break. So I will try
-and figure out a lecture that is kind of fun and useful. I will let you know closer
-to the actual date, but I wouldnt anticipate y'all having class
+These next two slides are basically like the tl;dr of the syllabus. This calendar is just taken directly from the syllabus. For February 10 I will try and get somebody to cover the class. March 10th I don't anticipate many of you will be here since it is the class before spring break. So I will try and figure out a lecture that is kind of fun and useful. I will let you know closer to the actual date, but I wouldn't anticipate y'all having class. 
 ---
 
 
@@ -433,14 +429,14 @@ class: center, left
 .pull-left[
 
 ```{r, echo=FALSE}
-knitr::include_graphics(here::here("images-all" ,"capitol.png"))
+knitr::include_graphics("images-all/capitol.png")
 ```
 
 ]
 
 .pull-right[
 ```{r echo = FALSE}
-knitr::include_graphics(here::here("images-all", "state_of_the_union.png"))
+knitr::include_graphics( "images-all/state_of_the_union.png")
 ```
 
 ]
@@ -458,7 +454,7 @@ class: center, right
 
 .pull-left[
 ```{r, echo= FALSE}
-knitr::include_graphics(here::here("images-all", "dmv.png"))
+knitr::include_graphics("images-all/dmv.png")
 
 
 ```
@@ -468,7 +464,7 @@ knitr::include_graphics(here::here("images-all", "dmv.png"))
 .pull-right[
 ```{r echo = FALSE}
 
-knitr::include_graphics(here::here("images-all","highway.png"))
+knitr::include_graphics("images-all/highway.png")
 ```
 
 
