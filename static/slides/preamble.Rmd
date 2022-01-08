@@ -30,7 +30,7 @@ theme_allen = function(title_pos = "center", axis_title_pos = "left",
   title_margin = if_else(has_subtitle, "4", "16")
   
   
- ggthemes:: theme_clean(base_family = "Roboto Condensed", 
+ theme_bw(base_family = "Roboto Condensed", 
                 base_size = base_size)  +
     theme(axis.ticks = element_line(colour='black'),
           plot.background = element_blank(),
