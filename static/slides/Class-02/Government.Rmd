@@ -14,7 +14,7 @@ output:
       ratio: 16:9
       countIncrementalSlides: true
       navigation:
-        scroll: false
+        scroll: true
 ---
 
 
@@ -481,7 +481,7 @@ from two of the most popular measures of regime to color our discussion
 ---
 ## Regimes According to Polity IV
 
-```{r echo = FALSE}
+```{r echo = FALSE, warning=FALSE}
 
 remotes::install_github("xmarquez/democracyData")
 
