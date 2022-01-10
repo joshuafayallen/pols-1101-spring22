@@ -48,6 +48,9 @@ class: center, middle, inverse
 - If **more than two people** choose B  than the class gets **no points**
 
 
+- Follow this [link](https://gsu.qualtrics.com/jfe/form/SV_b9hBhrLJC9203bL)
+
+
 
 ???
 There is no catch all you have to do is play. Monitor the situation however you 
@@ -71,7 +74,9 @@ the game is setup where two people are being questioned about a crime in seperat
 The suspects can either cooperate with each other and not say anything and be set free.
 One can confess and be set free and the other is sent to jail. They can both confess
 and both go to jail. This stylized game highlights when people incur costs themselves
-cooperation is hard.
+cooperation is hard. If you watch football then this was brought up endlessly in 
+the Raiders Chargers game. If I am remembering correctly there was also a prisioners dilemma
+in Survivor 
 
 ---
 
