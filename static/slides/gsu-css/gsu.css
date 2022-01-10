@@ -223,38 +223,53 @@ strong {
   color: #0479a8;
 }
 
-.p1-yellow {
-  color: #f9ed69;
+
+
+/* Colors are from the Met brewer package */
+
+.hiro-red{
+  color: #e76254;
 }
 
-.p1-orange {
-  color: #f08a5d;
+.hiro-orange{
+  color: #ef8a47;
 }
 
-.p1-darkred {
-  color: #b83b5e;
+.hiro-light-orange{
+ color: #f7aa58; 
 }
 
-.p1-purple {
-  color: #6a2c70;
+.hiro-yellow{
+  color: #ffd06f ;
 }
 
-.p2-green {
-  color: #95e1d3;
+.hiro-light-blue{
+  color: #528fad ;
 }
 
-.p2-blue {
-  color: #769fcd;
-  font-weight: bold;
+.hiro-dark-blue{
+  color: #376795;
 }
 
-.p2-yellow {
-  color: #fce38a;
-  font-weight: bold;
+.vero-red{
+  color: #67322e;
 }
 
-.p2-red {
-  color: #f38181;
+.vero-brown{
+  color: #99610a;
+}
+
+.vero-yellow{
+  color: #c38f16;
+}
+
+
+.vero-teal{
+  color: #6e948c;
+}
+
+.vero-blue{
+  color: #122c43;
 }
 
 /* Color adjustments to headers */

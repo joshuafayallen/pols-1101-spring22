@@ -157,7 +157,8 @@ theme_allen  = function(title_pos = "center", axis_title_pos = "left", slides = 
 
 ##knitr stuff
 options(htmltools.dir.version = FALSE)
-knitr::opts_chunk$set(fig.path="figs/", echo=FALSE, warning=FALSE, message=FALSE, fig.retina=3, fig.asp=.5, out.width='100%', 
+knitr::opts_chunk$set(fig.path="figs/", echo=FALSE, warning=FALSE, 
+                      message=FALSE, fig.retina=3, fig.asp=.5, out.width='100%', 
                       fig.showtext = TRUE, comment = NULL)
 
 xaringanExtra::use_panelset()

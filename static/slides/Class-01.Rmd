@@ -171,7 +171,7 @@ Without getting into the the technical stuff to much basically each of the prese
 ##  Schedule for the Semester
 
 
-```{r, include = TRUE, echo= FALSE, out.height= "100%"}
+```{r, include = TRUE, echo= FALSE}
 
 
 mon <- ymd(20220110)
@@ -251,7 +251,7 @@ calendar = Cal %>%
         axis.ticks.x = element_blank(),
         legend.position = "right") +
   # geom_tile and facet_wrap will do all the heavy lifting
-  geom_tile(alpha=0.8, aes(fill=category), color="black", size=.45) +
+  geom_tile(alpha=0.8, aes(fill=category), color="black", size=.5) +
   facet_wrap(vars(mon), scales="free", ncol=3) +
   # fill in tiles to make it look more "calendary" (sic)
   geom_text(aes(label=day),family="Roboto Condensed") +
@@ -474,8 +474,6 @@ most_freq = plot_data %>%
 
 least_freq = plot_data %>% 
   slice(15:28)
-
-
 
 
 
