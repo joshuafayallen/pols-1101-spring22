@@ -49,7 +49,7 @@ class: center, middle,  inverse
 .panelset[
 .panel[.panel-name[Josh Allen]
 <center>
-```{r, echo = FALSE, fig.cap= "Josh Allen ", out.width="90%"}
+```{r, echo = FALSE}
 
 knitr::include_graphics("images-all/josh_allen_bills.png")
 
@@ -59,7 +59,7 @@ knitr::include_graphics("images-all/josh_allen_bills.png")
 
 .panel[.panel-name[Mr Allen]
 <center>
-```{r, echo = FALSE, fig.cap = "Mr Allen", out.width= "90%"}
+```{r, echo = FALSE}
 
 
 knitr::include_graphics("images-all/Tim_allen.jpg")
@@ -171,7 +171,7 @@ Without getting into the the technical stuff to much basically each of the prese
 ##  Schedule for the Semester
 
 
-```{r, include = TRUE, echo= FALSE, out.width="95%", out.height="100%"}
+```{r, include = TRUE, echo= FALSE, out.height= "100%"}
 
 
 mon <- ymd(20220110)
@@ -423,47 +423,7 @@ Obviously as a Pols PhD student this could be a much longer conversation and has
 
 
 
----
-## Consider This
 
-
-```{r echo = FALSE, warning=FALSE, message=FALSE, out.width="95%", out.height="100%"}
-pacman::p_load("here", "gameofthrones", 
-               "scico")
-
-clean_list = read_csv(here::here("data", "class_list_majors.csv"))
-
-plot_data  = clean_list %>% 
-  group_by(major) %>% 
-  summarise(total = n()) %>% 
-  arrange(desc(total)) 
-
-
-ggplot(plot_data, aes(x = total, y = fct_reorder(major,total),
-                                   color = major)) +
-  geom_pointrange(aes(xmin = 0, xmax = total), fatten = 5) + 
-  labs(x = "Total", y = NULL, title = "Majors in This Class") +
-  guides(color = "none") +
-  scale_color_scico_d(palette = "vikO") +
-  theme_allen()
-
-
-```
-
-???
-As is the nature of an intro class like this the bulk of you are not political science majors.
-Let us start to consider how you all will interact with government in your professional lives. Get in groups of like 3 or 4 and start brainstorming ways in which the government has a hand in these areas. Then think of ways that you interacted with the government today.
-
----
-
----
-
-## Activity Time 
-```{r, echo=FALSE}
-countdown::countdown(minutes = 2, play_sound = TRUE)
-```
-
----
 
 
 
@@ -489,10 +449,83 @@ knitr::include_graphics( "images-all/state_of_the_union.png")
 ]
 
 ???
-Typically we think of government as focused within these individuals. Which is fair
-we see these people all the time in their various capacities. We know their names
-and every 2, 4, or 6 years they are on tv 24/7 asking to be re-elected 
+Typically we think of government as focused within these individuals. Which is fair we see these people all the time in their various capacities. We know their names and every 2, 4, or 6 years they are on tv 24/7 asking to be re-elected 
 ---
+
+---
+## However, Consider This
+
+
+```{r echo = FALSE, warning=FALSE, message=FALSE}
+pacman::p_load("here", "gameofthrones", 
+               "scico")
+
+clean_list = read_csv(here::here("data", "class_list_majors.csv"))
+
+plot_data  = clean_list %>% 
+  group_by(major) %>% 
+  summarise(total = n()) %>% 
+  arrange(desc(total)) 
+
+
+most_freq = plot_data %>% 
+  slice(1:14)
+
+
+least_freq = plot_data %>% 
+  slice(15:28)
+
+
+
+
+
+```
+
+.pull-left[
+```{r, echo=FALSE}
+ggplot(most_freq, aes(x = total, y = fct_reorder(major,total),
+                                   color = major)) +
+  geom_pointrange(aes(xmin = 0, xmax = total), fatten = 5) + 
+  labs(x = "Total", y = NULL, title = "") +
+  guides(color = "none") +
+  scale_color_scico_d(palette = "vikO") +
+  theme_allen()
+```
+
+]
+
+--
+
+.pull-right[
+
+```{r, echo=FALSE}
+ggplot(least_freq, aes(x = total, y = fct_reorder(major,total),
+                                   color = major)) +
+  geom_pointrange(aes(xmin = 0, xmax = total), fatten = 5) + 
+  labs(x = "Total", y = NULL, title = "") +
+  guides(color = "none") +
+  scale_color_scico_d(palette = "vikO") +
+  theme_allen()
+```
+
+]
+
+
+
+???
+As is the nature of an intro class like this the bulk of you are not political science majors. Let us start to consider how you all will interact with government in your professional lives. Get in groups of like 3 or 4 and start brainstorming ways in which the government has a hand in these areas. Then think of ways that you interacted with the government today.
+
+---
+
+---
+
+## Activity Time 
+```{r, echo=FALSE}
+countdown::countdown(minutes = 2, play_sound = TRUE)
+```
+
+---
+
 
 ---
 class: center, right
