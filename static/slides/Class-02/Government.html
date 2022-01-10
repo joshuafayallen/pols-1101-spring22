@@ -4,7 +4,7 @@
     <title>Governments</title>
     <meta charset="utf-8" />
     <meta name="author" content="Josh Allen" />
-    <meta name="date" content="2022-01-07" />
+    <meta name="date" content="2022-01-10" />
     <script src="Government_files/header-attrs/header-attrs.js"></script>
     <link href="Government_files/remark-css/default.css" rel="stylesheet" />
     <link href="Government_files/panelset/panelset.css" rel="stylesheet" />
@@ -25,7 +25,7 @@ class: center, middle, inverse, title-slide
 # Governments
 ## Chapters 01 and Chapters 02
 ### Josh Allen
-### 2022-01-07
+### 2022-01-10
 
 ---
 
@@ -260,38 +260,53 @@ strong {
   color: #0479a8;
 }
 
-.p1-yellow {
-  color: #f9ed69;
+
+
+/* Colors are from the Met brewer package */
+
+.hiro-red{
+  color: #e76254;
 }
 
-.p1-orange {
-  color: #f08a5d;
+.hiro-orange{
+  color: #ef8a47;
 }
 
-.p1-darkred {
-  color: #b83b5e;
+.hiro-light-orange{
+ color: #f7aa58; 
 }
 
-.p1-purple {
-  color: #6a2c70;
+.hiro-yellow{
+  color: #ffd06f ;
 }
 
-.p2-green {
-  color: #95e1d3;
+.hiro-light-blue{
+  color: #528fad ;
 }
 
-.p2-blue {
-  color: #769fcd;
-  font-weight: bold;
+.hiro-dark-blue{
+  color: #376795;
 }
 
-.p2-yellow {
-  color: #fce38a;
-  font-weight: bold;
+.vero-red{
+  color: #67322e;
 }
 
-.p2-red {
-  color: #f38181;
+.vero-brown{
+  color: #99610a;
+}
+
+.vero-yellow{
+  color: #c38f16;
+}
+
+
+.vero-teal{
+  color: #6e948c;
+}
+
+.vero-blue{
+  color: #122c43;
 }
 
 /* Color adjustments to headers */
@@ -638,7 +653,7 @@ goes into both of them. Ostrom actually got her Nobel Prize in 2009 for her work
 
 ---
 
-<div class="countdown" id="timer_61d8ba9a" style="right:0;bottom:0;" data-audio="true" data-warnwhen="0">
+<div class="countdown" id="timer_61dc883e" style="right:0;bottom:0;" data-audio="true" data-warnwhen="0">
 <code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
 
@@ -801,7 +816,7 @@ class: section, center, middle, inverse
 
 
 
-&lt;img src="Government_files/figure-html/unnamed-chunk-7-1.png" width="100%" /&gt;
+&lt;img src="figs/unnamed-chunk-7-1.png" width="100%" /&gt;
 ???
 As somebody who studies comparative politics I get pretty jazzed when we are
 talking kinds of government. Purpose of Government etc. So I decided to use data
@@ -812,7 +827,7 @@ from two of the most popular measures of regime to color our discussion
 ---
 ## Regimes According to Polity IV
 
-&lt;img src="Government_files/figure-html/unnamed-chunk-8-1.png" width="100%" /&gt;
+&lt;img src="figs/unnamed-chunk-8-1.png" width="100%" /&gt;
 
 ---
 
@@ -865,7 +880,7 @@ from two of the most popular measures of regime to color our discussion
 ]
 
 ???
-To be fair to the book defininig regimes is pretty difficult and the comparative
+To be fair to the book defining regimes is pretty difficult and the comparative
 politics literature still spends a considerable amount of time fighting about
 regime classification. The book has a bit of an old school definition of how we think about
 regime types in comparative politics. When we think about how we classify different regimes
@@ -903,7 +918,7 @@ that for this class we are going to set aside is how do we measure that stuff.
 
 
 ???
-VDEM embraces what is known as Dahl's polyarchy. In the early days of political science a lot of theorizing went into what we meant by "Democracy" and "Authoritarianism" one of the most prominent of these theories was Dahl's polyarchy. In our sort of folk theories of democracy we these things are fairly intuitive. Liberal democracies do all these things but as citizens are mostly in disagreement about the how they do this and how much leeway they have to do this. But it is very much informed by the Enlightenment
+VDEM embraces what is known as Dahl's polyarchy. In the early days of political science a lot of theorizing went into what we meant by "Democracy" and "Authoritarianism" one of the most prominent of these theories was Dahl's polyarchy. In our sort of folk theories of democracy we these things are fairly intuitive. Liberal democracies do all these things but as citizens are mostly in disagreement about the how they do this and how much leeway they have to do this. But it is very much informed by the Enlightenment. \
 ---
 
 ---
@@ -912,7 +927,7 @@ VDEM embraces what is known as Dahl's polyarchy. In the early days of political 
 
 --
 
-&lt;img src="Government_files/figure-html/unnamed-chunk-9-1.png" width="100%" /&gt;
+&lt;img src="figs/unnamed-chunk-9-1.png" width="100%" /&gt;
 
 
 
@@ -938,16 +953,17 @@ class: section, center, middle, inverse
 ---
 ## Demcracy
 
+.pull-left[
 &lt;gsu-blockquote-blue&gt; Direct Democracy: “pure” democracy - one in which the people make the decisions in the manner in which political powers should be exercised. &lt;/gsu-blockquote-blue&gt;
+]
 
-
-
+.pull-right[
 &lt;gsu-blockquote-red&gt; 
 Representative democracy – where the authority of the governments lies with the people (the electorate) that elect representatives to support their interests
 
 &lt;/gsu-blockquote-red&gt; 
 
-
+]
 
 ???
 Direct democracy is the original form of democracy. Democracy like 0.1 or raw dogging democracy. There is an important distinction between direct democracy and 
@@ -958,7 +974,7 @@ representative democracy. The key distinction is that we delegate some our power
 
 ---
 ## Constitutional Democracy
-
+.pull-left[
 &lt;center&gt;
 &lt;gsu-blockquote-alt&gt;
 
@@ -970,13 +986,32 @@ Governments, like the United States, that are effectively bound by fundamental l
 
 &lt;/gsu-blockquote-alt&gt;
 &lt;/center&gt;
+]
 
-- **Rule of Law**: The idea that *all* citizens, *including government officials*, are bound by laws
+.pull-right[
 
-- *Fundamental law*: The federal government is bound by the laws declared in the Constitution. If a statute is in conflict with the law of the constitution, then the statute is considered unlawful.
+- **Rule of Law**: The idea that **all** citizens, **including government officials**, are bound by laws
+
+- **Fundamental law**: The federal government is bound by the laws declared in the Constitution. If a statute is in conflict with the law of the constitution, then the statute is considered unlawful. ] 
 
 ???
-In particular the American flavor of Liberal democracy is all about the our Constitution. In other liberal democracies interpretation of the founding documents is less of a thing. In some cases like in England there is an informal Constitution but not like a piece of paper you can go see in the national archive. The idea of rule of law is sort of intuitive regardless and that is everybody is bound to the same laws. Put another way. Me and Joe Biden can both go shop lift stuff. If we get caught stealing shit we will both be prosecuted by the law. Fundamental law is just the idea that no basic ass laws are higher can take precedence oveer the constitution. The book uses establishing an official religion as an example. It is in clear conflict with the first amendment. However, if a state decides to say fuck it and makes WAP, All to Well(Taylor's Version), or something else as their official state anthem over the star spangled banner their is no conflict between fundamental and ordidnary law because the constitution dodsnt say anything about an official song.
+In particular the American flavor of Liberal democracy is all about the our Constitution. In other liberal democracies interpretation of the founding documents is less of a thing. In some cases like in England there is an informal Constitution but not like a piece of paper you can go see in the national archive. The idea of rule of law is sort of intuitive regardless and that is everybody is bound to the same laws. Put another way. Me and Joe Biden can both go shop lift stuff. If we get caught stealing shit we will both be prosecuted by the law. Fundamental law is just the idea that no basic ass laws are higher can take precedence oveer the constitution. The book uses establishing an official religion as an example. It is in clear conflict with the first amendment. However, if a state decides to say fuck it and makes WAP, All to Well(Taylor's Version), or something else as their official state anthem over the star spangled banner their is no conflict between fundamental and ordidnary law because the constitution doesnt say anything about an official song.
+
+
+---
+## Role of Government 
+
+- What it provides
+
+- What it ignores
+
+- How it provides
+
+
+???
+So we went over a lot of stuff in this class. What I think it is important to takeaway is that cooperation is hard and governments are supposed to help us cooperate at a minimum. If we think back to the first class remember that the minimal definintion of government is that it has the monopoly over the use of force. The use of coercion is the basic public good that every government must provide. In the American Liberal Democracy we frequently debate about how and what stuff 
+---
+
 
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>

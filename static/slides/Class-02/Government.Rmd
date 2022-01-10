@@ -466,6 +466,7 @@ plot_data_world$regime_type = factor(plot_data_world$regime_type,
         caption = "Data are derived from the Varities of Democracy Project") +
    theme_void(base_family = "Roboto Condensed") +
    theme(legend.position = "top",
+         legend.text = element_text(size = 8),
          plot.caption = element_text(hjust = 0.8))
  
 
@@ -580,7 +581,7 @@ ggplot() +
 ]
 
 ???
-To be fair to the book defininig regimes is pretty difficult and the comparative
+To be fair to the book defining regimes is pretty difficult and the comparative
 politics literature still spends a considerable amount of time fighting about
 regime classification. The book has a bit of an old school definition of how we think about
 regime types in comparative politics. When we think about how we classify different regimes
@@ -618,7 +619,7 @@ that for this class we are going to set aside is how do we measure that stuff.
 
 
 ???
-VDEM embraces what is known as Dahl's polyarchy. In the early days of political science a lot of theorizing went into what we meant by "Democracy" and "Authoritarianism" one of the most prominent of these theories was Dahl's polyarchy. In our sort of folk theories of democracy we these things are fairly intuitive. Liberal democracies do all these things but as citizens are mostly in disagreement about the how they do this and how much leeway they have to do this. But it is very much informed by the Enlightenment
+VDEM embraces what is known as Dahl's polyarchy. In the early days of political science a lot of theorizing went into what we meant by "Democracy" and "Authoritarianism" one of the most prominent of these theories was Dahl's polyarchy. In our sort of folk theories of democracy we these things are fairly intuitive. Liberal democracies do all these things but as citizens are mostly in disagreement about the how they do this and how much leeway they have to do this. But it is very much informed by the Enlightenment. \
 ---
 
 ---
@@ -672,16 +673,17 @@ class: section, center, middle, inverse
 ---
 ## Demcracy
 
+.pull-left[
 <gsu-blockquote-blue> Direct Democracy: “pure” democracy - one in which the people make the decisions in the manner in which political powers should be exercised. </gsu-blockquote-blue>
+]
 
-
-
+.pull-right[
 <gsu-blockquote-red> 
 Representative democracy – where the authority of the governments lies with the people (the electorate) that elect representatives to support their interests
 
 </gsu-blockquote-red> 
 
-
+]
 
 ???
 Direct democracy is the original form of democracy. Democracy like 0.1 or raw dogging democracy. There is an important distinction between direct democracy and 
@@ -692,7 +694,7 @@ representative democracy. The key distinction is that we delegate some our power
 
 ---
 ## Constitutional Democracy
-
+.pull-left[
 <center>
 <gsu-blockquote-alt>
 
@@ -704,11 +706,30 @@ Governments, like the United States, that are effectively bound by fundamental l
 
 </gsu-blockquote-alt>
 </center>
+]
 
-- **Rule of Law**: The idea that *all* citizens, *including government officials*, are bound by laws
+.pull-right[
 
-- *Fundamental law*: The federal government is bound by the laws declared in the Constitution. If a statute is in conflict with the law of the constitution, then the statute is considered unlawful.
+- **Rule of Law**: The idea that **all** citizens, **including government officials**, are bound by laws
+
+- **Fundamental law**: The federal government is bound by the laws declared in the Constitution. If a statute is in conflict with the law of the constitution, then the statute is considered unlawful. ] 
 
 ???
-In particular the American flavor of Liberal democracy is all about the our Constitution. In other liberal democracies interpretation of the founding documents is less of a thing. In some cases like in England there is an informal Constitution but not like a piece of paper you can go see in the national archive. The idea of rule of law is sort of intuitive regardless and that is everybody is bound to the same laws. Put another way. Me and Joe Biden can both go shop lift stuff. If we get caught stealing shit we will both be prosecuted by the law. Fundamental law is just the idea that no basic ass laws are higher can take precedence oveer the constitution. The book uses establishing an official religion as an example. It is in clear conflict with the first amendment. However, if a state decides to say fuck it and makes WAP, All to Well(Taylor's Version), or something else as their official state anthem over the star spangled banner their is no conflict between fundamental and ordidnary law because the constitution dodsnt say anything about an official song.
+In particular the American flavor of Liberal democracy is all about the our Constitution. In other liberal democracies interpretation of the founding documents is less of a thing. In some cases like in England there is an informal Constitution but not like a piece of paper you can go see in the national archive. The idea of rule of law is sort of intuitive regardless and that is everybody is bound to the same laws. Put another way. Me and Joe Biden can both go shop lift stuff. If we get caught stealing shit we will both be prosecuted by the law. Fundamental law is just the idea that no basic ass laws are higher can take precedence oveer the constitution. The book uses establishing an official religion as an example. It is in clear conflict with the first amendment. However, if a state decides to say fuck it and makes WAP, All to Well(Taylor's Version), or something else as their official state anthem over the star spangled banner their is no conflict between fundamental and ordidnary law because the constitution doesnt say anything about an official song.
+
+
+---
+## Role of Government 
+
+- What it provides
+
+- What it ignores
+
+- How it provides
+
+
+???
+So we went over a lot of stuff in this class. What I think it is important to takeaway is that cooperation is hard and governments are supposed to help us cooperate at a minimum. If we think back to the first class remember that the minimal definintion of government is that it has the monopoly over the use of force. The use of coercion is the basic public good that every government must provide. In the American Liberal Democracy we frequently debate about how and what stuff the government provides. A central insight is that an entity strong enough to secure these contracts has the ability to violate our rights. Much of the political discourse in our country has been about how big or small the government should be.
+---
+
 
