@@ -621,7 +621,7 @@ So the most common way we start to understand the state in Political Science is 
 - Popular Sovereignty 
 
 ???
-There are huge debates about the state and statemaking, but in general it is accepted that the stuff that the book mentions is wrapped up in Weber. The debate is long and honestly kind of boring. But what you need to know is that the book has lots of opinions. Most of which I kind of disagree with The Federalism thing is also technically wrong because Weber says that other things can use force if and only if the state delegates them that authority. The book also makes the point that highest authority aka sovereignty resides in the people. And that there is an inherent tension between the government and the people in this arrangement 
+There are huge debates about the state and statemaking, but in general it is accepted that the stuff that the book mentions is wrapped up in Weber. The debate is long and honestly kind of boring. But what you need to know is that the book has lots of opinions. Most of which I kind of disagree with The Federalism thing is also technically wrong because Weber says that other things can use force if and only if the state delegates them that authority. The reason it takes issue with this is that under federalism there are lots of "competing authorities. The book also makes the point that highest authority aka sovereignty resides in the people. And that there is an inherent tension between the government and the people in this arrangement 
 ---
 
 
@@ -629,13 +629,16 @@ There are huge debates about the state and statemaking, but in general it is acc
 
 ## Why is Weber so Popular
 
+What makes the state so special?
+
+--
+
 Think about other rule making organizations
 
 --
 
 The state is one among many in some respect (Midgal 1988, Spruyt 1996)
 
- What makes the state so special?
 
 --
 
@@ -643,7 +646,7 @@ The definition is minimal
 
 ???
 According Weber and many the most basic function of the state is to dominate other 
-social organizations. Legitimation can come through many forms one is domination, using the power of a leaders' convincing, and through rational legal structure The state is the sole authority to use violence to enforce  their rules. The PTA, GSU student gov, etc cannot use violence to enforce those rules It would be pretty jarring if the GSU student government used Violence to uphold its bylaws.
+social organizations. In Weber he does not distinguish states by their ends but by their means. There are lots of rules making organizations that we interact with. Most if not all of them have similar policy goals that make it difficult to seperate them from the state in this respect. However, how they can achieve this goal differs. The legitimate use of force according to Weber is what differentiates the state  Legitimation can come through many forms one is domination, using the power of a leaders' convincing, and through rational legal structure The state is the sole authority to use violence to enforce  their rules. The PTA, GSU student gov, etc cannot use violence to enforce those rules It would be pretty jarring if the GSU student government used Violence to uphold its bylaws.
 
 ---
 
