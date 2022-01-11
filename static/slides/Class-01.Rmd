@@ -27,7 +27,7 @@ output:
 
 - About This Class
 
-- misc
+- Working Definition of Government 
 
 ???
 Today will be pretty light we are just going to go over some of the very very basics of the class. A bit about me and what not. Than hopefully we will get out of here pretty quickly. Just
@@ -92,7 +92,7 @@ I mean if we are going to be honest I probably will respond to various versions 
 ## Professional Stuff
 - I am a 3rd Year PhD Student in the Political Science Department
 
-- Research Interests: Political legacies of Repression and Political violence
+- Research Interests: Political Legacies of Repression and Political violence
 
 - Grade: 23?
 
@@ -114,7 +114,7 @@ I mean if we are going to be honest I probably will respond to various versions 
 ]
 
 ???
-So this is like my first time teaching this class in person so there will no doubt be some struggles lecturing and responding to questions. So while I know it may be frustrating at times but I promise you I am trying my best
+So this is like my first time teaching this class in person so there will no doubt be some struggles lecturing and responding to questions. So while I know it may be frustrating at times but I promise you I am trying my best. I have been in school for longer than some way have you been alive. My research interests are focused on the enduring legacy of violence. Outside of class you will generally find me in like three or four places
 ---
 
 
@@ -264,7 +264,6 @@ calendar = Cal %>%
                              "Exams"="indianred4",
                              "Extra Credit NCCHR" = "coral",
                              "Activity" = "darkgoldenrod"),
-                    #... but also suppress a label for a non-class semester day
                     breaks=c("Class Day","Exams", "Extra Credit NCCHR", "Activity")) +
   labs(fill = "", x="", y="", caption = "Note Exams Close at 11:59 Pm")  
 
@@ -275,7 +274,8 @@ calendar
 
 
 ???
-These next two slides are basically like the tl;dr of the syllabus. This calendar is just taken directly from the syllabus. For February 10 I will try and get somebody to cover the class. March 10th I don't anticipate many of you will be here since it is the class before spring break. So I will try and figure out a lecture that is kind of fun and useful. I will let you know closer to the actual date, but I wouldn't anticipate y'all having class. 
+These next two slides are basically like the tl;dr of the syllabus. This calendar is just taken directly from the syllabus. For February 10 I will try and get somebody to cover the class. March 10th I don't anticipate many of you will be here since it is the class before spring break. So I will try and figure out a lecture that is kind of fun and useful. I will let you know closer to the actual date, but I wouldn't anticipate y'all having class.
+Apologies that it is a little smushed. I tried fighting with the aspect ratios. I can post this and the table in the announcements for your purpose 
 ---
 
 
@@ -475,6 +475,7 @@ most_freq = plot_data %>%
 least_freq = plot_data %>% 
   slice(15:28)
 
+ 
 
 
 ```
@@ -511,15 +512,20 @@ ggplot(least_freq, aes(x = total, y = fct_reorder(major,total),
 
 
 ???
-As is the nature of an intro class like this the bulk of you are not political science majors. Let us start to consider how you all will interact with government in your professional lives. Get in groups of like 3 or 4 and start brainstorming ways in which the government has a hand in these areas. Then think of ways that you interacted with the government today.
+As is the nature of an intro class like this the bulk of you are not political science majors. Let us start to consider how you all will interact with government in your professional lives. Get in groups of like 3 or 4 and start brainstorming ways in which the government has a hand in these areas. TIf you don't know your colleague that you are working with. Introduce yourself. As an icebreaker you can choose one of these icebreakers
 
 ---
 
 ---
 
 ## Activity Time 
+
+
+- What is something you would do that would slightly inconvenience an enemy
+
+- What is a hot take you have 
 ```{r, echo=FALSE}
-countdown::countdown(minutes = 2, play_sound = TRUE)
+countdown::countdown(minutes = 5, play_sound = TRUE)
 ```
 
 ---
@@ -589,7 +595,7 @@ we have to say that a state is a human community that (successfully) claims the 
 ]
 
 ???
-So the most common way we start to understand the state in Political Science is withthis old dead white guy named Max Weber. He was a fellow writing in the late 19th century. He defines the state this way. The book takes great issue wit this definition for god knows what reason. But it is kind of focused on the all the other stuff that government does. All its forms and what not. I personally think it is dumb
+So the most common way we start to understand the state in Political Science is with this old dead white guy named Max Weber. He was a fellow writing in the late 19th century. He defines the state this way. The book takes great issue wit this definition for god knows what reason. But it is kind of focused on the all the other stuff that government does. All its forms and what not. I personally think it is dumb
 ---
 
 
@@ -615,10 +621,7 @@ So the most common way we start to understand the state in Political Science is 
 - Popular Sovereignty 
 
 ???
-There are huge debates about the state and statemaking,
-but in general it is accepted that the stuff that the book mentions is wrapped up in Weber. The debate is long and honestly kind of boring. But what you need to know is that the book has lots of opinions. Most of which I kind of disagree with
-The Federalism thing is also technically wrong because Weber says that other things can use 
-force if and only if the state delegates them that authority. The book also makes the point that highest authority aka sovereignty resides in the people. And that there is an inherent tension between the government and the people in this arrangement 
+There are huge debates about the state and statemaking, but in general it is accepted that the stuff that the book mentions is wrapped up in Weber. The debate is long and honestly kind of boring. But what you need to know is that the book has lots of opinions. Most of which I kind of disagree with The Federalism thing is also technically wrong because Weber says that other things can use force if and only if the state delegates them that authority. The book also makes the point that highest authority aka sovereignty resides in the people. And that there is an inherent tension between the government and the people in this arrangement 
 ---
 
 
