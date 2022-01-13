@@ -42,9 +42,6 @@ class: center, middle, inverse
 
 --
 
-- But the class gets **no points**
-
-
 - If **more than two people** choose B  than the class gets **no points**
 
 
@@ -66,6 +63,15 @@ want.
 - To understand the purpose of government we have to start with the prisoners dilemma
 
 - Basically the goal of the game is to maximize the number of points
+
+--
+
+```{r echo= FALSE, out.width= "60%", fig.align='center'}
+
+knitr::include_graphics("images/prisoners-dileman.png")
+
+```
+
 
 
 ???
@@ -121,6 +127,7 @@ is that the pursuit of self interest leads to the collective good.
 
 
 
+
 ---
 
 ---
@@ -150,7 +157,7 @@ is that the pursuit of self interest leads to the collective good.
 ???
 So the way you will most often hear about this is through carrots and sticks.
 This comes from how you bribe a stubborn horse to move. You can either get it 
-to move by dangling a carrot in front of it or you can hit it with a stick.
+to move by dangling a carrot in front of it or you can hit it with a stick. Essentially you are trying to penalize non-cooperation
 
 ---
 
@@ -158,9 +165,10 @@ to move by dangling a carrot in front of it or you can hit it with a stick.
 ---
 ## Get to the Point
 
-- Governments ultimately provide what are known as public goods 
+- Governments, and the goal of collective action, ultimately provide what are known as public goods 
 
 - Public Goods have two components 
+
   1. Non-Rivalrious
   
   2. Non-Excludable
@@ -173,7 +181,7 @@ Non-excludable is the part of the definition that is straightforward it just mea
 everybody can consume the good 
 
 Public goods are very expensive difficult to provide,
-and are to costly for private actors to provide
+and are to costly for private actors to provide. The reason why this is occur is that we are making the prisoners dilemma iterated. In a iterated prisoners dilemma what happens is if its played over and over again you can start to credibly punish people. 
 
 
 ---
@@ -232,7 +240,7 @@ knitr::include_graphics("images/ostrom-design.png")
 
 ???
 the cop out answer is usually just to make things private goods. But that isn't really an option in most cases so  governments have to get more creative than that. Not that there is a lot that 
-goes into both of them. Ostrom actually got her Nobel Prize in 2009 for her work on the common pool problem. So this is very much an active research area.
+goes into both of them. Ostrom actually got her Nobel Prize in 2009 for her work on the common pool problem. So this is very much an active research area. Governments have to step into solve these problems. And the tools by which they do that is often tricky.
 
 
 ---
@@ -256,7 +264,7 @@ Main Ideas:
 
 
 ???
-I found this part to be the least interesting part when I was in your shoes so we are going to fast forward through this. During this time period lots of very smart people like Locke, Rosseeau, Hobbes, etc thought a lot about what the role of government should be why we have it etc. 
+I found this part to be the least interesting part when I was in your shoes so we are going to fast forward through this. During this time period lots of very smart people like Locke, Rosseeau, Hobbes, etc thought a lot about what the role of government should be why we have it etc. However, the concepts are the basis upon which we get the constitution and the declaration of independence.
 ---
 
 
@@ -277,7 +285,7 @@ knitr::include_graphics("images/hobbes.png")
 
 - State of Nature-a state in which self-interest and anarchy prevents society from existing “civilly” 
 
-- Humans would all be “dirty, poor, brutish, and greedy
+- Humans would all be “dirty, poor, brutish, and short"
 
 
 - Social Contract - individuals give up some of their rights so others will give up theirs, and agree to be governed by a state
@@ -348,7 +356,7 @@ by the "market"
 
 ]
 ???
-Capitalism grows up alongside other enlightenment ideas. Prior to this system Europe had what was known as mercantilism were the main economic actor was the crown. The sole purpose of the economy was to enrich the nation. The power of the state is interconnected very deeply with the wealth of the state. Smith comes along in an age where the focus turns toward the individual. He argues that for economies to progress the individual must set off to maximize their personal profit. The pursuit of this profit by every leads to what Smith calls the social good. In the classic liberal economy. The invisible hand is when under perfect factor mobility and perfect competition the market will determine the most efficient because of supply and demand. Sellers want to sell their stuff that benefits them the most. Buyers want to buy stuff at a price that is advantageous to them. Crucially the owners of the factors of the production are private actors rather than the state. This is like the quickest and dirtiest explanation of Macroeconomics possible. For more thorough explanations you are going to take some classes in our Econ department or with Dr. Hankla. The role of the state in this case is to correct market failures. These arise for various reasons and are altogether pretty common
+Capitalism grows up alongside other enlightenment ideas. Prior to this system Europe had what was known as mercantilism were the main economic actor was the crown. The sole purpose of the economy was to enrich the nation. The power of the state is interconnected very deeply with the wealth of the state. Smith comes along in an age where the focus turns toward the individual. He argues that for economies to progress the individual must set off to maximize their personal profit. The pursuit of this profit by every leads to what Smith calls the social good. In the classic liberal economy. The invisible hand is when under perfect factor mobility and perfect competition the market will determine the most efficient because of supply and demand. Sellers want to sell their stuff that benefits them the most. Buyers want to buy stuff at a price that is advantageous to them. Crucially the owners of the factors of the production are private actors rather than the state. This is like the quickest and dirtiest explanation of Macroeconomics possible. For more thorough explanations you are going to take some classes in our Econ department or with Dr. Hankla. The role of the state in this case is to correct market failures. These arise for various reasons and are altogether pretty common. 
 
 
 ---
@@ -410,8 +418,7 @@ class: section, center, middle, inverse
 
 ```{r, echo=FALSE, warning=FALSE}
 
-devtools::install_github("vdeminstitute/vdemdata")
-devtools::install_github("BlakeRMills/MetBrewer")
+
 
 pacman::p_load("sf", "ggmap", "wesanderson", "countrycode", 
                "scico", "MetBrewer", "WDI")
