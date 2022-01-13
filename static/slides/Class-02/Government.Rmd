@@ -53,7 +53,7 @@ class: center, middle, inverse
 
 --
 
-- If **more than two people** choose B  than the class gets **no points**
+- If **more than one person** choose B  than the class gets **no points**
 
 
 - Follow this [link](https://gsu.qualtrics.com/jfe/form/SV_b9hBhrLJC9203bL)
@@ -375,7 +375,7 @@ Capitalism grows up alongside other enlightenment ideas. Prior to this system Eu
 .panelset[
 .panel[.panel-name[Book Definition]
 
-State socialists believe market capitalism necessarily results in too much economic inequality and in oppressive relationships between workers and the owners of capital. Mainstream Americans believe market capitalism, properly harnessed, can be an engine of prosperity for everyone and that government ownership of the means of production concentrates too much power in the hands of government
+State socialists believe market capitalism necessarily results in too much economic inequality and in oppressive relationships between workers and the owners of capital. [Part of] the purpose of government is for it to take over ownership of all major parts of the economy and forcefully enact a social revolution that brings about perfect economic equality and the end of all class oppression.
 ]
 
 .panel[.panel-name[Command Economy]
