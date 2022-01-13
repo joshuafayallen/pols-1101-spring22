@@ -21,6 +21,17 @@ output:
 ```{r preamble, child=here::here("preamble.Rmd")}
 ```
 
+---
+## Looming Deadlines
+
+- Syllabus Quiz 01-16
+
+- Pre-Course Survey 01-16
+
+---
+
+
+
 
 ---
 class: center, middle, inverse
