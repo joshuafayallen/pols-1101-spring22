@@ -253,6 +253,19 @@ knitr::include_graphics("images/ostrom-design.png")
 the cop out answer is usually just to make things private goods. But that isn't really an option in most cases so  governments have to get more creative than that. Not that there is a lot that 
 goes into both of them. Ostrom actually got her Nobel Prize in 2009 for her work on the common pool problem. So this is very much an active research area. Governments have to step into solve these problems. And the tools by which they do that is often tricky.
 
+---
+## What Other Kinds of Goods Are There??
+
+- Lots!!
+<center>
+![](https://quickonomics.com/wp-content/uploads/2016/10/TypesOfGoods.jpg)
+
+</center>
+
+---
+
+
+
 
 ---
 
@@ -649,10 +662,12 @@ VDEM embraces what is known as Dahl's polyarchy. In the early days of political 
 
 ## Authoritarianism
 
---
+---
+
+## How Do Authoritarian Leaders Exit
 
 ```{r echo = FALSE}
-svolik_raw  =  haven::read_dta("data/leadership change in dictatorships, 1946-2008.dta")
+svolik_raw  = haven::read_dta("data/leadership change in dictatorships, 1946-2008.dta")
 
  svolik_raw %>% 
   group_by(exit) %>% 
@@ -667,7 +682,7 @@ svolik_raw  =  haven::read_dta("data/leadership change in dictatorships, 1946-20
   geom_text(aes(label = total), nudge_x = -8 , color = "white" ) +
   scale_fill_manual(values = c("grey70", "#f2ad22")) +
   theme_allen()  +
-  labs(y = NULL) +
+  labs(y = NULL, x = "Number of Authoritarian Exits") +
   guides(fill = "none")
 
 ```
