@@ -95,7 +95,7 @@ class: center, middle, inverse
 ???
 Last week we talked about a whirlwind of topics and we ended with things we disagree over. We ended by talking about constitutional democarcy and the extent representative democracy. We covered authoritarianism a bit. But I think we should do some cleanup. We generally see these things as inappropriate. Imposition of one religion is seen as innapropriate because we are kind of explicitly violating rights outlined in the constitution. While religion is an important determinant of voting behavior and how we frame public policy. We see the explicit imposition of state religion as innapropriate. 
 
-The third one is kind of recent. As we will discuss in later chapters. White supremacy is tightly intertwined with our political history and politics today. Promotion of equal rights under the law is still ongoing. Access to the right to vote is still an issue, violence by the state has figured prominently in the news. You do not have to throw a stone that far on the internet to find a clip about current state voting laws that do not have eerie echoes of the past. The DOJ currently has sued the State of Georgia over it voting laws. We will talk about Gerrymandering. We will talk about some of this in the coming weeks. But the persistence of our history in the way we vote is pretty astounding. 
+The third one is kind of recent. As we will discuss in later chapters. White supremacy is tightly intertwined with our political history and dealing with the legacies of these institutions in particular. Promotion of equal rights under the law is still ongoing. Access to the right to vote is still an issue, violence by the state has figured prominently in the news. You do not have to throw a stone that far on the internet to find a clip about current state voting laws that do not have eerie echoes of the past. The DOJ currently has sued the State of Georgia over it voting laws. We will talk about Gerrymandering. We will talk about some of this in the coming weeks. But the persistence of our history in the way we vote is pretty astounding. 
 
 
 
@@ -146,7 +146,7 @@ knitr::include_graphics("images/censorship.jpg")
 ```
 
 ???
-In particular one way that the U.S. differs is that the right to collective action is encoded. The right to talk about it is preserved. This figure is taken from an influential paper where the authors use natural language processing to dissect what kinds of content the CCP takes down. For established autocracies free experession is not neccessarily discouraged or always censored. Free experession isn't preserved because of the respect for the right to do so but because it is a good way for the government to understand the dissatisfaction of its citizenry. 
+In particular one way that the U.S. differs is that the right to collective action is encoded. The right to talk about it is preserved. This figure is taken from an influential paper where the authors use natural language processing to dissect what kinds of content the CCP takes down. For established autocracies free expression is not neccessarily discouraged or always censored. Free experession isn't preserved because of the respect for the right to do so but because it is a good way for the government to understand the dissatisfaction of its citizenry. 
 
 However, outright organization based off this is not protected. In general we think of the purpose of American government as responsible for protecting our rights to do these things. The purpose of governmetn in the American system is *now* thought of as securing these rights
 
@@ -231,7 +231,9 @@ Collection of beliefs and values about the justification and operation of a coun
 
 
 ???
-Political culture is kind of interesting area of study in Comparative politics. Culturalist perspectives are no doubt powerful but hard to operationalize in statistical studies and in qualitative studies. Culture gives meanings to otherwise innocuous stimuli. Culture is the practice of making meanings from external stimuli and investing in those meanings. The sort of canonical example in the literature is with Gertz who uses a wink between people. The wink can signal mischeaviousness between people a joke etc. Or think of the (do the thing where you point at your arm). Political culture is important because it is how we parse certain stuff in our political lives and helps us orient how to think of new stimuli. Whether these are things that arise due to maturing or political events that arise. 
+Political culture is kind of interesting area of study in Comparative politics. Culturalist perspectives are no doubt powerful but hard to operationalize in statistical studies and in qualitative studies. Culture gives meanings to otherwise innocuous stimuli. 
+
+Culture is the practice of making meanings from external stimuli and investing in those meanings. The sort of canonical example in the literature is with Gertz who uses a wink between people. The wink can signal mischeaviousness between people a joke etc. Or think of the (do the thing where you point at your arm). Political culture is important because it is how we parse certain stuff in our political lives and helps us orient how to think of new stimuli. Whether these are things that arise due to maturing or political events that arise. 
 
 
 --- 
