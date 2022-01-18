@@ -1,0 +1,17 @@
+---
+author: Josh Allen
+date: "2021-01-18"
+date_end: "2021-01-21"
+draft: false
+event: Pols 1101
+featured: 
+layout: single
+links:
+- icon: door-open
+  icon_pack: fas
+  name: Slides html
+  url: "slides/Class-03/Ideology.html"
+show_post_time: false
+subtitle: The American Way of Politics
+title: Chapter 3
+---
