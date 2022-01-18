@@ -28,11 +28,11 @@ output:
 ## Looming Deadlines 
 
 
-- Pre-Course Survey 01/20
+- Pre-Course Survey 01/21
 
 - Syllabus Quiz 01/21
 
-- Chapters 01 & 02 01/24
+- Chapters 01 & 02 01/25
 
 
 ---
@@ -68,6 +68,7 @@ Last week we kind of did a crash course on some pretty difficult concepts which 
 
 
 ---
+
 ---
 class: center, middle, inverse
 
@@ -94,7 +95,7 @@ class: center, middle, inverse
 ???
 Last week we talked about a whirlwind of topics and we ended with things we disagree over. We ended by talking about constitutional democarcy and the extent representative democracy. We covered authoritarianism a bit. But I think we should do some cleanup. We generally see these things as inappropriate. Imposition of one religion is seen as innapropriate because we are kind of explicitly violating rights outlined in the constitution. While religion is an important determinant of voting behavior and how we frame public policy. We see the explicit imposition of state religion as innapropriate. 
 
-The third one is kind of recent. As we will discuss in later chapters. White supremacy is tightly intertwined with our political history and politics today. Promotion of equal rights under the law is still ongoing. Access to the right to right is still an issue. You do not have to throw a stone that far on the internet to find a clip about current state voting laws that do not have eerie echoes of the past. The DOJ currently has sued the State of Georgia over it voting laws. We will talk about Gerrymandering. We will talk about some of this in the coming weeks. But the persistence of our history in the way we vote is pretty astounding. 
+The third one is kind of recent. As we will discuss in later chapters. White supremacy is tightly intertwined with our political history and politics today. Promotion of equal rights under the law is still ongoing. Access to the right to vote is still an issue, violence by the state has figured prominently in the news. You do not have to throw a stone that far on the internet to find a clip about current state voting laws that do not have eerie echoes of the past. The DOJ currently has sued the State of Georgia over it voting laws. We will talk about Gerrymandering. We will talk about some of this in the coming weeks. But the persistence of our history in the way we vote is pretty astounding. 
 
 
 

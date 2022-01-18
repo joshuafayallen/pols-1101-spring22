@@ -11,6 +11,10 @@ links:
   icon_pack: fas
   name: Slides html
   url: "slides/Class-03/Ideology.html"
+- icon: door-open
+  icon_pack: fas
+  name: Slides PDF
+  url: "slides/Class-03/Ideology.pdf"
 show_post_time: false
 subtitle: The American Way of Politics
 title: Chapter 3
