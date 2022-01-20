@@ -845,8 +845,6 @@ knitr::include_url("https://billofrightsinstitute.org/primary-sources/bill-of-ri
 ```
 
 
-??? 
-So this is just going to send you to the OG text in the Bill of Rights. I do like how you can see when I found out a new in xaringan 
 ---
 
 ---
