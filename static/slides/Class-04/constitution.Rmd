@@ -140,9 +140,9 @@ Another kind of interesting aspect about American political development is the e
 ```{r og-plot, echo = FALSE, warning=FALSE, message=FALSE}
 
 ggplot(settler_dat, aes(x = logem4 , y = avexpr)) +
-  geom_smooth(method = "lm") +
+  geom_smooth(method = "lm", se = FALSE) +
   geom_text(aes(label = name)) + 
-  labs(x = "Log of Settler Mortality", y = "Average Expropriation Risk in 1985-1995", caption = "This is a replication of figure 3 in Acemoglu, Johnson, and Robinson (2001)\nBand represents 95% confidence intervals") +
+  labs(x = "Log of Settler Mortality", y = "Average Expropriation Risk in 1985-1995", caption = "This is a replication of figure 3 in Acemoglu, Johnson, and Robinson (2001)") +
   theme_allen()
 
 ```
@@ -579,7 +579,7 @@ Like how profitable slavery was during this period is still a hotly debated topi
 
 
 
-```{r slavery-map, echo=FALSE}
+```{r slavery-map}
 knitr::include_url("http://lincolnmullen.com/projects/slavery/")
 ```
 
