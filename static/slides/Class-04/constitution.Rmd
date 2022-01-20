@@ -95,9 +95,14 @@ However we also can start to think of the subsequent amendments to the constitut
  2. Lots of Cheap Land 
 
 ???
-Permanent lack of economic freedom oppression/feudal restrictions 
+Permanent lack of economic freedom oppression/feudal restrictions. There was very little land for people outside of the traditional landed aristocracy. The early colonial period in Europe was one the first major periods of globalization with inter-continenal trade. This greatly benefitted merchants and artisans but they had no real ability to gain property which was important for status and power in the traditional english system 
+
+Poverty
+Starvation
 
 Political Oppression Religious oppression – pilgrims, Puritans – Winthrop and Cotton in Mass Quakers – William penn’s holy experiment Hugonauts - protestants Vast open spaces Cheap land Diverse population leads to freedom equality and liberty. 
+
+For the puritans they saw the church of england as insufficiently devout and the corrupt vestiges of the catholic church irredeamable. They left because they thought they could do better.
 ---
 
 ---
@@ -128,7 +133,9 @@ ggplot(settler_dat, aes(x = logem4, y = fct_reorder(name, logem4), fill = flag))
 
 
 ???
-Another kind of interesting aspect about American political development is the extent to which America had some advantages due to climate.I just took data from Acemoglu, Johnson, and Robinson and plotted it. I subsetted the data to include the only Top 20 lowest colonies by settler mortality. As you can see the U.S. is one of the lowest this is partially because the east coast of the United States does not have some of the diseases that Central, South America, and Africa have that killed lots of European settlers. For lots of settler colonies institutions were set up to protect settlers from expropriation
+Another kind of interesting aspect about American political development is the extent to which America had some advantages due to climate.I just took data from Acemoglu, Johnson, and Robinson and plotted it. I subsetted the data to include the only Top 20 lowest colonies by settler mortality. As you can see the U.S. is one of the lowest this is partially because the east coast of the United States does not have some of the diseases that Central, South America, and Africa have that killed lots of European settlers. 
+
+We see very different institutional development in European colonies. They posit that the mechanism that links the kinds of institutions that were and present economic performance their main dependent variable is differences in protection from expropriation. Because white settlers actually lived in these colonies early institutions were more likely to protect rights 
 
 
 ---
@@ -147,7 +154,9 @@ ggplot(settler_dat, aes(x = logem4 , y = avexpr)) +
 
 ```
 ???
-We will not get into how instrumental variables work. While many have critiqued this piece for violations of their causal identification strategy  But this shows the naive relationship between the average number of protections against expropriation. The establishment of instituions has lasting economic and political legacies. So what are ours? 
+We will not get into how instrumental variables work. While many have critiqued this piece for violations of their causal identification strategy we will kind of set those  But this shows the naive relationship between the average number of protections against expropriation. The establishment of instituions has lasting economic and political legacies. S
+
+
 
 ---
 
@@ -218,10 +227,15 @@ DQ: Were the taxes imposed by the British really unjust considering the financia
 
 ???
 Sugar Act – placed a heavy tariff on the imports of sugar, molasses (used to make alcohol), lumber, and many other raw materials being imported in to the colonies from other foreign nations. 
-Currency Act – an act prohibiting the colonies from producing or issuing any type of currency. 
-Quartering Act – early action of this was met with avid vehemence and it was later repealed that year. 
+
+Currency Act – an act prohibiting the colonies from producing or issuing any type of currency.
+
+Quartering Act – early action of this was met with avid vehemence and it was later repealed that year. It forced local governments to provide food and lodging for soldiers. This is essentially just a form of taxation. 
+
 Stamp Act – the first direct tax on all colonists that taxed all things written or printed on paper (newspapers, pamphlets, maps, insurance policies, and even playing cards) and required all documents to have a specific stamp to be considered legal documents. 
+
 Townshend Acts – a heavy tax (named for the English Chancellor at the time) that taxed all vessels entering and leaving the colonial harbors. 
+
 Tea Act – the final straw for many colonists and a tax imposed by the British to help bail out the East India Company. It imposed a high tax on tea and restricted sale to only one company. 
 
 ---
