@@ -579,8 +579,8 @@ Like how profitable slavery was during this period is still a hotly debated topi
 
 
 
-```{r slavery-map}
-knitr::include_url("http://lincolnmullen.com/projects/slavery/")
+```{r}
+knitr::include_url("http://lincolnmullen.com/projects/slavery")
 ```
 
 
@@ -621,9 +621,6 @@ It is the electoral college! Does anybody know how we calculate electoral colleg
 
 - Only 4,400 words….. Roughly 9 pages single spaced (original) 
     - Amendments extend it to 7591 words. 
-
-- It is also the oldest in existence (1789) versus Norway (1814) and Belgium (1831)
-  - India’s is the longest (146,385 words) with 444 articles and 118 amendments 
 
 - There is 1 state’s name that is misspelled in the document 
 
