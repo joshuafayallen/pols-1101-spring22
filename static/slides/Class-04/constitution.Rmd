@@ -579,7 +579,7 @@ Like how profitable slavery was during this period is still a hotly debated topi
 
 
 
-```{r}
+```{r, out.extra="data-external=1"}
 knitr::include_url("http://lincolnmullen.com/projects/slavery")
 ```
 
