@@ -445,14 +445,14 @@ the problems with currency, and all of the weakness of the decentralized state g
 ---
 ## From Compromise to Constitution
 
- - Constitutional Convention 1787
+- Constitutional Convention 1787
   - Established a central government
   - Strong executive branch
 - Congress
   - power to declare war
   - power to raise a national military
   - Bicameral legislature 
-- Judicial System 
+  - Judicial System 
   - It exists
 - Separation of powers
   - checks and balances 
