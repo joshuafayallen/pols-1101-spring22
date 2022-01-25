@@ -2,7 +2,7 @@
 
 
 
-pacman::p_load("tidyverse", "patchwork", "modelsummary", "ggridges", "kableExtra","gameofthrones","viridis", "here", "lubridate", "stevemisc", "xaringanExtra", "flair", "countdown","hrbrthemes","ggthemes", "kable")
+pacman::p_load("tidyverse", "patchwork", "modelsummary", "ggridges", "kableExtra","gameofthrones","viridis", "here", "lubridate", "stevemisc", "xaringanExtra", "flair", "countdown","hrbrthemes","ggthemes", "kable", "vembedr")
 
 theme_allen  = function(title_pos = "center", axis_title_pos = "left", slides = FALSE, has_subtitle = FALSE, base_size = 14, ...) {
   
