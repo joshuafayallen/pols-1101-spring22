@@ -101,7 +101,7 @@ We have to say that a state is a human community that (successfully) claims the 
 
 
 .pull-right[
-### Why Does the Book hate it 
+### Why Does the Book Not Like Weber?
 
 - Emphasis on the *Executive* function of government
 
@@ -316,7 +316,7 @@ class: center, middle, inverse
 - **No** Direct Authority Over the People
 
 ???
-The articles of confederation is interesting.  Instead, it only claims authority, and seeks to exercise power, over the state governments. In this sense, the central government in a confederacy is best described as a government over governments instead of a government over individuals
+The articles of confederation is interesting. The last bullet point limits the way in which the government has power over people. Instead, it only claims authority, and seeks to exercise power, over the state governments. In this sense, the central government in a confederacy is best described as a government over governments instead of a government over individuals
 
 This is kind of bold because if you have done the chapter you know that states could only be requistioned. Which is just fancy for "be asked nicely to pay the federal government" 
 
@@ -348,7 +348,7 @@ Popular Sovereignty: The book highlights how the constitution has many avenues t
 
 Representative Democracy: the direct enshrinement of the right to elect politicians. While there is some odditites like how senators are elected and how we (still) elect the president. However, this was pretty unique at the time. While who was allowed to do this was severly constrained
 
-Seperaation of powers: This is still a pretty interesting idea. Among the institutions in the US each has some unique authorities, and has the ability to make the others life harder. The original idea was to create branches that were co-equal but were not really meant to be trusted. To ensure that the protections they wrote down were protected
+Seperation of powers: This is still a pretty interesting idea. Among the institutions in the US each has some unique authorities, and has the ability to make the others life harder. The original idea was to create branches that were co-equal but were not really meant to be trusted. To ensure that the protections they wrote down were protected
 
 seperation of powers just comes from a dead french guy named Montesquieu.
 
@@ -430,7 +430,7 @@ Preserving the union: If we give to much power to the states they start acting l
 
 reducing compliance costs: if we have one set of rules it makes things easier to monitor and there are clearer red lines. Rather than lots of different red lines
 
-negative externalities: stronger national governments are in better positions to monitor and fix market failures. If we remember back to our collective action problem. An externality is: A cost or benefit to someone who did not choose that cost or benefit. In essence it is something that is outside the price but effects the price. The cost of something is lower than it should because the producer is not actually bearing that cost. We will inevitably end up with a lot stuff like pollution because producers bear none of the costs but in essence we all do. Stronger central governments are in better positions to ensure that somebody bears the cost \
+negative externalities: stronger national governments are in better positions to monitor and fix market failures. If we remember back to our collective action problem. An externality is: A cost or benefit to someone who did not choose that cost or benefit. In essence it is something that is outside the price but effects the price. The cost of something is lower than it should because the producer is not actually bearing that cost. We will inevitably end up with a lot stuff like pollution because producers bear none of the costs but in essence we all do. Stronger central governments are in better positions to ensure that somebody bears the cost 
 
 Preventing races to the bottom: This is kind of intersting because as we went over there are a whole host of regulations. States use attractive tax packages to get companies to relocate. This brings a whole host of benefits. If you are trying to bring in big tech you get prestige, an influx of higher incomes, a natural demand for more stuff, and lots of capital
 
