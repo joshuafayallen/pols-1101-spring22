@@ -20,6 +20,16 @@ output:
 ```
 
 
+---
+class: center, middle
+
+## Looming Deadlines
+![](https://media.giphy.com/media/6Gy6EgcQMesXS/giphy.gif)
+
+
+
+---
+
 
 ---
 class: center, middle, inverse 
@@ -182,7 +192,7 @@ Okay using what we know about government so far how can we start to think of wha
 ---
 class: center, middle, inverse
 
-# Chapter 2
+# American Way of Politics
 
 
 ---
@@ -223,9 +233,7 @@ Governments, like the United States, that are effectively bound by fundamental l
 .pull-left[
 
 <gsu-blockquote-blue> 
-If men were angels, no government would be necessary. If angels were to govern men, neither external nor internal controls on government would be necessary. In framing a government which is to be administered by men over men, the great difficulty lies in this: you must first enable the government to control the governed; and in the next place oblige it to control itself
-
-- Madison 
+If men were angels, no government would be necessary. If angels were to govern men, neither external nor internal controls on government would be necessary. In framing a government which is to be administered by men over men, the great difficulty lies in this: you must first enable the government to control the governed; and in the next place oblige it to control itself. 
 
 </gsu-blockquote-blue>
 
@@ -436,9 +444,9 @@ vembedr::embed_url("https://youtu.be/3XE5m_meLVw?t=81")
 
 ```
 
+
 ??? 
 The federal government is in a much better position to bargain vis a vis larger corporations in some respects. States want to keep businesses and jobs within there states rather than in somebody elses state. So they are more willing to make favorable deals. The federal government is primarily concerned about keeping some industries within the US. The threat of exit for some industries are less credible than others. While some politicians rely on certain sectors to provide votes due to the make up of factors in their districts. 
-
 ---
 
 
