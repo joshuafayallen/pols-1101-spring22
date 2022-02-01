@@ -434,7 +434,7 @@ negative externalities: stronger national governments are in better positions to
 
 Preventing races to the bottom: This is kind of intersting because as we went over there are a whole host of regulations. States use attractive tax packages to get companies to relocate. This brings a whole host of benefits. If you are trying to bring in big tech you get prestige, an influx of higher incomes, a natural demand for more stuff, and lots of capital
 
-
+The federal government is in a much better position to bargain vis a vis larger corporations in some respects. States want to keep businesses and jobs within there states rather than in somebody elses state. So they are more willing to make favorable deals. The federal government is primarily concerned about keeping some industries within the US. The threat of exit for some industries are less credible than others. While some politicians rely on certain sectors to provide votes due to the make up of factors in their districts. 
 
 ---
 
@@ -449,8 +449,7 @@ vembedr::embed_url("https://youtu.be/3XE5m_meLVw?t=81")
 ```
 
 
-??? 
-The federal government is in a much better position to bargain vis a vis larger corporations in some respects. States want to keep businesses and jobs within there states rather than in somebody elses state. So they are more willing to make favorable deals. The federal government is primarily concerned about keeping some industries within the US. The threat of exit for some industries are less credible than others. While some politicians rely on certain sectors to provide votes due to the make up of factors in their districts. 
+
 ---
 
 
