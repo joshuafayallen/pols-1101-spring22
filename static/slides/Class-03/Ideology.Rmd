@@ -437,7 +437,7 @@ ideology_dt = tribble(~`Issue Area`, ~Liberals, ~Conservatives,
                        "Economic Security", "More Supportive Programs", "Supports Programs but at lower levels",
                        "Government Promotion of Social Equality", "Wants laws/programs to increase social standing of historically oppressed groups", "Generally favor the status quo",
                        "Traditional Moral Values(Abortion, prayer in schools, same-sex marriage etc", "Generally oppose", "Supports laws/programs that uphold these traditional values",
-                       "Law Enfroement and Criminal Justice", "Want body cams on police/dashboard.  Oppose: death penalty, long prison sentence, mandatory minimum sentencing laws, restrictions of felons after serving their time.", 
+                       "Law Enforcement and Criminal Justice", "Want body cams on police/dashboard.  Oppose: death penalty, long prison sentence, mandatory minimum sentencing laws, restrictions of felons after serving their time.", 
                        "Greater leeway to police.  More likely to support “Law & Order” policies like the death penalty, long prison sentences, mandatory minimums, restricted rights for former felons.")
 
 

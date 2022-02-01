@@ -51,7 +51,7 @@ A Set of institutions that
 
 
 ---
-## Authortative 
+## Authoritative 
 
 .pull-left[
 - The ability to issue commands with the *expectation* that they will be followed
@@ -161,7 +161,7 @@ Multiple individuals would benefit from a certain action,  but this action has a
 selective_incentives = tribble(~`Positive Incentives`, ~`Negative Incentives`,
                                "Tax Credits", "Fines",
                                "Tax Breaks", "Higher Taxes",
-                                "Convincing", "Shaming",
+                               "Convincing", "Shaming",
                                "Production Based Incentives", "Jail Time")
 
 
@@ -172,7 +172,8 @@ gt(selective_incentives) %>%
 ```
 
 
-
+???
+Okay using what we know about government so far how can we start to think of what the book calls the power of the purse and the power of the sword? Well start to think of the little graphic I keep posting 
 
 ---
 
@@ -248,13 +249,43 @@ Done Through auxiliry precautions
 ---
 
 
+---
+class: center, middle, inverse
+
+# The American Way of Politics
+
+
+---
+
+---
+## A Ideological Positions 
+
+```{r echo= FALSE}
+ideology_dt = tribble(~`Issue Area`, ~Liberals, ~Conservatives, 
+                       "Regulating the Economy", "Supports Govt Regulations", "Supports Less Govt Regulation",
+                       "Economic Security", "More Supportive Programs", "Supports Programs but at lower levels",
+                       "Government Promotion of Social Equality", "Wants laws/programs to increase social standing of historically oppressed groups", "Generally favor the status quo",
+                       "Traditional Moral Values(Abortion, prayer in schools, same-sex marriage etc", "Generally oppose", "Supports laws/programs that uphold these traditional values",
+                       "Law Enforcement and Criminal Justice", "Want body cams on police/dashboard.  Oppose: death penalty, long prison sentence, mandatory minimum sentencing laws, restrictions of felons after serving their time.", 
+                       "Greater leeway to police.  More likely to support “Law & Order” policies like the death penalty, long prison sentences, mandatory minimums, restricted rights for former felons.")
+
+gt(ideology_dt) %>% 
+  gtExtras::gt_theme_espn()
+
+```
+
+
+
+---
+
+
 
 
 
 ---
 class: center, middle, inverse 
 
-# Chapter 3
+# The Constitution
 
 ---
 
@@ -313,6 +344,30 @@ civil liberties: part of the opposition to the constitution was just how powerfu
 
 
 ---
+
+
+---
+
+---
+## The Branches 
+
+```{r branches, echo=FALSE, out.width= "80%"}
+
+knitr::include_graphics("images/Branches.jpg")
+
+```
+
+
+---
+
+---
+class: center, middle
+## Checks and Balances
+
+![](https://abaforlawstudents.com/wp-content/uploads/2018/05/separation-of-powers-2.jpg)
+
+---
+
 
 
 
