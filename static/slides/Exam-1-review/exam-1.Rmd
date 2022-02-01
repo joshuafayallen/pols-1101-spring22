@@ -81,7 +81,7 @@ A Set of institutions that
 ]
 
 ???
-Where does the US government derive their legitimate authority to make and enforce laws
+Where does the US government derive their legitimate authority to make and enforce laws. The book frames laws as the way governments formally issue commands. The enforcement  can have lots of interpretations making regulations slightly inconcsistent. When you get to the federal levels there are lots of lawyers who spend their time figuring this stuff out. And like really good ones who once they leave will go and teach at fancy law schools
 
 
 
@@ -282,7 +282,11 @@ gt(ideology_dt) %>%
 
 ```
 
+???
+Politics of Interest: Struggle to exert influence over government emanating from conflicting economic interests and the efforts by individuals and groups to advance public policies that benefit themselves and pass burdens onto others. (Contrast with Politics of Principle)
 
+
+Politics of Principle: Political conflicts emanating from genuine disagreements over ideology, justice (e.g. what rights we have), and/or what will truly be advantageous for the people.
 
 ---
 
