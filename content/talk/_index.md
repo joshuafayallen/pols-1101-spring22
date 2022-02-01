@@ -4,12 +4,13 @@ cascade:
   author: Josh Allen
   show_author_byline: true
   show_comments: false
-  show_post_date: true
+  show_post_date: false
   show_post_time: true
   sidebar:
     show_sidebar_adunit: false
     text_link_label: View recent talks
     text_link_url: /talk/
+type: collection
 description: |
   Here you will find all the slides that I produce for this class.
 layout: list
