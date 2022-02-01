@@ -10,7 +10,7 @@ links:
 - icon: door-open
   icon_pack: fas
   name: Slides html
-  url: "slides/Exam-01-review/exam-1.html"
+  url: "slides/Exam-1-review/exam-1.html"
 show_post_time: false
 title: Exam 1 Review
 ---
