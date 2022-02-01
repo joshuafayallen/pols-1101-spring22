@@ -149,6 +149,7 @@ Multiple individuals would benefit from a certain action,  but this action has a
 ![](https://quickonomics.com/wp-content/uploads/2016/10/TypesOfGoods.jpg)
 
 </center>
+
 ---
 
 ---
@@ -269,8 +270,12 @@ class: center, middle, inverse
 
 - Super Majority Required to do Anything
 
+- **No** Direct Authority Over the People
 
-- **No** Direct Authority of the People 
+???
+The articles of confederation is interesting.  Instead, it only claims authority, and seeks to exercise power, over the state governments. In this sense, the central government in a confederacy is best described as a government over governments instead of a government over individuals
+
+This is kind of bold because if you have done the chapter you know that states could only be requistioned. Which is just fancy for "be asked nicely to pay the federal government" 
 
 ---
 
