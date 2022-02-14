@@ -5,7 +5,7 @@ layout: single-series # list, list-sidebar, single-series
 weight: 2
 subtitle: "Stuff for Exam 2"
 description: |
-  Civil Liberties
+  Civil Liberties, Public Opinion, Voting, Media
 cascade:
   draft: false
   # list or single layouts are possible
