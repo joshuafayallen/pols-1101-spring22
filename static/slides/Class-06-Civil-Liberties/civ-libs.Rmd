@@ -30,6 +30,8 @@ output:
 
 ???
 Overall the Tests went really well! The average was a 77% with. I still have to look at the question data to go over and see what the contents of the questions were that the class writ large did not do as well on. From there I will go through and adjut your scores accordingly. I have the data I just need to actually transform it and then upload it into icollege. 
+
+I have a first cut of the data but 
 ---
 
 
@@ -55,6 +57,7 @@ class: center, middle, inverse
 
 ???
 So today we are going back again to Philadelphia and the Constitutional Convention in 1787. I know you all are so excited to be learning more history, but I promise we will get to talk about some fun stuff today as well. (porn, curse words, etc.) When the Constitution was proposed not everyone was happy. (surprise surprise). The Constitution was essentially a flawed document, it told everyone what the government could do, but in no way limited what the government was not allowed to do. Those that were most upset about this lack were the anti-federalists. 
+ 
  DQ: Can anyone name one of the critical features of the anti-federalist party (no big government, limited federal power, policies that favored artisans/workers/farmers)? 
 Can anyone name a key figure in the anti-federalist party? (George Mason, Patrick Henry, Samuel Adams, etc.).  
 
@@ -86,7 +89,9 @@ In fact, several of these individuals refused to sign the Constitution because o
 
 
 ???
-In the 200 plus years since our constitution was created hundreds of thousands of amendments to the constitution have been proposed including (a flag burning amendment, a school prayer amendment, a federal marriage amendment) and some even more ridiculous like renaming the country the United States of Earth, one to ban drunkenness in the United States, one to ban divorce, and one to limit the personal wealth of individuals to 1 million dollars).  Thankfully (in many of these cases) only 27 amendments have actually been ratified and added to the Constitution. 
+In the 200 plus years since our constitution was created hundreds of thousands of amendments to the constitution have been proposed including (a flag burning amendment, a school prayer amendment, a federal marriage amendment) and some even more ridiculous like renaming the country the United States of Earth, one to ban drunkenness in the United States, one to ban divorce, and one to limit the personal wealth of individuals to 1 million dollars).  
+
+Thankfully (in many of these cases) only 27 amendments have actually been ratified and added to the Constitution. 
 
 --- 
 
@@ -171,7 +176,7 @@ Gate analogy: Once again here is the mass populace of people. Here is the govern
 Can anyone name an example of a class of people that formerly did not have such guarantees or protections afforded to them by the government? 
 A: Races, social classes, gender, sexual orientation, religions, political affiliations, age, disabled, veterans, etc. 
 
-These two terms while often conflated, mean very different things and the next several days of lecture will outline those differences. This lesson is one of several that provide broader implications for understanding your role as citizens and specifically the rights that you have. 
+These two terms while often conflated, mean very different things and the next few days we will focus on civil liberties. This lesson is one of several that provide broader implications for understanding your role as citizens and specifically the rights that you have. The civil rights lecture will come later in the semester.
 
 ---
 
@@ -311,7 +316,9 @@ class: center, middle
 ???
 Individuals have the right to hold whatever religious beliefs that they would like, but this does not mean that they are exempt from criminal prosecution under other laws. 
 
-Employment Division v. Smith – Two employees of a private drug rehabilitation center were members of the Native American Church. One evening during a ceremony the two ingested a form of peyote, a powerful hallucinogenic that they used to commune with a higher power. The next day the two decided to go to work, business as usual, not realizing that evidence of their high was still very clear.  As a result, they were fired from their jobs as drug rehab counselors and were criminally charged based on Oregon state law that penalized the use of peyote.  They sued under the Free Exercise Clause as a violation of their religious rights, and the Supreme Court finally decided to hear their case.  Unfortunately, the Court decided against the two employees, the law that they had been charged for was not aimed at religious practices specifically. It was a neutral law put in place to protect all the citizens of that state from the repercussions that could have happened from peyote use. 
+Employment Division v. Smith – Two employees of a private drug rehabilitation center were members of the Native American Church. One evening during a ceremony the two ingested a form of peyote, a powerful hallucinogenic that they used to commune with a higher power. The next day the two decided to go to work, business as usual, not realizing that evidence of their high was still very clear.  As a result, they were fired from their jobs as drug rehab counselors and were criminally charged based on Oregon state law that penalized the use of peyote.
+
+They sued under the Free Exercise Clause as a violation of their religious rights, and the Supreme Court finally decided to hear their case.  Unfortunately, the Court decided against the two employees, the law that they had been charged for was not aimed at religious practices specifically. It was a neutral law put in place to protect all the citizens of that state from the repercussions that could have happened from peyote use. 
 
 
 ---
@@ -344,7 +351,9 @@ So what does freedom of religion mean?
 Freedom of Religion has two key components under the Constitution. The Establishment Clause and the Free Exercise Clause. 
 
 The Establishment clause of the First Amendment is the primary pronouncement in the Amendment, stating that Congress cannot institute a law to establish a national religion for the preference of the U.S. government states that one religion does not favor another. 
-Thomas Jefferson wrote in 1803 , That religion is a matter that lies solely between a Man and his God, and that no other shall be owed an account of such practice. To take it even further, he wrote often of a wall that should be present between the two creating a clear divide or wall between the state and established religion. This wall was to be built between the federal government and religion not between the states. Actually, at the time many of the states had declared religions (Massachusetts, Virginia, etc.). This would obviously very clearly change and the line between Secular and Non-Secular states would disappear and states would lose their religious classifications. 
+Thomas Jefferson wrote in 1803 , That religion is a matter that lies solely between a Man and his God, and that no other shall be owed an account of such practice. 
+
+To take it even further, he wrote often of a wall that should be present between the two creating a clear divide or wall between the state and established religion. This wall was to be built between the federal government and religion not between the states. Actually, at the time many of the states had declared religions (Massachusetts, Virginia, etc.). This would obviously very clearly change and the line between Secular and Non-Secular states would disappear and states would lose their religious classifications. 
 
 Everson – the case that selectively incorporates the Establishment Clause to the States. Once again, this does not incorporate the entire First Amendment, but instead only this part.  From this point on the Supreme Court has created a variety of tests to make sure that the wall between the state and religion is not breached. The Lemon test is the most comprehensive and current of these tests. 
 
@@ -353,14 +362,31 @@ Lemon – Pennsylvania passed a law that allowed for the Superintendent of schoo
 ---
 
 ---
-layout: false 
+## Burwell v. Hobby Lobby
 <center>
 ```{r}
 vembedr::embed_url("https://www.youtube.com/watch?v=zSQCH1qyIDo")
 ```
 
 </center>
+
+???
+Congress enacted the Religious Freedom Restoration Act (RFRA). This statute required governments to exempt persons from laws and regulations that had the effect of interfering with their free exercise of religion unless the interferences could withstand strict scrutiny
+
+
+Sherbert test: used for determining whether a government action interferes with the legal right to the free exercise of religion. By this test, if a government action imposes an actual burden on the ability for a person to act upon a sincere religious belief, then the government action is unlawful unless it can withstand strict scrutiny. 
+
+
+It does not, to reiterate, apply the Sherbert Test to state government actions. For state government law and actions, the Court follows the approach established in the Peyote case. That is, it applies strict scrutiny only if it appears the state government lacked neutrality among religions or showed hostility toward a particular religion or religion in general.
+
+
+In the Hobby lobby case they ruled in favor of Hobby Lobby
 ---
+
+
+
+
+
 
 ---
 ## Freedom of Speech 
