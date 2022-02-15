@@ -28,8 +28,10 @@ output:
 
 - Chapters
 
-
+???
+Overall the Tests went really well! The average was a 77% with. I still have to look at the question data to go over and see what the contents of the questions were that the class writ large did not do as well on. From there I will go through and adjut your scores accordingly. I have the data I just need to actually transform it and then upload it into icollege. 
 ---
+
 
 
 ---
