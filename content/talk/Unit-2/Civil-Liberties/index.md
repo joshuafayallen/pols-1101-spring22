@@ -1,6 +1,6 @@
 ---
 author: Josh Allen
-date: "2022-02-15"
+date: "2022-02-14"
 date_end: "2022-02-16"
 draft: false
 event: Pols 1101
