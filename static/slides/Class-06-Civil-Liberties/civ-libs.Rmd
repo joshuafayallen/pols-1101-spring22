@@ -31,7 +31,7 @@ output:
 ???
 Overall the Tests went really well! The average was a 77% with. I still have to look at the question data to go over and see what the contents of the questions were that the class writ large did not do as well on. From there I will go through and adjut your scores accordingly. I have the data I just need to actually transform it and then upload it into icollege. 
 
-I have a first cut of the data but 
+I have a first cut of the data but I just need to go through it a little more thoroughly
 ---
 
 
@@ -56,7 +56,7 @@ class: center, middle, inverse
 </center>
 
 ???
-So today we are going back again to Philadelphia and the Constitutional Convention in 1787. I know you all are so excited to be learning more history, but I promise we will get to talk about some fun stuff today as well. (porn, curse words, etc.) When the Constitution was proposed not everyone was happy. (surprise surprise). The Constitution was essentially a flawed document, it told everyone what the government could do, but in no way limited what the government was not allowed to do. Those that were most upset about this lack were the anti-federalists. 
+So today we are going back again to Philadelphia and the Constitutional Convention in 1787. I know you all are so excited to be learning more history, but I promise we will get to talk about some fun stuff today as well. (porn, curse words, etc.) When the Constitution was proposed not everyone was happy. (surprise surprise). The Constitution was essentially a flawed document, it told everyone what the government could do, but in no way limited what the government was not allowed to do. Those that were most upset about this were the anti-federalists. 
  
  DQ: Can anyone name one of the critical features of the anti-federalist party (no big government, limited federal power, policies that favored artisans/workers/farmers)? 
 Can anyone name a key figure in the anti-federalist party? (George Mason, Patrick Henry, Samuel Adams, etc.).  
@@ -350,7 +350,8 @@ So what does freedom of religion mean?
 
 Freedom of Religion has two key components under the Constitution. The Establishment Clause and the Free Exercise Clause. 
 
-The Establishment clause of the First Amendment is the primary pronouncement in the Amendment, stating that Congress cannot institute a law to establish a national religion for the preference of the U.S. government states that one religion does not favor another. 
+The Establishment clause of the First Amendment is the primary pronouncement in the Amendment, stating that Congress cannot institute a law to establish a national religion for the preference of the U.S. government. 
+
 Thomas Jefferson wrote in 1803 , That religion is a matter that lies solely between a Man and his God, and that no other shall be owed an account of such practice. 
 
 To take it even further, he wrote often of a wall that should be present between the two creating a clear divide or wall between the state and established religion. This wall was to be built between the federal government and religion not between the states. Actually, at the time many of the states had declared religions (Massachusetts, Virginia, etc.). This would obviously very clearly change and the line between Secular and Non-Secular states would disappear and states would lose their religious classifications. 
@@ -371,7 +372,18 @@ vembedr::embed_url("https://www.youtube.com/watch?v=zSQCH1qyIDo")
 </center>
 
 ???
-Congress enacted the Religious Freedom Restoration Act (RFRA). This statute required governments to exempt persons from laws and regulations that had the effect of interfering with their free exercise of religion unless the interferences could withstand strict scrutiny
+Congress enacted the Religious Freedom Restoration Act (RFRA) in 1993. This statute required governments to exempt persons from laws and regulations that had the effect of interfering with their free exercise of religion unless the interferences could withstand strict scrutiny. This applied regardless of whether the law was neutral or generally applicable. In other words, the RFRA sought to require all courts and levels  to follow the Sherbert Test.
+
+
+Thus, it is understood that, under the RFRA, courts are essentially required to apply the Sherbert Test to all federal government actions that potentially infringe upon religious freedom
+
+strict scrutiny: 
+The action is then ruled constitutional only if the government can prove the action in question was 
+
+(1) in furtherance of a compelling government interest and 
+(2) the least restrictive option available to the government for pursuing that compelling government interest.
+
+
 
 
 Sherbert test: used for determining whether a government action interferes with the legal right to the free exercise of religion. By this test, if a government action imposes an actual burden on the ability for a person to act upon a sincere religious belief, then the government action is unlawful unless it can withstand strict scrutiny. 
@@ -380,11 +392,24 @@ Sherbert test: used for determining whether a government action interferes with 
 It does not, to reiterate, apply the Sherbert Test to state government actions. For state government law and actions, the Court follows the approach established in the Peyote case. That is, it applies strict scrutiny only if it appears the state government lacked neutrality among religions or showed hostility toward a particular religion or religion in general.
 
 
+Hobby lobby filed a lawsuit against the federal government alleging that the so-called “contraception mandate” portion of the Affordable Care Act (aka Obamacare) placed a burden on its religious freedom in violation of the RFRA.
+
 In the Hobby lobby case they ruled in favor of Hobby Lobby
 ---
 
 
 
+
+---
+## Break
+
+
+```{r, echo = FALSE}
+countdown::countdown(minutes = 5, play_sound = TRUE)
+```
+
+
+---
 
 
 
@@ -459,7 +484,7 @@ Answer: Obscenity/Fighting Words; Libel and Slander; Hate Speech (that probably 
 ???
 Gitlow – Member of the Socialist Party Post WWI. Red Scare and fear of communism, socialism, and revolution rampant in the United States.  Published his “Left Wing Manifesto”.  It advocated for a change from democracy to socialism and was considered anti-government so he was thrown in jail. The words were found to provide a clear and present danger to government interests and were thought to have inspired anarchy.  This led to incorporation to the states of the freedom of speech clause. 
 
-Brandenburg – Brandenburg was a fine upstanding gentleman living in Ohio. He had a wife, children, and most importantly a membership in the local chapter of the Ku Klux Klan or the KKK. Well Brandenburg and his fellow Masters and Wizards (no I am not joking…that is what their organization members are called) decided they wanted to hold a rally, and at this rally they said some horrible things about the government, Congress, and of course most people that weren’t white or male and someone recorded it. Well Ohio had a law, that stated such action was illegal under the Criminal Syndicalism act because it “promoted the duty, necessity, or propriety of crime, sabotage, violence, or unlawful methods of terrorism as a means of accomplishing industrial or political reform”. So Brandenburg and his wizards were sent to jail and they decided to sue. 
+Brandenburg – Bradenburng was a member of his local chapter of the Ku Klux Klan or the KKK. Well Brandenburg and his fellow Masters and Wizards (no I am not joking…that is what their organization members are called) decided they wanted to hold a rally, and at this rally they said some horrible things about the government, Congress, and of course most people that weren’t white or male and someone recorded it. Well Ohio had a law, that stated such action was illegal under the Criminal Syndicalism act because it “promoted the duty, necessity, or propriety of crime, sabotage, violence, or unlawful methods of terrorism as a means of accomplishing industrial or political reform”. So Brandenburg and his wizards were sent to jail and they decided to sue. 
 
 So the Court finally came back with a decision (unfortunately) in their favor creating a new test. 
 
@@ -489,7 +514,7 @@ Tinker - Iowa public school students (4 – The Tinker Family) decided in protes
 
 Morse – Frederick was a student at a public school in Alaska and during the Olympic Torch relay (a school sponsored event) thought it would be a good idea to go across the street and display this sign. Morse, the principal suspended him and Frederick decided to sue saying his constitutional rights had been violated. The court said, yes this is considered school speech, but since it was promoting the use of illicit drugs it was not considered protected speech. 
 
-
+But students in school (or at school-sponsored events) can constitutionally face restrictions on free expression that would be unconstitutional outside of school.
 ---
 
 
@@ -504,9 +529,22 @@ Morse – Frederick was a student at a public school in Alaska and during the Ol
 - Hate Speech
 
 ???
-In late November 1941, Walter Chaplinsky, a Jehovah's Witness was using the public sidewalk as a pulpit in downtown Rochester passing out pamphlets and calling organized religion a "racket." After a large crowd had begun blocking the roads and generally causing a scene, a police officer removed Chaplinsky to take him to police headquarters. Upon seeing the town marshal (who had returned to the scene after warning Chaplinsky earlier to keep it down and avoid causing a commotion), Chaplinsky attacked the marshal verbally. He was then arrested. The complaint against Chaplinsky stated that he shouted: "You are a God-damned racketeer" and "a damned Fascist". Chaplinsky took it to the court and they said, nope these words are not protected since the benefit derived from them is clearly outweighed by social interests of morality and order. 
+In late November 1941, Walter Chaplinsky, a Jehovah's Witness was using the public sidewalk as a pulpit in downtown Rochester passing out pamphlets and calling organized religion a "racket." After a large crowd had begun blocking the roads and generally causing a scene, a police officer removed Chaplinsky to take him to police headquarters. 
 
-Also not a form of protected speech, Hate speech is that which is aimed at a person or group on the basis of attributes such as race, ethnic origin, religion, gender, disability, or sexual orientation. 
+Upon seeing the town marshal (who had returned to the scene after warning Chaplinsky earlier to keep it down and avoid causing a commotion), Chaplinsky attacked the marshal verbally. He was then arrested. The complaint against Chaplinsky stated that he shouted: "You are a God-damned racketeer" and "a damned Fascist". 
+
+
+For this, he was charged and convicted under a New Hampshire statute forbidding intentionally offensive speech directed at others in a public place. Under New Hampshire's Offensive Conduct law (chap. 378, para. 2 of the NH. Public Laws) it is illegal for anyone to address "any offensive, derisive or annoying word to anyone who is lawfully in any street or public place ... or to call him by an offensive or derisive name."
+
+Chaplinsky appealed the fine he was assessed, claiming that the law was "vague" and that it infringed upon his First Amendment and Fourteenth Amendment rights to free speech.
+
+The court upheld the Chaplinksy arrest 
+
+But stated There are certain well-defined and narrowly limited classes of speech, the prevention and punishment of which have never been thought to raise any Constitutional problem. These include the lewd and obscene, the profane, the libelous, and the insulting or "fighting" words – those which by their very utterance inflict injury or tend to incite an immediate breach of the peace
+
+Fighting words in practice just means that the only reasonable action is in light of this speech is to punch them in the face. Which is pretty tough
+
+Also not a form of protected speech, Hate speech refers to expression that belittles or intimidates persons based on race, color, religion, national origin, or sexual orientation, or that may, because of its content, have the effect of inciting violence or prejudicial action against people based on those traits. The problem is that hate speech can practically only be regulated if there is a direct tie to action 
 
 ---
 
