@@ -12,7 +12,7 @@ output:
       highlightStyle: github
       highlightLines: true
       ratio: 16:9
-      countIncrementalSlides: true
+      countIncrementalSlides: true 
       navigation:
         scroll: true
 ---
@@ -112,6 +112,18 @@ Exclusionary rule – evidence that is seized during violations of the fourth am
 ???
 The officers must have cause to issue a warrant. Cause is established when the facts and knowledge the officer has is of trustworthy nature and can lead to an individual that has committed or is in the act of committing a crime.
 
+---
+
+---
+layout: false
+## The $4^{th}$ Amendment in Pop Culture
+
+```{r echo = FALSE}
+
+knitr::include_graphics("images/jay-z.png")
+
+```
+.footnote[[1] Caleb Mason breaks how the 4th amendment applies in this case  [here](https://scholarship.law.slu.edu/cgi/viewcontent.cgi?article=1376&context=lj)]
 ---
 
 ---
@@ -303,11 +315,11 @@ The court has found that while the rights in the first 8 amendments are basic an
 
 - Abortion 
   - Roe v. Wade(1973)
-  - Modern Complications 
+  - Planned Parenthood v. Casey
 
 - LGBTQIA Rights
   - Lawrence v. Texas(2003)
-  - Modern Implications
+  - Obergefell v. Hodges(2015)
   
 ???
 The right to privacy is not established or enumerated clearly within the Bill of Rights, but the courts have found the means to protect it in the 4th, 5th, 9th, and 14th amendments. It is essential defined as the protection from government intrusion. We are going to talk about several of these areas. Once again the same warning is extended about classroom behavior. We are in a “safe environment” and opinions shall not be trampled upon simply because you think or someone thinks they are wrong. 
@@ -315,9 +327,16 @@ The right to privacy is not established or enumerated clearly within the Bill of
 Griswold – There was an old Connecticut law placed on the books in the 1850’s that prohibited the use of contraceptive materials of any form (pills, shots, etc.). Well fast forward a hundred and twenty years or so and we are in the midst of the sexual revolution and its attempts to educate people about sex, STD’s, and contraception. So along comes Estelle Griswold and a few of her doctor buddies and they decide they are going to open a clinic directly across the street from a police station. To make it even more obvious they are giving out birth control they put a big sign in the window saying that they are doing so. The police of course arrest them and they take the case to court. They argue under the ninth and 14th amendment that their rights have been violated. The courts believe them and the law is struck down. Thus the right to privacy is protected. 
 
 Roe – 1969 a young woman (using the alias of Jane Roe) found out she was pregnant with her third child. Without the financial means to support the coming child Roe sought out alternatives for terminating the pregnancy and had no luck. At this time every state had some form of anti-abortion law in place since roughly the 1900’s. So she decided to go to court. Eventually her case made it to the Supreme Court (by this time the case would be moot, since the child was turning 3 years old at the time). The Supreme Court reaffirmed her right to privacy and that this was a decision to be made between a woman and her doctor. But limitations were put on the abortions, the reason must be because a detriment to the mother’s health and that the abortion can occur no later then the 2nd trimester, to avoid interfering with the potentiality of life. 
+
+in Casey the the court applied the undue burden standard. In short, the undue burden standard states that a legislature cannot make a particular law that is too burdensome or restrictive of one's fundamental rights.
+
 Modern complications – the states have begun creating new laws that are slowly chipping away the Roe standard.  Some of these standards include a 24 hour waiting period prior to an abortion, having pre-abortion counseling and requiring parental consent for minors. Public opinion data shows that the United states is very clearly divided on the issue 48% that are pro-choice and 46% that are pro-life.  Some state have enacted trigger laws that if Roe were overturned would automatically make abortion illegal, and others has specifically stated they will continue with legalization by state law. 
 
+The court has granted cert to Dobbs v. Jackson Women's Health Organization which over the question of Whether all pre-viability prohibitions on elective abortions are unconstitutional
+
 Lawrence – Legal punishment for sodomy often came with heavy fines and jail time up to life imprisonment.  By 1960 every state had anti-sodomy laws on the books. 1986 dealt a huge blow to gay rights movements when the court refused to strike down anti-Sodomy laws as a violation of sexual privacy stating that the right to privacy only extended to sexual acts that were procreative in nature.  Until Mr. Lawrence came along. He just happened to be the apple of two different men’s eye. Well one of his lovers didn’t like not being the center of attention so knowing that Mr. Lawrence was having the other man over he called the cops and reported that a crazy man was waving a gun around and making threats. The cops were immediately dispatched and entered his home. They found the two men engaged in sexual acts and immediately arrested them for violations of sodomy laws and being engaged in acts of deviant sexual behavior. So they decided to go to Court, and the court said that you are right. We were incorrect and that sexual privacy is a right as part of the 9th amendment. 
+
+Oberfell v Hodges was the landmark decision where the court ruled 5-4  that requires all states to issue marriage licenses to same-sex couples and to recognize same-sex marriages validly performed in other jurisdictions
 
 Modern perspective – Georgia still has sodomy laws on the books, but they are mainly to be utilized as tools in rape cases. The sentences for sodomy law were so severe here that an individual could go to jail longer for what was considered deviant sexual acts (anal and oral sex) then they would for being convicted of necrophilia and bestiality at the same time. By the way these deviant sexual behavior laws still exist making it illegal to have sex in any position other than missionary. (Fortunately the state does not take the time to enforce them otherwise a whole lot more people would be in jail today).
 
