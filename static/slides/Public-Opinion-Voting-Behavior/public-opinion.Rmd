@@ -45,12 +45,12 @@ class: center, middle
 class: center, middle
 
 <gsu-blockquote-red>
-Itt seems to me that statistics is often sold as a sort
+It seems to me that statistics is often sold as a sort
 of alchemy that transmutes randomness into certainty, an “uncertainty laundering” that begins with data and concludes with success as measured by statistical significance - Andrew Gelman(2016)
 </gsu-blockquote-red>
 
 ???
-The book tends to spend a bit to much time on the stats part of public opinion while not really giving you guys an intuition 
+The book tends to spend a bit to much time on the stats part of public opinion while not really giving you guys an intuition. If you have questions speak up. I also kind of decided to put this before everything else because I figured this would be painful for some of you and just to get it over with.
 ---
 
 ---
@@ -65,11 +65,6 @@ The book tends to spend a bit to much time on the stats part of public opinion w
 
 - .bold[Statistics]: measurements of the sample quantities are called
 
---
-
-- .bod[Inferential Statistics]: we try to make inferences about true population parameter values based on statistics. Make predictions about population parameters based on information derived from a sample.
-
-- .bold[Descriptive Statistics]: are used to provide a summary of the information in a dataset. E.g., mean, median, variance
 
 ???
 The book tries to skirt around "scary concepts like these". In public opinion we are trying to understand what the broader population of the United States feels like but it is a bit more difficult than asking each and every person what they think about the something. In the next few classes we will cover why that is. What is important to keep in mind that the book doesn't talk about is that it covers one very widely used paradigm very poorly. The paradigm that it uses is what is known as frequentism. In frequentism we assume that the sample is random but the world is fixed. The population parameter in frequentist statistics is essentially an unknowable thing that we are trying to figure out. 
@@ -83,7 +78,7 @@ The book tries to skirt around "scary concepts like these". In public opinion we
 
 - .bold[Confidence-Interval]: the probability that a population parameter will fall between a set of values for a certain proportion of times. 
 
--.bold[Random Sampling]: With random selection, every person in the population has equal probability of being selected into the sample.
+- .bold[Random Sampling]: With random selection, every person in the population has equal probability of being selected into the sample.
 
 ???
 These concept s are depeely interconnected not only to how we conduct statistics in polling but to each other. The p-value is a threshold that we apply all the time in when doing statististics in political science, economics, sociology, psychology, epidemiology, education, and biostatistics literature. The p-value is a threshold that we often use to set a minimal standard that there is a relationship between our variables. If we reject the null hypothesis than this is a weak test that the thing we say is there is there. 
@@ -193,6 +188,12 @@ layout: false
 ### Sampling Once
 ```{r echo = TRUE}
 sample(candies, 1)
+
+sample(candies, 1)
+
+sample(candies,1)
+
+sample(candies,1)
 ```
 
 
@@ -333,6 +334,12 @@ This is a bit of an embellisment on my part but good polls rely on what is refer
 ???
 We find some some subset of problems in polling that lead us toward problems whether they are intentional or unitentional 
 
+Double Barrelled question 
+
+Do you agree or disagree with this statement? ‘In a democracy, citizens have a duty to vote and a duty to always follow the law even when they think a law is unjust.’”
+
+
+
 ---
 
 ---
@@ -386,136 +393,6 @@ Would you charecterize asking what your friends think about the president a good
 
 
 
----
-## What Happened...Kind of 
-
-
-```{r}
-library(ggdag)
-nice_skill_data = tibble(height = rnorm(10000, mean = 0, sd = 1),
-                               skill = rnorm(10000, mean = 0, sd = 1))
-plot_labels = tribble(
-  ~x, ~y, ~label, 
-  -2, 2, "Short and Skilled",
-  2, 2, "Tall and Skilled",
-  2, -2, "Tall and Not Skilled",
-  -2, -2, "Short and Not SKilled",
-)
-full_sample = ggplot(nice_skill_data, aes(x = height, y = skill)) +
-  geom_point(color = "grey40", size = 0.5, alpha = 0.8) +
-  geom_smooth(size = 2, method = "lm") +
-  labs(x = "height", y = "Number of Points Scored") +
-  theme_bw(base_family = "Lato") +
-  theme(axis.ticks.x = element_blank(),
-        axis.text.x = element_blank(),
-        axis.ticks.y = element_blank(),
-        axis.text.y = element_blank())
-
-
-full_sample_annotated = full_sample +
-  geom_vline(xintercept = 0) +
-  geom_hline(yintercept = 0) +
-  geom_label(data = plot_labels, aes(label = label, x = x, y = y),
-             fill = "#CF4446", color = "white",
-             family = "Lato", fontface = "bold") 
-
-
-
-
-collider_bias = ggplot(filter(nice_skill_data, 
-                               !(height <= 0 & skill <= 0)), 
-       aes(x = height, y = skill)) +
-  geom_point(color = "grey40", size = 0.5, alpha = 0.8) +
-  geom_vline(xintercept = 0) +
-  geom_hline(yintercept = 0) +
-  geom_smooth(size = 2, method = "lm") +
-  geom_label(data = plot_labels, aes(label = label, x = x, y = y),
-             fill = "#CF4446", color = "white",
-             family = "Lato", fontface = "bold") +
-  labs(x = "height", y = "Points") +
-  theme_bw(base_family = "Lato")
-
-
-
-
-
-ggsave(full_sample, filename = "collider_bias.png", dpi = 500)
-
-
-
-collider_dag = dagify(
-  Y ~ X,
-  Z ~ X + Y,
-  coords = list(x = c(X = 1, Y = 3, Z = 2),
-                y = c(X = 1, Y = 1, Z = 2)),
-  exposure = "X",
-  outcome = "Y"
-) %>% 
-  tidy_dagitty() %>% 
-  node_status() %>% 
-  mutate(across(c(name, to), 
-                ~recode(., X = "height", Y = "Points Scored", 
-                        Z = "Being in the NBA"))) %>% 
-  mutate(arrow_color = ifelse(to == "Being in the NBA", "#F012BE", "black"))
-plot_dag = ggplot(collider_dag, aes(x = x, y = y, xend = xend, yend = yend)) +
-  geom_dag_edges(aes(edge_color = arrow_color)) +
-  geom_dag_point(aes(color = status), size = 17) +
-  geom_dag_text(data = filter(collider_dag, name != "Being in the NBA"),
-                color = "black", size = 5, nudge_y = -0.2,
-                family = "Lato", fontface = "bold") +
-  geom_dag_text(data = filter(collider_dag, name == "Being in the NBA"),
-                color = "black", size = 5, nudge_y = 0.2,
-                family = "Lato", fontface = "bold") +
-  scale_color_manual(values = c("#2ECC40", "#0074D9"), 
-                     na.value = "grey80", guide = "none") +
-  coord_cartesian(xlim = c(0.8, 3.2), ylim = c(0.8, 2.2)) +
-  theme_dag()
-
-
-full_sample
-
-```
-
-
-???
-Intuitively this kind of makes sense why the readers digest poll did really poorly because they conditioned on what statisticians call a collider. Let us take an intuitive example of why doing this is bad. Would we think that being taller help you score more point in a basketball game. I learned it like this and throught the example of being nice and attractiveness 
----
-
-
----
-## What Happened... Kind of 
-.pull-left[
-```{r  fig.width=4.5, fig.height=3.35, out.width="100%"}
-
-
-plot_dag
-```
-]
-
-
-.pull-right[
-```{r  fig.width=4.5, fig.height=3.35, out.width="100%"}
-
-full_sample_annotated
-```
-
-]
-???
-In our toy model what I did was basically included being in the NBA in the model distoring the true effect of 
-
----
-
----
-## What.. Happened Kind of 
-
-```{r}
-collider_bias
-```
-
-
-???
-This is what the relationship looks like in the simulation I did
----
 
 
 ---
@@ -562,7 +439,11 @@ normal_dist("#e76254", "#1e466e", "Open Sans") +
 ???
 If you have taken basic stats you know that the spread of the distribution can be described like this 
 
+Importantly, central limit theorem, itself a foundation of a lot of classical statistical testing, states that sampling distributions are effectively normal as well. I’ll belabor this one next
 
+This puppy is sort of what holds this whole thing together
+
+What is cool about the central limit theorum is that if we keep retaking random samples of the larger population throught random sampling the sample means will not only be normally distributed but we would converge to the population mean and the random sampling error would equal the standard error of the sample means. Even this one! This is just a therometer rating where people either really like trump in 2018 or really do not like him. This likely hold true for Biden as well but I didn't want to pull and clean the latest ANES data
 
 ---
 
@@ -590,8 +471,6 @@ Therms18 %>%
 
 
 
-??? 
-What is cool about the central limit theorum is that if we keep retaking random samples of the larger population throught random sampling the sample means will not only be normally distributed but we would converge to the population mean and the random sampling error would equal the standard error of the sample means. Even this one! This is just a therometer rating where people either really like trump in 2018 or really do not like him. This likely hold true for Biden as well but I didn't want to pull and clean the latest ANES data
 ---
 
 
@@ -827,11 +706,9 @@ This is a learned effect. You ARE NOT born with a political identity!
 ---
 ## Agents of Socialization
 
-Primary agents – think face to face interaction
-	Those agents of socialization that are closest to you. They are often the most influential in an individual’s formative years.
+Primary agents – Those agents of socialization that are closest to you. They are often the most influential in an individual’s formative years.
 
-Secondary agents – groups that people are exposed to later in life
-	Those agents of socialization that have less intimate relations with an individual. They are often most important in an individual’s later life.
+Secondary agents – 	Those agents of socialization that have less intimate relations with an individual. They are often most important in an individual’s later life.
 
 ???
 Primary agents – think face to face interaction
@@ -851,6 +728,7 @@ Secondary agents – groups that people are exposed to
 
 ???
 Primacy vs. Cumulative Effects
+
 Primacy Effect – the phenomenon of aging and growth in which the ideas that an individual learns at a young age (primacy) are more likely to stick
 
 
@@ -888,9 +766,13 @@ Through frames of reference which are the means by which an individual or a  gro
 Party identification
 Loyalty or affection an individual has for a specific political party 
 Ex. Republican or Democrat 
+
+Citizens use party cues not only in deciding how to vote, but also in deciding whose statements to trust. For example, there is a sharp partisan divide in American politics today over trust in the mainstream media
+
 Political Ideology 
 A coherent set of political beliefs that an individual has over a range of issues 
 Conservative-Liberal Spectrum 
+
 Group Orientation – 
 The phenomenon of viewing politics through a group lens 
 This may be influenced by age, race, gender, religion, etc. 
@@ -920,7 +802,12 @@ pid %>%
 ## Frames of Reference 
 ### Political Ideology
 
-- A coherent set of Political beliefs that an individaul has over a range of issues
+ A coherent set of Political beliefs that an individaul has over a range of issues
+
+
+```{r}
+knitr::include_graphics("ideo.png")
+```
 
 
 ???
@@ -934,8 +821,10 @@ Through frames of reference which are the means by which an individual or a  gro
 Party identification
 Loyalty or affection an individual has for a specific political party 
 Ex. Republican or Democrat 
+
 Political Ideology 
 A coherent set of political beliefs that an individual has over a range of issues 
+
 Conservative-Liberal Spectrum 
 Group Orientation – 
 The phenomenon of viewing politics through a group lens 
@@ -1028,7 +917,7 @@ Environmental phenomenon outside of our control that can influence how we think 
 </gsu-blockquote-alt>
 ???
 
-This is just fancy for age. intuitively we know old people have different frames of reference, priorities change as we get older etc 
+Generataional effects entail a bunch of stuff like how changing social attituds around us shape how we feel, how the economic conditions shape how we feel and how crises shape how we feel and how we express that.K
 ---
 
 
@@ -1070,7 +959,7 @@ Non-elites (average citizens) may rely on other methods of organizing their poli
 
 - Citizen make a limited number of choices within a constrained set of options
 
-- They form a "coherent mass in the aggregat"
+- They form a "coherent mass in the aggregate"
 
 
 
@@ -1112,7 +1001,7 @@ cognitive dissonance The psychological discomfort somebody feels when trying to 
 ---
 
 ---
-## How Does Public Opinion 
+## How Does Public Opinion Constrain?
 
 - Sets boundaries for policymakers to  act 
   - Varies across issues depending on salience of issue 
