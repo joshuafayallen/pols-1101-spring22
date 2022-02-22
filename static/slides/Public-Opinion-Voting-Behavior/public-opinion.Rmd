@@ -50,7 +50,7 @@ of alchemy that transmutes randomness into certainty, an “uncertainty launderi
 </gsu-blockquote-red>
 
 ???
-A part of the book that I want to expand upon is how you all think about the stats you consume during election cycles. We are about to see a lot more of it as we go into the midterm elections. How we get to the numbers that talented statisticians get to is not always obvious. So the goal of this portion of the lecture is to demistify statistics a bit in this lecture.
+The book tends to spend a bit to much time on the stats part of public opinion while not really giving you guys an intuition 
 ---
 
 ---
@@ -80,12 +80,16 @@ The book tries to skirt around "scary concepts like these". In public opinion we
 
 -  .bold[Probability]: is the proportion of times that the outcome would occur in a very long sequence of observations
 
-- .italic[p]-value: is the probability that we would get our sample value given that the null hypothesis is true. 
 
 - .bold[Confidence-Interval]: the probability that a population parameter will fall between a set of values for a certain proportion of times. 
 
+-.bold[Random Sampling]: With random selection, every person in the population has equal probability of being selected into the sample.
+
 ???
-These concept s are depeely interconnected not only to how we conduct statistics in polling but to each other. The p-value is a threshold that we apply all the time in when doing statististics in political science, economics, sociology, psychology, epidemiology, education, and biostatistics literature. The p-value is a threshold that we often use to set a minimal standard that there is a relationship between our variables. The confidence interval is just essentially a net. What ever quanitity of interst we are calculating there is going to be some error in real life analysis that will make our sample quantity differ from the population quanitity. The key question is whether or not that deviation is so extreme that we aren't actually capturing the population parameter.
+These concept s are depeely interconnected not only to how we conduct statistics in polling but to each other. The p-value is a threshold that we apply all the time in when doing statististics in political science, economics, sociology, psychology, epidemiology, education, and biostatistics literature. The p-value is a threshold that we often use to set a minimal standard that there is a relationship between our variables. If we reject the null hypothesis than this is a weak test that the thing we say is there is there. 
+
+
+The confidence interval is just essentially a net. What ever quanitity of interst we are calculating there is going to be some error in real life analysis that will make our sample quantity differ from the population quanitity. The key question is whether or not that deviation is so extreme that we aren't actually capturing the population parameter.
 
 The problem with the statistics we normally used and what is widely taught is kind of encapsulated for bu the confidence interval. What do you think that the plain english interpretation of the confidence interval is? 
 
@@ -122,17 +126,22 @@ tab <- mutate(tab, p_inside = ifelse(hit, "Yes", "No") )
 
 ggplot(tab, aes(poll, estimate, ymin=low, ymax=high, color = p_inside)) + 
   geom_point()+
-  geom_errorbar() + 
+  geom_errorbar(alpha = 0.7) + 
   coord_flip() + 
   geom_hline(yintercept = p) +
+  labs(title = "Look at how often our confidence intervals\n capture what we say it captures", 
+       caption = "The line in this case denotes the  0.45") +
   theme_allen() +
-  guides(color = guide_legend("Parameter Inside"))
+  scale_color_manual(values = c("#e76254", "#1e466e")) +
+  guides(color = guide_legend("0.45 Inside The Net"))
 
 ```
 
 
 ???
-You are going to see a lot of simulations because that is what I find most intuitive. Here is what is going on. I set a value for the population parameter and then took random samples from that population. Than what i did was calculte the 95% confidence intervals. About 95% of the time I captre the true value with my net. There are a few times where I don't. Effectively when polls report margin of errors they are in effect reporting a confidence interval
+You are going to see a lot of simulations because that is what I find most intuitive. Here is what is going on. I set a value for the population parameter and then took random samples from that population. Than what i did was calculte the 95% confidence intervals. About 95% of the time I capture the true value with my net. There are a few times where I don't. Effectively when polls report margin of errors they are in effect reporting a confidence interval
+
+Even when we are conducting polls in the best way possible our net is not going to capture what we say it captures from time to time. Or even if we say that it is .45 due to things out of control the quanitity in our sample will be slightly off
 
 ---
 
@@ -172,7 +181,9 @@ candies
 
 
 ???
-This is pretty easy! it is just 2/5 or 40% and this should be true as we pick candies. So lets test this out with some simulations! here I am just setting up our jar with the situation that I outlined and checking to make sure that it is set up correctly
+This is pretty easy! it is just 2/5 or 40% and this should be true as we pick candies. So lets test this out with some simulations! 
+
+
 ---
 
 ---
@@ -209,7 +220,15 @@ prop.table(tab )
 
 ]
 ???
-This is pretty neat! with our simple math we can show this holds in our toy problem! However this can start to change if the events are not independent of each other. Think of a deck of card. Where there are 52 cards with 4 face cards for each suit. As the dealer deals out cards the probabilty of you getting a face card goes down
+
+
+
+This is pretty neat! with our simple math we can show this holds in our toy problem! 
+
+
+However this can start to change if the events are not independent of each other. Think of a deck of card. Where there are 52 cards with 4 face cards for each suit. As the dealer deals out cards the probabilty of you getting a face card goes down. Or in the case we are about to see what is the probability of something happening given that something else happened. 
+
+
 ---
 
 ---
@@ -266,12 +285,11 @@ In the 1970s, there was a game show called “Let’s Make a Deal” and Monty H
 
 We can use probability to show that if you stick with the original door choice, your chances of winning a prize remain 1 in 3. However, if you switch to the other door, your chances of winning double to 2 in 3!
  
-Monty hall is a good demonstration that we don't always have a good intuition on the probability of things 
+Monty hall is a good demonstration that we don't always have a good intuition on the probability of things because we are using conditional probabilities and Bayes rule to plug in where our numbers go. So there is just a bit more math that goes into it
 
-I thought this was important to include because IDK if you'll ever take a class with me again so I thought I would pass on some advice on how to win a game show using probability theory 
+
+
 ---
-
-
 
 
 
@@ -496,14 +514,14 @@ collider_bias
 
 
 ???
-This is what the relationship looks like in real life. 
+This is what the relationship looks like in the simulation I did
 ---
 
 
 ---
 ## Normal Distributions 
 
-```{r}
+```{r message=FALSE, warning=FALSE}
 pacman::p_load("stevemisc", "dqrng")
 ggplot(data.frame(x = c(-4, 4)), aes(x)) +
          stat_function(fun = dnorm, color = "#0039A6", size = 1.5) +
@@ -518,7 +536,7 @@ ggplot(data.frame(x = c(-4, 4)), aes(x)) +
 
 
 ???
-The coolest part about when you do sampling well is that we can approximate the population parameter. There are lots of sampling distributions but today we will cover the what is called the normal distribution or the Gaussian distribution. The normal distribution is defined by the mean and standard deviation. The mean sets the center of the distribution and the standard deviation 
+The coolest part about when you do sampling well is that we can approximate the population parameter. There are lots of sampling distributions but today we will cover the what is called the normal distribution or the Gaussian distribution. The normal distribution is defined by the mean and standard deviation. The mean sets the center of the distribution and the standard deviation sets the width.
 
 
 
@@ -532,7 +550,7 @@ The coolest part about when you do sampling well is that we can approximate the 
 ```{r }
 
 
-normal_dist("#522d80","#F66733", "Open Sans") + 
+normal_dist("#e76254", "#1e466e", "Open Sans") + 
   theme_steve_web() + post_bg() +
   # ^ all from stevemisc
     labs(title = "The Area Underneath a Normal Distribution",
@@ -564,7 +582,7 @@ Therms18 %>%
   theme_allen() + 
   scale_x_continuous(breaks = seq(0, 100, by=10)) +
   labs(x = "Thermometer Rating for Donald Trump",
-       y = "Number of Observations with This Particular Rating",
+       y = "Observations",
        caption = "Data: ANES Pilot Study, 2018. Number of observations: 2,471.",
        title = "The Thermometer Ratings for Donald Trump")
 
@@ -573,7 +591,7 @@ Therms18 %>%
 
 
 ??? 
-What is cool about the central limit theorum is that if we keep retaking samples of the larger population throught random sampling the sample means will not only be normally distributed but we would converge to the population mean and the random sampling error would equal the standard error of the sample means. Even this one! This is just a therometer rating where people either really like trump in 2018 or really do not like him. This likely hold true for Biden as well but I didn't want to pull and clean the latest ANES
+What is cool about the central limit theorum is that if we keep retaking random samples of the larger population throught random sampling the sample means will not only be normally distributed but we would converge to the population mean and the random sampling error would equal the standard error of the sample means. Even this one! This is just a therometer rating where people either really like trump in 2018 or really do not like him. This likely hold true for Biden as well but I didn't want to pull and clean the latest ANES data
 ---
 
 
@@ -584,7 +602,7 @@ layout: false
 .pull-left[
 
 ```{r echo = TRUE}
-Population = rbnorm(250000, mean =40.01578, sd = 40.24403,
+Population = rbnorm(250000, mean = 40.01578, sd = 40.24403,
                      lowerbound = 0, 
                      upperbound = 100,
                      round = TRUE,
@@ -622,7 +640,7 @@ Popsamples %>%
 ```
 ]
 ???
-We are going to do this by just making up some data, setting the sample mean equal to 40 and a standard deviation of 40. Than we are going to run this a million times! Each sample size is only 10 which generally will invite trouble if you only do it once. Put since we are doing it a million times the central limit will kick in and help us out.
+We are going to do this by just making up some data, setting the sample mean equal to 40 and a standard deviation of 40. Than we are going to run this a million times! Each sample size is only 10 observations which generally will invite trouble if you only do it once. Put since we are doing it a million times the central limit will kick in and help us out.
 
 This is honestly still super cool to me. 
 
@@ -688,8 +706,7 @@ Samps %>%
   labs(x = "Sample Size",
        y = "Sample Means",
        title = "Ten Sample Means of Varying Sample Sizes from a Population",
-       subtitle = "The diminishing returns of increasing sample size emerge around 1,000 observations, even as the spread in these simulated data is quite large.",
-       caption = "Data: Simulated data from a blog post at svmiller.com")
+       subtitle = "The diminishing returns of increasing sample size emerge around 1,000 observations.")
 ```
 
 
@@ -802,95 +819,305 @@ The process through which individuals and citizens acquire their political opini
 This is a learned effect. You ARE NOT born with a political identity!
 
 
-Primacy vs. Cumulative Effects
-Primacy Effect – the phenomenon of aging and growth in which the ideas that an individual learns at a young age (primacy) are more likely to stick
-Cumulative Effect – the phenomenon of political socialization in which an individual’s political orientation will become more firm or solidified with age
-
----
-
----
-## Agents of Socialization 
-
-Most socialization occurs before adulthood
-
-By the time you’re done with school, you’ll likely already know which party you affiliate with
-Primary agents of political socialization:
-  - Family
-  - School
-  - Peers
-
-What people and how people think about politics is closely related to:
-  - Social class
-  - Religion
-  - Ethnicity 
-  - Gender
-  - Race
-
-???
-
-
 ---
 
 
----
-## Agents of Socialization 
-### The Family
-
-Children tend to adopt the political party of their parents 
-
-People quickly become attached to their “team” and sometimes don’t think about why they like that “team”
-
-
-.bold[Political efficacy]: the degree to which one feels they can make a difference in politics
-It’s important to remember that social class plays a strong role in socialization
-
-???
-
-Party affliation kind of works in a similar manner. If everybody you know and love is a 49ers fan that how much sense is it going to make for you to go out and start liking the Cowboys or the Seahawks
-
-A similar logic underlies our politial socialization. We learn how to deal with authority from our parents and these attitudes can impact later beliefs on how we navigate our relation to power
-
-
-similarly the premium we placee on our own agency to affect change is affected by our parents. Often times rich people beleive that they can make a difference in politics whereas poorer people tend to say that they do not. 
----
 
 
 ---
 ## Agents of Socialization
-### The School
-
-The school is responsible for teaching kids the rules of democracy and American politics more generally
-
-Elementary school students are taught about the flag and many say the pledge of allegiance 
-
-In middle and high school, students are taught American history and learn about the basics of American government. 
-
-High schoolers often hold mock election for things like student council 
-
-Some universities require students to take an intro to American Gov. class
-
-???
-Your socialization isn't limited to your nuclear family. Alongside your parents and siblings when you go to school not only are you learning stuff and then improving your marketibility to get fruitful employment but you are also learning about policy alternative and opposing view points that help soften or harden your own political identity
----
-
----
-## Agents of Socialization 
-### Peers 
-
-While schools and families are a major factor in political socialization, so are your friends and co-workers
-
-This reaches well into adulthood
-
-???
-While our families are often alike in some respects they also all have their quirks that affect who we are. Interaction with those that are very different or largely the same also impacts our political socialization. For the most part we can think of our parents and upbringing as primary agents
-
-Primacy effect – what is learned first tends to leave a strong and lasting impression that remains with a person throughout life
-	Only ten % of young voters vote differently from their parents if their parents both had the same party id
 
 Primary agents – think face to face interaction
 	Those agents of socialization that are closest to you. They are often the most influential in an individual’s formative years.
 
 Secondary agents – groups that people are exposed to later in life
 	Those agents of socialization that have less intimate relations with an individual. They are often most important in an individual’s later life.
+
+???
+Primary agents – think face to face interaction
+Secondary agents – groups that people are exposed to 
+
+---
+
+---
+## Types of Effects 
+
+
+
+.bold[Primacy Effect]: the phenomenon of aging and growth in which the ideas that an individual learns at a young age (primacy) are more likely to stick. 
+
+.bold[Cumulative Effect]: the phenomenon of political socialization in which an individual’s political orientation will become more firm or solidified with age. 
+
+
+???
+Primacy vs. Cumulative Effects
+Primacy Effect – the phenomenon of aging and growth in which the ideas that an individual learns at a young age (primacy) are more likely to stick
+
+
+Cumulative Effect – the phenomenon of political socialization in which an individual’s political orientation will become more firm or solidified with age
+---
+
+
+---
+## Frames of Reference 
+
+.bold[Frames of Reference] – the lens through which an individual or group thinks about things politically 
+
+  - Party Identification(PID)
+  - Political Ideology
+  - Group Orientation
+
+---
+
+---
+## Frames of Reference
+### Party Identification 
+
+- Loyalty or affection of an individual has for a specific political party
+- This can lead to selective perception on a specific issue or topic
+
+
+???
+Ideology and PIDare two DIFFERENT concepts. Do not conflate the two! We have had multiple realignments over the course of American history where these and other parties that have died out have aligned in various places across the political spectrum. 
+
+Parties sit on the ideological spectrum.  Draw the conservative Liberal spectrum 
+
+So how do people think about politics?
+Through frames of reference which are the means by which an individual or a  group thinks about something politically 
+
+Party identification
+Loyalty or affection an individual has for a specific political party 
+Ex. Republican or Democrat 
+Political Ideology 
+A coherent set of political beliefs that an individual has over a range of issues 
+Conservative-Liberal Spectrum 
+Group Orientation – 
+The phenomenon of viewing politics through a group lens 
+This may be influenced by age, race, gender, religion, etc. 
+
+
+---
+
+
+
+---
+## PID General Trends
+
+```{r}
+pid = tibble::tribble(~`Republican Pary`, ~`Democratic Party`, ~`Libertarian Party`,
+                     "Favors Small Gov", "Favors larger Gov", "Favors minimal Gov", "Lower Taxes", "Higher Taxes", "Lower Taxes", "Lower Spending on Social Programs", "Higher Spending on Social Programs", "Elimination of the Welfare State", "Decreasing Government regulation", "Increased government regulation", " Elimination of Government regulation")
+
+pid %>% 
+  gt() %>% 
+  gtExtras::gt_theme_guardian()
+```
+
+
+
+---
+
+---
+## Frames of Reference 
+### Political Ideology
+
+- A coherent set of Political beliefs that an individaul has over a range of issues
+
+
+???
+These are two DIFFERENT concepts. Do not conflate the two! We have had multiple realignments over the course of American history where these and other parties that have died out have aligned in various places across the political spectrum. 
+
+Parties sit on the ideological spectrum.  Draw the conservative Liberal spectrum 
+
+So how do people think about politics?
+Through frames of reference which are the means by which an individual or a  group thinks about something politically 
+
+Party identification
+Loyalty or affection an individual has for a specific political party 
+Ex. Republican or Democrat 
+Political Ideology 
+A coherent set of political beliefs that an individual has over a range of issues 
+Conservative-Liberal Spectrum 
+Group Orientation – 
+The phenomenon of viewing politics through a group lens 
+This may be influenced by age, race, gender, religion, etc. 
+
+
+
+---
+
+
+---
+## Ideology
+
+
+```{r}
+ideology_dt = tibble::tribble(~`Issue Area`, ~Liberals, ~Conservatives, 
+                       "Regulating the Economy", "Supports Govt Regulations", "Supports Less Govt Regulation",
+                       "Economic Security", "More Supportive Programs", "Supports Programs but at lower levels",
+                       "Government Promotion of Social Equality", "Wants laws/programs to increase social standing of historically oppressed groups", "Generally favor the status quo",
+                       "Traditional Moral Values(Abortion, prayer in schools, same-sex marriage etc", "Generally oppose", "Supports laws/programs that uphold these traditional values",
+                       "Law Enforcement and Criminal Justice", "Want body cams on police/dashboard.  Oppose: death penalty, long prison sentence, mandatory minimum sentencing laws, restrictions of felons after serving their time.", 
+                       "Greater leeway to police.  More likely to support “Law & Order” policies like the death penalty, long prison sentences, mandatory minimums, restricted rights for former felons.")
+
+
+gt(ideology_dt) %>% 
+ gtExtras::gt_theme_guardian()
+
+```
+
+
+---
+
+
+---
+## Frames of Reference 
+### Group Orientation
+
+The phenomenon of viewing politics through a group lens 
+
+This may be influenced by age, race, gender, religion, etc
+
+---
+
+---
+## Should Public Opinion Matter  
+
+.pull-left[
+```{r}
+knitr::include_graphics("cartoon.jpg")
+```
+
+]
+
+.pull-right[
+- YES!
+--
+
+- But
+
+- Lots of people don't care or are not informed 
+]
+---
+
+
+
+---
+## What Influences Public Opinion?
+- Generational Effects
+
+- Political Knowledge 
+
+- Political Values 
+  - What the scope and function of government should be?
+
+- Attitude Consistency
+
+???
+If we put together all this stuff than this gets us toward how we answer the question "how do you think about insert topic x
+---
+
+
+---
+## Generational Effects
+
+
+<gsu-blockquote-alt>
+
+Environmental phenomenon outside of our control that can influence how we think about the world
+
+</gsu-blockquote-alt>
+???
+
+This is just fancy for age. intuitively we know old people have different frames of reference, priorities change as we get older etc 
+---
+
+
+
+---
+## Attiude Consistency
+
+.pull-left[
+<gsu-blockquote-red>
+when a person’s political opinions are founded on a coherent set of principles about the purpose and scope of government.
+
+
+</gsu-blockquote-red>
+
+]
+
+.pull-right[
+
+Studies on public opinion show that people’s opinions are unstable and inconsistent because they lack the resources to be informed 
+
+
+]
+???
+Broadly, if someone is an ideological thinker, their attitudes will all fall in generally the same place on the “left-right spectrum” (draw on board)- this spectrum describes attitudes- on the far left, is the most liberal someone’s attitudes may be, on the far right is the most conservative someone’s attitudes may be (*in the middle would be very moderate attitudes). For example, someone who believes in very little government spending or intrusion would be very conservative (right), while someone who believes in a lot of government programs and involvement in society would be very liberal on that issue. 
+
+It’s not that people don’t have any means of organizing their attitudes about politics…But, very few of them are ideologically consistent with their beliefs, and even fewer think about politics using the ideological (left-right) spectrum
+
+
+Political elites (those who know a lot about politics)-tend to have well-structured ideologies-their ideologies bind together their positions on different policy issues- so, for example, if they are liberal, all their issue positions will be liberal. 
+
+Non-elites (average citizens) may rely on other methods of organizing their political attitudes. For example, some people know a lot about the few issue areas they think are important (ex. Teachers know a lot about education policies), others organize their opinions based on their affiliation with a particular religion or other group.
+
+---
+
+---
+## How Does This Thing Work Without an Informed Citzenry?
+
+.bold[Heuristics]: Cues or shortcuts individuals follow to make decisions in the absence of complete information 
+
+- Citizen make a limited number of choices within a constrained set of options
+
+- They form a "coherent mass in the aggregat"
+
+
+
+---
+
+
+---
+## Motivated Reasoning 
+
+<gsu-blockquote-blue>
+the unconscious tendency of individuals to fit their processing of information to conclusions that suite some end or goal.
+
+</gsu-blockquote-blue>
+
+
+---
+
+---
+## Motivated Reasoning
+
+- Biased Information Search 
+  - Seeking out evidence that supports your prior position
+
+- Biased Confirmation of Information
+  - Crediting or discrediting evidence that conforms to that postion
+  
+  
+- Identity Protection
+  The tendency of individuals to ract negatively/dismiss things that would cause them anxiety or cognitive dissonance 
+  
+???
+biased information search - which involves seeking out (or disproportionally attending to) evidence that is congruent rather than incongruent with the motivating goal
+
+biased assimilation - which refers to the tendency to credit and discredit evidence selectively in patterns that promote rather than frustrate the goal
+
+identity-protective cognition - which reflects the tendency of people to react dismissively to information when accepting it would cause them to experience dissonance or anxiety. 
+
+cognitive dissonance The psychological discomfort somebody feels when trying to process contradictory feelings or thoughts
+---
+
+---
+## How Does Public Opinion 
+
+- Sets boundaries for policymakers to  act 
+  - Varies across issues depending on salience of issue 
+  - Salience – importance of an issue 
+
+
 
 ---

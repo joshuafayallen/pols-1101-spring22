@@ -4,7 +4,7 @@
     <title>Chapter 9</title>
     <meta charset="utf-8" />
     <meta name="author" content="Josh Allen" />
-    <meta name="date" content="2022-02-21" />
+    <meta name="date" content="2022-02-22" />
     <script src="public-opinion_files/header-attrs/header-attrs.js"></script>
     <link href="public-opinion_files/remark-css/default.css" rel="stylesheet" />
     <link href="public-opinion_files/panelset/panelset.css" rel="stylesheet" />
@@ -26,7 +26,7 @@ class: center, middle, inverse, title-slide
 # Chapter 9
 ## Public Opinion
 ### Josh Allen
-### 2022-02-21
+### 2022-02-22
 
 ---
 
@@ -480,7 +480,7 @@ of alchemy that transmutes randomness into certainty, an “uncertainty launderi
 &lt;/gsu-blockquote-red&gt;
 
 ???
-A part of the book that I want to expand upon is how you all think about the stats you consume during election cycles. We are about to see a lot more of it as we go into the midterm elections. How we get to the numbers that talented statisticians get to is not always obvious. So the goal of this portion of the lecture is to demistify statistics a bit in this lecture.
+The book tends to spend a bit to much time on the stats part of public opinion while not really giving you guys an intuition 
 ---
 
 ---
@@ -510,12 +510,16 @@ The book tries to skirt around "scary concepts like these". In public opinion we
 
 -  .bold[Probability]: is the proportion of times that the outcome would occur in a very long sequence of observations
 
-- .italic[p]-value: is the probability that we would get our sample value given that the null hypothesis is true. 
 
 - .bold[Confidence-Interval]: the probability that a population parameter will fall between a set of values for a certain proportion of times. 
 
+-.bold[Random Sampling]: With random selection, every person in the population has equal probability of being selected into the sample.
+
 ???
-These concept s are depeely interconnected not only to how we conduct statistics in polling but to each other. The p-value is a threshold that we apply all the time in when doing statististics in political science, economics, sociology, psychology, epidemiology, education, and biostatistics literature. The p-value is a threshold that we often use to set a minimal standard that there is a relationship between our variables. The confidence interval is just essentially a net. What ever quanitity of interst we are calculating there is going to be some error in real life analysis that will make our sample quantity differ from the population quanitity. The key question is whether or not that deviation is so extreme that we aren't actually capturing the population parameter.
+These concept s are depeely interconnected not only to how we conduct statistics in polling but to each other. The p-value is a threshold that we apply all the time in when doing statististics in political science, economics, sociology, psychology, epidemiology, education, and biostatistics literature. The p-value is a threshold that we often use to set a minimal standard that there is a relationship between our variables. If we reject the null hypothesis than this is a weak test that the thing we say is there is there. 
+
+
+The confidence interval is just essentially a net. What ever quanitity of interst we are calculating there is going to be some error in real life analysis that will make our sample quantity differ from the population quanitity. The key question is whether or not that deviation is so extreme that we aren't actually capturing the population parameter.
 
 The problem with the statistics we normally used and what is widely taught is kind of encapsulated for bu the confidence interval. What do you think that the plain english interpretation of the confidence interval is? 
 
@@ -530,7 +534,9 @@ The problem is that the confidence interval is us saying that 95% of the time we
 
 
 ???
-You are going to see a lot of simulations because that is what I find most intuitive. Here is what is going on. I set a value for the population parameter and then took random samples from that population. Than what i did was calculte the 95% confidence intervals. About 95% of the time I captre the true value with my net. There are a few times where I don't. Effectively when polls report margin of errors they are in effect reporting a confidence interval
+You are going to see a lot of simulations because that is what I find most intuitive. Here is what is going on. I set a value for the population parameter and then took random samples from that population. Than what i did was calculte the 95% confidence intervals. About 95% of the time I capture the true value with my net. There are a few times where I don't. Effectively when polls report margin of errors they are in effect reporting a confidence interval
+
+Even when we are conducting polls in the best way possible our net is not going to capture what we say it captures from time to time. Or even if we say that it is .45 due to things out of control the quanitity in our sample will be slightly off
 
 ---
 
@@ -571,7 +577,9 @@ candies
 
 
 ???
-This is pretty easy! it is just 2/5 or 40% and this should be true as we pick candies. So lets test this out with some simulations! here I am just setting up our jar with the situation that I outlined and checking to make sure that it is set up correctly
+This is pretty easy! it is just 2/5 or 40% and this should be true as we pick candies. So lets test this out with some simulations! 
+
+
 ---
 
 ---
@@ -617,7 +625,15 @@ blue  red
 
 ]
 ???
-This is pretty neat! with our simple math we can show this holds in our toy problem! However this can start to change if the events are not independent of each other. Think of a deck of card. Where there are 52 cards with 4 face cards for each suit. As the dealer deals out cards the probabilty of you getting a face card goes down
+
+
+
+This is pretty neat! with our simple math we can show this holds in our toy problem! 
+
+
+However this can start to change if the events are not independent of each other. Think of a deck of card. Where there are 52 cards with 4 face cards for each suit. As the dealer deals out cards the probabilty of you getting a face card goes down. Or in the case we are about to see what is the probability of something happening given that something else happened. 
+
+
 ---
 
 ---
@@ -686,12 +702,11 @@ In the 1970s, there was a game show called “Let’s Make a Deal” and Monty H
 
 We can use probability to show that if you stick with the original door choice, your chances of winning a prize remain 1 in 3. However, if you switch to the other door, your chances of winning double to 2 in 3!
  
-Monty hall is a good demonstration that we don't always have a good intuition on the probability of things 
+Monty hall is a good demonstration that we don't always have a good intuition on the probability of things because we are using conditional probabilities and Bayes rule to plug in where our numbers go. So there is just a bit more math that goes into it
 
-I thought this was important to include because IDK if you'll ever take a class with me again so I thought I would pass on some advice on how to win a game show using probability theory 
+
+
 ---
-
-
 
 
 
@@ -825,25 +840,18 @@ In our toy model what I did was basically included being in the NBA in the model
 
 
 ???
-This is what the relationship looks like in real life. 
+This is what the relationship looks like in the simulation I did
 ---
 
 
 ---
 ## Normal Distributions 
 
-
-```
-
-The downloaded binary packages are in
-	/var/folders/bb/h1r9j_yn18s_vj7wh5kx5pbr0000gp/T//RtmpAp4Az8/downloaded_packages
-```
-
 &lt;img src="figs/unnamed-chunk-13-1.png" width="100%" style="display: block; margin: auto;" /&gt;
 
 
 ???
-The coolest part about when you do sampling well is that we can approximate the population parameter. There are lots of sampling distributions but today we will cover the what is called the normal distribution or the Gaussian distribution. The normal distribution is defined by the mean and standard deviation. The mean sets the center of the distribution and the standard deviation 
+The coolest part about when you do sampling well is that we can approximate the population parameter. There are lots of sampling distributions but today we will cover the what is called the normal distribution or the Gaussian distribution. The normal distribution is defined by the mean and standard deviation. The mean sets the center of the distribution and the standard deviation sets the width.
 
 
 
@@ -874,7 +882,7 @@ If you have taken basic stats you know that the spread of the distribution can b
 
 
 ??? 
-What is cool about the central limit theorum is that if we keep retaking samples of the larger population throught random sampling the sample means will not only be normally distributed but we would converge to the population mean and the random sampling error would equal the standard error of the sample means. Even this one! This is just a therometer rating where people either really like trump in 2018 or really do not like him. This likely hold true for Biden as well but I didn't want to pull and clean the latest ANES
+What is cool about the central limit theorum is that if we keep retaking random samples of the larger population throught random sampling the sample means will not only be normally distributed but we would converge to the population mean and the random sampling error would equal the standard error of the sample means. Even this one! This is just a therometer rating where people either really like trump in 2018 or really do not like him. This likely hold true for Biden as well but I didn't want to pull and clean the latest ANES data
 ---
 
 
@@ -886,7 +894,7 @@ layout: false
 
 
 ```r
-Population = rbnorm(250000, mean =40.01578, sd = 40.24403,
+Population = rbnorm(250000, mean = 40.01578, sd = 40.24403,
                      lowerbound = 0, 
                      upperbound = 100,
                      round = TRUE,
@@ -908,7 +916,7 @@ Popsamples = tibble(
 &lt;img src="figs/unnamed-chunk-17-1.png" width="100%" style="display: block; margin: auto;" /&gt;
 ]
 ???
-We are going to do this by just making up some data, setting the sample mean equal to 40 and a standard deviation of 40. Than we are going to run this a million times! Each sample size is only 10 which generally will invite trouble if you only do it once. Put since we are doing it a million times the central limit will kick in and help us out.
+We are going to do this by just making up some data, setting the sample mean equal to 40 and a standard deviation of 40. Than we are going to run this a million times! Each sample size is only 10 observations which generally will invite trouble if you only do it once. Put since we are doing it a million times the central limit will kick in and help us out.
 
 This is honestly still super cool to me. 
 
@@ -1054,96 +1062,1147 @@ The process through which individuals and citizens acquire their political opini
 This is a learned effect. You ARE NOT born with a political identity!
 
 
-Primacy vs. Cumulative Effects
-Primacy Effect – the phenomenon of aging and growth in which the ideas that an individual learns at a young age (primacy) are more likely to stick
-Cumulative Effect – the phenomenon of political socialization in which an individual’s political orientation will become more firm or solidified with age
-
----
-
----
-## Agents of Socialization 
-
-Most socialization occurs before adulthood
-
-By the time you’re done with school, you’ll likely already know which party you affiliate with
-Primary agents of political socialization:
-  - Family
-  - School
-  - Peers
-
-What people and how people think about politics is closely related to:
-  - Social class
-  - Religion
-  - Ethnicity 
-  - Gender
-  - Race
-
-???
-
-
 ---
 
 
----
-## Agents of Socialization 
-### The Family
-
-Children tend to adopt the political party of their parents 
-
-People quickly become attached to their “team” and sometimes don’t think about why they like that “team”
-
-
-.bold[Political efficacy]: the degree to which one feels they can make a difference in politics
-It’s important to remember that social class plays a strong role in socialization
-
-???
-
-Party affliation kind of works in a similar manner. If everybody you know and love is a 49ers fan that how much sense is it going to make for you to go out and start liking the Cowboys or the Seahawks
-
-A similar logic underlies our politial socialization. We learn how to deal with authority from our parents and these attitudes can impact later beliefs on how we navigate our relation to power
-
-
-similarly the premium we placee on our own agency to affect change is affected by our parents. Often times rich people beleive that they can make a difference in politics whereas poorer people tend to say that they do not. 
----
 
 
 ---
 ## Agents of Socialization
-### The School
-
-The school is responsible for teaching kids the rules of democracy and American politics more generally
-
-Elementary school students are taught about the flag and many say the pledge of allegiance 
-
-In middle and high school, students are taught American history and learn about the basics of American government. 
-
-High schoolers often hold mock election for things like student council 
-
-Some universities require students to take an intro to American Gov. class
-
-???
-Your socialization isn't limited to your nuclear family. Alongside your parents and siblings when you go to school not only are you learning stuff and then improving your marketibility to get fruitful employment but you are also learning about policy alternative and opposing view points that help soften or harden your own political identity
----
-
----
-## Agents of Socialization 
-### Peers 
-
-While schools and families are a major factor in political socialization, so are your friends and co-workers
-
-This reaches well into adulthood
-
-???
-While our families are often alike in some respects they also all have their quirks that affect who we are. Interaction with those that are very different or largely the same also impacts our political socialization. For the most part we can think of our parents and upbringing as primary agents
-
-Primacy effect – what is learned first tends to leave a strong and lasting impression that remains with a person throughout life
-	Only ten % of young voters vote differently from their parents if their parents both had the same party id
 
 Primary agents – think face to face interaction
 	Those agents of socialization that are closest to you. They are often the most influential in an individual’s formative years.
 
 Secondary agents – groups that people are exposed to later in life
 	Those agents of socialization that have less intimate relations with an individual. They are often most important in an individual’s later life.
+
+???
+Primary agents – think face to face interaction
+Secondary agents – groups that people are exposed to 
+
+---
+
+---
+## Types of Effects 
+
+
+
+.bold[Primacy Effect]: the phenomenon of aging and growth in which the ideas that an individual learns at a young age (primacy) are more likely to stick. 
+
+.bold[Cumulative Effect]: the phenomenon of political socialization in which an individual’s political orientation will become more firm or solidified with age. 
+
+
+???
+Primacy vs. Cumulative Effects
+Primacy Effect – the phenomenon of aging and growth in which the ideas that an individual learns at a young age (primacy) are more likely to stick
+
+
+Cumulative Effect – the phenomenon of political socialization in which an individual’s political orientation will become more firm or solidified with age
+---
+
+
+---
+## Frames of Reference 
+
+.bold[Frames of Reference] – the lens through which an individual or group thinks about things politically 
+
+  - Party Identification(PID)
+  - Political Ideology
+  - Group Orientation
+
+---
+
+---
+## Frames of Reference
+### Party Identification 
+
+- Loyalty or affection of an individual has for a specific political party
+- This can lead to selective perception on a specific issue or topic
+
+
+???
+Ideology and PIDare two DIFFERENT concepts. Do not conflate the two! We have had multiple realignments over the course of American history where these and other parties that have died out have aligned in various places across the political spectrum. 
+
+Parties sit on the ideological spectrum.  Draw the conservative Liberal spectrum 
+
+So how do people think about politics?
+Through frames of reference which are the means by which an individual or a  group thinks about something politically 
+
+Party identification
+Loyalty or affection an individual has for a specific political party 
+Ex. Republican or Democrat 
+Political Ideology 
+A coherent set of political beliefs that an individual has over a range of issues 
+Conservative-Liberal Spectrum 
+Group Orientation – 
+The phenomenon of viewing politics through a group lens 
+This may be influenced by age, race, gender, religion, etc. 
+
+
+---
+
+
+
+---
+## PID General Trends
+
+<div id="bgvfdywigq" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html {
+  font-family: 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+#bgvfdywigq .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #F6F6F6;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #40C5FF;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#bgvfdywigq .gt_heading {
+  background-color: #F6F6F6;
+  text-align: left;
+  border-bottom-color: #F6F6F6;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#bgvfdywigq .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #F6F6F6;
+  border-bottom-width: 0;
+}
+
+#bgvfdywigq .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #F6F6F6;
+  border-top-width: 0;
+}
+
+#bgvfdywigq .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 0px;
+  border-bottom-color: #D3D3D3;
+}
+
+#bgvfdywigq .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #40C5FF;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #ECECEC;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#bgvfdywigq .gt_col_heading {
+  color: #333333;
+  background-color: #F6F6F6;
+  font-size: 100%;
+  font-weight: bold;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#bgvfdywigq .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #F6F6F6;
+  font-size: 100%;
+  font-weight: bold;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#bgvfdywigq .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#bgvfdywigq .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#bgvfdywigq .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #ECECEC;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#bgvfdywigq .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #F6F6F6;
+  font-size: 100%;
+  font-weight: bold;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #BEBEBE;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #BEBEBE;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#bgvfdywigq .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #F6F6F6;
+  font-size: 100%;
+  font-weight: bold;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #BEBEBE;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #BEBEBE;
+  vertical-align: middle;
+}
+
+#bgvfdywigq .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#bgvfdywigq .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#bgvfdywigq .gt_row {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: white;
+  border-top-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#bgvfdywigq .gt_stub {
+  color: #333333;
+  background-color: #F6F6F6;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#bgvfdywigq .gt_stub_row_group {
+  color: #333333;
+  background-color: #F6F6F6;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#bgvfdywigq .gt_row_group_first td {
+  border-top-width: 1px;
+}
+
+#bgvfdywigq .gt_summary_row {
+  color: #333333;
+  background-color: #F6F6F6;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#bgvfdywigq .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#bgvfdywigq .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#bgvfdywigq .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#bgvfdywigq .gt_grand_summary_row {
+  color: #333333;
+  background-color: #F6F6F6;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#bgvfdywigq .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#bgvfdywigq .gt_striped {
+  background-color: #ECECEC;
+}
+
+#bgvfdywigq .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: #FFFFFF;
+}
+
+#bgvfdywigq .gt_footnotes {
+  color: #333333;
+  background-color: #F6F6F6;
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#bgvfdywigq .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#bgvfdywigq .gt_sourcenotes {
+  color: #333333;
+  background-color: #F6F6F6;
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#bgvfdywigq .gt_sourcenote {
+  font-size: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#bgvfdywigq .gt_left {
+  text-align: left;
+}
+
+#bgvfdywigq .gt_center {
+  text-align: center;
+}
+
+#bgvfdywigq .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#bgvfdywigq .gt_font_normal {
+  font-weight: normal;
+}
+
+#bgvfdywigq .gt_font_bold {
+  font-weight: bold;
+}
+
+#bgvfdywigq .gt_font_italic {
+  font-style: italic;
+}
+
+#bgvfdywigq .gt_super {
+  font-size: 65%;
+}
+
+#bgvfdywigq .gt_footnote_marks {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 75%;
+  vertical-align: 0.4em;
+}
+
+#bgvfdywigq .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#bgvfdywigq .gt_slash_mark {
+  font-size: 0.7em;
+  line-height: 0.7em;
+  vertical-align: 0.15em;
+}
+
+#bgvfdywigq .gt_fraction_numerator {
+  font-size: 0.6em;
+  line-height: 0.6em;
+  vertical-align: 0.45em;
+}
+
+#bgvfdywigq .gt_fraction_denominator {
+  font-size: 0.6em;
+  line-height: 0.6em;
+  vertical-align: -0.05em;
+}
+</style>
+<table class="gt_table">
+  
+  <thead class="gt_col_headings">
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Republican Pary</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Democratic Party</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Libertarian Party</th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td class="gt_row gt_left" style="border-top-width: 0px; border-top-style: solid; border-top-color: white;">Favors Small Gov</td>
+<td class="gt_row gt_left" style="border-top-width: 0px; border-top-style: solid; border-top-color: white;">Favors larger Gov</td>
+<td class="gt_row gt_left" style="border-top-width: 0px; border-top-style: solid; border-top-color: white;">Favors minimal Gov</td></tr>
+    <tr><td class="gt_row gt_left gt_striped">Lower Taxes</td>
+<td class="gt_row gt_left gt_striped">Higher Taxes</td>
+<td class="gt_row gt_left gt_striped">Lower Taxes</td></tr>
+    <tr><td class="gt_row gt_left">Lower Spending on Social Programs</td>
+<td class="gt_row gt_left">Higher Spending on Social Programs</td>
+<td class="gt_row gt_left">Elimination of the Welfare State</td></tr>
+    <tr><td class="gt_row gt_left gt_striped">Decreasing Government regulation</td>
+<td class="gt_row gt_left gt_striped">Increased government regulation</td>
+<td class="gt_row gt_left gt_striped"> Elimination of Government regulation</td></tr>
+  </tbody>
+  
+  
+</table>
+</div>
+
+
+
+---
+
+---
+## Frames of Reference 
+### Political Ideology
+
+- A coherent set of Political beliefs that an individaul has over a range of issues
+
+
+???
+These are two DIFFERENT concepts. Do not conflate the two! We have had multiple realignments over the course of American history where these and other parties that have died out have aligned in various places across the political spectrum. 
+
+Parties sit on the ideological spectrum.  Draw the conservative Liberal spectrum 
+
+So how do people think about politics?
+Through frames of reference which are the means by which an individual or a  group thinks about something politically 
+
+Party identification
+Loyalty or affection an individual has for a specific political party 
+Ex. Republican or Democrat 
+Political Ideology 
+A coherent set of political beliefs that an individual has over a range of issues 
+Conservative-Liberal Spectrum 
+Group Orientation – 
+The phenomenon of viewing politics through a group lens 
+This may be influenced by age, race, gender, religion, etc. 
+
+
+
+---
+
+
+---
+## Ideology
+
+
+<div id="ubwjjetepn" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html {
+  font-family: 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+#ubwjjetepn .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #F6F6F6;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #40C5FF;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#ubwjjetepn .gt_heading {
+  background-color: #F6F6F6;
+  text-align: left;
+  border-bottom-color: #F6F6F6;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#ubwjjetepn .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #F6F6F6;
+  border-bottom-width: 0;
+}
+
+#ubwjjetepn .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #F6F6F6;
+  border-top-width: 0;
+}
+
+#ubwjjetepn .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 0px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ubwjjetepn .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #40C5FF;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #ECECEC;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#ubwjjetepn .gt_col_heading {
+  color: #333333;
+  background-color: #F6F6F6;
+  font-size: 100%;
+  font-weight: bold;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#ubwjjetepn .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #F6F6F6;
+  font-size: 100%;
+  font-weight: bold;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#ubwjjetepn .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#ubwjjetepn .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#ubwjjetepn .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #ECECEC;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#ubwjjetepn .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #F6F6F6;
+  font-size: 100%;
+  font-weight: bold;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #BEBEBE;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #BEBEBE;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#ubwjjetepn .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #F6F6F6;
+  font-size: 100%;
+  font-weight: bold;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #BEBEBE;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #BEBEBE;
+  vertical-align: middle;
+}
+
+#ubwjjetepn .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#ubwjjetepn .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#ubwjjetepn .gt_row {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: white;
+  border-top-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#ubwjjetepn .gt_stub {
+  color: #333333;
+  background-color: #F6F6F6;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ubwjjetepn .gt_stub_row_group {
+  color: #333333;
+  background-color: #F6F6F6;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#ubwjjetepn .gt_row_group_first td {
+  border-top-width: 1px;
+}
+
+#ubwjjetepn .gt_summary_row {
+  color: #333333;
+  background-color: #F6F6F6;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ubwjjetepn .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#ubwjjetepn .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#ubwjjetepn .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ubwjjetepn .gt_grand_summary_row {
+  color: #333333;
+  background-color: #F6F6F6;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ubwjjetepn .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#ubwjjetepn .gt_striped {
+  background-color: #ECECEC;
+}
+
+#ubwjjetepn .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: #FFFFFF;
+}
+
+#ubwjjetepn .gt_footnotes {
+  color: #333333;
+  background-color: #F6F6F6;
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#ubwjjetepn .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ubwjjetepn .gt_sourcenotes {
+  color: #333333;
+  background-color: #F6F6F6;
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#ubwjjetepn .gt_sourcenote {
+  font-size: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ubwjjetepn .gt_left {
+  text-align: left;
+}
+
+#ubwjjetepn .gt_center {
+  text-align: center;
+}
+
+#ubwjjetepn .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#ubwjjetepn .gt_font_normal {
+  font-weight: normal;
+}
+
+#ubwjjetepn .gt_font_bold {
+  font-weight: bold;
+}
+
+#ubwjjetepn .gt_font_italic {
+  font-style: italic;
+}
+
+#ubwjjetepn .gt_super {
+  font-size: 65%;
+}
+
+#ubwjjetepn .gt_footnote_marks {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 75%;
+  vertical-align: 0.4em;
+}
+
+#ubwjjetepn .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#ubwjjetepn .gt_slash_mark {
+  font-size: 0.7em;
+  line-height: 0.7em;
+  vertical-align: 0.15em;
+}
+
+#ubwjjetepn .gt_fraction_numerator {
+  font-size: 0.6em;
+  line-height: 0.6em;
+  vertical-align: 0.45em;
+}
+
+#ubwjjetepn .gt_fraction_denominator {
+  font-size: 0.6em;
+  line-height: 0.6em;
+  vertical-align: -0.05em;
+}
+</style>
+<table class="gt_table">
+  
+  <thead class="gt_col_headings">
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Issue Area</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Liberals</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Conservatives</th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td class="gt_row gt_left" style="border-top-width: 0px; border-top-style: solid; border-top-color: white;">Regulating the Economy</td>
+<td class="gt_row gt_left" style="border-top-width: 0px; border-top-style: solid; border-top-color: white;">Supports Govt Regulations</td>
+<td class="gt_row gt_left" style="border-top-width: 0px; border-top-style: solid; border-top-color: white;">Supports Less Govt Regulation</td></tr>
+    <tr><td class="gt_row gt_left gt_striped">Economic Security</td>
+<td class="gt_row gt_left gt_striped">More Supportive Programs</td>
+<td class="gt_row gt_left gt_striped">Supports Programs but at lower levels</td></tr>
+    <tr><td class="gt_row gt_left">Government Promotion of Social Equality</td>
+<td class="gt_row gt_left">Wants laws/programs to increase social standing of historically oppressed groups</td>
+<td class="gt_row gt_left">Generally favor the status quo</td></tr>
+    <tr><td class="gt_row gt_left gt_striped">Traditional Moral Values(Abortion, prayer in schools, same-sex marriage etc</td>
+<td class="gt_row gt_left gt_striped">Generally oppose</td>
+<td class="gt_row gt_left gt_striped">Supports laws/programs that uphold these traditional values</td></tr>
+    <tr><td class="gt_row gt_left">Law Enforcement and Criminal Justice</td>
+<td class="gt_row gt_left">Want body cams on police/dashboard.  Oppose: death penalty, long prison sentence, mandatory minimum sentencing laws, restrictions of felons after serving their time.</td>
+<td class="gt_row gt_left">Greater leeway to police.  More likely to support “Law &amp; Order” policies like the death penalty, long prison sentences, mandatory minimums, restricted rights for former felons.</td></tr>
+  </tbody>
+  
+  
+</table>
+</div>
+
+
+---
+
+
+---
+## Frames of Reference 
+### Group Orientation
+
+The phenomenon of viewing politics through a group lens 
+
+This may be influenced by age, race, gender, religion, etc
+
+---
+
+---
+## Should Public Opinion Matter  
+
+.pull-left[
+&lt;img src="cartoon.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+
+]
+
+.pull-right[
+- YES!
+--
+
+- But
+
+- Lots of people don't care or are not informed 
+]
+---
+
+
+
+---
+## What Influences Public Opinion?
+- Generational Effects
+
+- Political Knowledge 
+
+- Political Values 
+  - What the scope and function of government should be?
+
+- Attitude Consistency
+
+???
+If we put together all this stuff than this gets us toward how we answer the question "how do you think about insert topic x
+---
+
+
+---
+## Generational Effects
+
+
+&lt;gsu-blockquote-alt&gt;
+
+Environmental phenomenon outside of our control that can influence how we think about the world
+
+&lt;/gsu-blockquote-alt&gt;
+???
+
+This is just fancy for age. intuitively we know old people have different frames of reference, priorities change as we get older etc 
+---
+
+
+
+---
+## Attiude Consistency
+
+.pull-left[
+&lt;gsu-blockquote-red&gt;
+when a person’s political opinions are founded on a coherent set of principles about the purpose and scope of government.
+
+
+&lt;/gsu-blockquote-red&gt;
+
+]
+
+.pull-right[
+
+Studies on public opinion show that people’s opinions are unstable and inconsistent because they lack the resources to be informed 
+
+
+]
+???
+Broadly, if someone is an ideological thinker, their attitudes will all fall in generally the same place on the “left-right spectrum” (draw on board)- this spectrum describes attitudes- on the far left, is the most liberal someone’s attitudes may be, on the far right is the most conservative someone’s attitudes may be (*in the middle would be very moderate attitudes). For example, someone who believes in very little government spending or intrusion would be very conservative (right), while someone who believes in a lot of government programs and involvement in society would be very liberal on that issue. 
+
+It’s not that people don’t have any means of organizing their attitudes about politics…But, very few of them are ideologically consistent with their beliefs, and even fewer think about politics using the ideological (left-right) spectrum
+
+
+Political elites (those who know a lot about politics)-tend to have well-structured ideologies-their ideologies bind together their positions on different policy issues- so, for example, if they are liberal, all their issue positions will be liberal. 
+
+Non-elites (average citizens) may rely on other methods of organizing their political attitudes. For example, some people know a lot about the few issue areas they think are important (ex. Teachers know a lot about education policies), others organize their opinions based on their affiliation with a particular religion or other group.
+
+---
+
+---
+## How Does This Thing Work Without an Informed Citzenry?
+
+.bold[Heuristics]: Cues or shortcuts individuals follow to make decisions in the absence of complete information 
+
+- Citizen make a limited number of choices within a constrained set of options
+
+- They form a "coherent mass in the aggregat"
+
+
+
+---
+
+
+---
+## Motivated Reasoning 
+
+&lt;gsu-blockquote-blue&gt;
+the unconscious tendency of individuals to fit their processing of information to conclusions that suite some end or goal.
+
+&lt;/gsu-blockquote-blue&gt;
+
+
+---
+
+---
+## Motivated Reasoning
+
+- Biased Information Search 
+  - Seeking out evidence that supports your prior position
+
+- Biased Confirmation of Information
+  - Crediting or discrediting evidence that conforms to that postion
+  
+  
+- Identity Protection
+  The tendency of individuals to ract negatively/dismiss things that would cause them anxiety or cognitive dissonance 
+  
+???
+biased information search - which involves seeking out (or disproportionally attending to) evidence that is congruent rather than incongruent with the motivating goal
+
+biased assimilation - which refers to the tendency to credit and discredit evidence selectively in patterns that promote rather than frustrate the goal
+
+identity-protective cognition - which reflects the tendency of people to react dismissively to information when accepting it would cause them to experience dissonance or anxiety. 
+
+cognitive dissonance The psychological discomfort somebody feels when trying to process contradictory feelings or thoughts
+---
+
+---
+## How Does Public Opinion 
+
+- Sets boundaries for policymakers to  act 
+  - Varies across issues depending on salience of issue 
+  - Salience – importance of an issue 
+
+
 
 ---
     </textarea>
