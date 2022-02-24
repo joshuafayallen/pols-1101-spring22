@@ -439,18 +439,7 @@ Marital Status: Those that are married are far more likely (10x) to vote than th
 
 
 
----
-class: center, middle
 
-
-```{r}
-vembedr::embed_url("https://youtu.be/rHFOwlMCdto")
-```
-
-
-
-
----
 
 ---
 ## What factors in Influence our Vote 
@@ -529,7 +518,6 @@ The Economy – single more important flux topic when it comes to voter decision
 - Declines in party attachment and external efficacy during this period
   - Watergate
   - Assassinations
-  - 
 
 ???
 Why would party attachment and external efficacy decline during this period?
@@ -541,8 +529,7 @@ Remember, that during this time period there was a LOT of political activity hap
 As a result, there were several prominent political activists and public figures that had a lot of support during this time period, and were ultimately assassinated.
 
 Beginning with President Kennedy, who was shot Nov. 22, 1963 in Dallas, the Kennedy’s were America’s golden family. JFK was young, he was the first Catholic president. Jackie Kennedy was adored. They had several young children. So this assassination was particularly shocking
-O
-nly two years later, Malcolm X, who was prominent leader of the black nationalist movement, a prominent leader died on Feb. 21, 1965, shocking the nation.
+Only two years later, Malcolm X, who was prominent leader of the black nationalist movement, a prominent leader died on Feb. 21, 1965, shocking the nation.
 
 Martin Luther King, Jr., the most prominent civil rights leader of the 1960s, was instrumental in the Birmingham bus boycott, pushed for the passage of the Civil Rights Act, was the youngest man, at the time, to be awarded the Nobel Peace Prize, was assassinated April 4, 1968 in Memphis, where he was working to secure safer working conditions for the city’s sanitation workers
 .
@@ -575,4 +562,16 @@ Conclusion: No matter who you were or what you thought during this time period, 
 
 ---
 
+---
+class: center, middle
 
+
+```{r}
+vembedr::embed_url("https://youtu.be/rHFOwlMCdto")
+```
+
+
+
+???
+we have sort of discussed the voting population in way that doesnt acknowledge some of the other structural issues that impact people who do want to vote but face barriers to do so. I want to leave you with this as we move to talk about campaingss and elections next week
+---
