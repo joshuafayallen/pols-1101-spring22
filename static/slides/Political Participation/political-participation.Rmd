@@ -232,8 +232,15 @@ end 22:22
 
 - .bold[Retrospective Voting]: voter behavior that evaluates candidates based on their experience or past performance. 
 
+Mediated Retrospective Evaluations
+
+
+Simple Retrospective Evaluations
+
 
 ???
+
+prospective voting: voting on the promise of the future 
 
 Retrospective voting tends to be used more by voters, and can be used in two ways
 
