@@ -41,7 +41,7 @@ class:center, middle,inverse
 
 ---
 class:middle, center
-## What is it 
+## What is it?
 
 ![](https://media.giphy.com/media/fveKCnZRN7aOrtWNfj/giphy.gif)
 
@@ -395,7 +395,7 @@ This is a weak predictor of voting behavior. It is often a codependent factor of
 ---
 layout: false 
 
-```{r out.width="90%"}
+```{r out.width="80%"}
 knitr::include_graphics("images/education'.png")
 ```
 
