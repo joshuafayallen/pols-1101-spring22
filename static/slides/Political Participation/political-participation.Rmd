@@ -443,7 +443,10 @@ Marital Status: Those that are married are far more likely (10x) to vote than th
 class: center, middle
 
 
-![](https://media.giphy.com/media/LNlvkpX17qp2Q3ARN0/giphy-downsized-large.gif)
+```{r}
+vembedr::embed_url("https://youtu.be/rHFOwlMCdto")
+```
+
 
 
 
