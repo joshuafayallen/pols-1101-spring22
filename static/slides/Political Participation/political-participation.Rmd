@@ -245,14 +245,29 @@ SRE’s: Has a direct effect on vote choice
 
 
 ---
-## Why Do We vote? 
+## Why Do We Not  Vote? 
 
-- Americans *don't* vote because they're lazy"
+Mandatory registration
 
---
+Lack of mandatory voting
 
-- No it is a rationality thing
+Lack of proportional representation
 
+Too many elections
+
+It’s irrational
+
+
+???
+Americans have much lower turnout that citizens in many other advanced industrialized democracies. This is often though of as a surprise because Americans generally have equal or higher education levels and high levels of political efficacy, trust in government, and sense of civic duty (all things that increase turnout at the individual level).
+So why don’t Americans vote as much?
+
+Mandatory registration: Citizens in the United States are not automatically registered, they have to register themselves when they turn 18. Registration also has to be updated every time you move. Additionally, states have their own rules about registration deadlines, the information that is required to register, the information that you have to take with you to vote, who can register, etc.
+Mandatory voting: Several other countries REQUIRE their citizens to vote, like Australia and Belgium where citizens are fined for not voting
+
+Some people blame it on the lack or proportional representation. Under winner-take-all systems if you vote for the losing candidate you may feel that you wasted resources because you didn’t receive the benefit of electing your preferred candidate
+The US holds A LOT of elections: Presidential, Midterm, Gubernatorial, State, Local, Special, Run-offs (Ex. Georgia)
+It’s irrational: We’ll return to this concept in just a little
 
 
 ---
@@ -334,7 +349,7 @@ Then there is the Voting Eligible Population (VEP) – which is all the voters w
 ## Who is *most likely* to vote?
 
 
-```{r}
+```{r out.width="90%"}
 knitr::include_graphics("images/income.png")
 ```
 
@@ -363,7 +378,7 @@ Socioeconomic status = the combination of education, occupation, and income that
 layout: false 
 
 
-```{r}
+```{r out.width="90%"}
 knitr::include_graphics("images/gender.png")
 ```
 
@@ -380,7 +395,7 @@ This is a weak predictor of voting behavior. It is often a codependent factor of
 ---
 layout: false 
 
-```{r}
+```{r out.width="90%"}
 knitr::include_graphics("images/education'.png")
 ```
 
@@ -395,7 +410,7 @@ Education level is the strongest predictor of an individuals voting behavior. Th
 layout: false 
 
 
-```{r}
+```{r out.width="80%"}
 knitr::include_graphics("images/race.png")
 ```
 
@@ -456,7 +471,7 @@ One issue that always influences vote choice:
 
 
 
-```{r}
+```{r out.width="40%"}
 knitr::include_graphics("images/econ.png")
 ```
 
@@ -485,8 +500,6 @@ People tend to blame themselves for their own financial state, so your own situa
 Political scientist to disagree what economy we consider the most. Does the broader health of the economy matter or is it just self interst all the way down? Comparative political scientists definitely still fight about this.
 
 The Economy – single more important flux topic when it comes to voter decision. If the economy is good, voter support the incumbent. If economy is bad, voters (undecided) are more likely to support challenger. 
-
-
 
 
 
