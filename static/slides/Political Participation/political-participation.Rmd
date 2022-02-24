@@ -221,6 +221,8 @@ vembedr::embed_url("https://youtu.be/Vr-ZeToI4R8?t=738")
 
 ???
 end 22:22
+
+Now we’re going to focus on voting. While we just talked about how voting is one of the less effective means of participation, it is something that all citizens are equally able to do, and it is the basis of electoral politics
 ---
 
 
@@ -418,11 +420,24 @@ Education level is the strongest predictor of an individuals voting behavior. Th
 ---
 layout: false 
 
+.pull-left[
 
 ```{r out.width="80%"}
 knitr::include_graphics("images/race.png")
 ```
 
+]
+
+
+.pull-right[
+- Other Predictors of Voting Behavior: 
+- Race 
+- Religion 
+- Marital Status 
+- Ethnicity 
+
+
+]
 ???
 Race: 
 African American: While African American turnout is the highest it has ever been historical in the last two elections (2008 and 2012) it still is generally well below that of the national average. 
@@ -447,15 +462,26 @@ Marital Status: Those that are married are far more likely (10x) to vote than th
 - PID
 
 
-- Partisan Loyalty
+```{r out.width= "40%"}
+knitr::include_graphics("images/clinton-trump.png")
+```
+
+
 
 ???
 Yeah I'll admit that this is kind of an anti climatic answer but for the most part PID is a pretty good indicator. Indpendents tend to lean toward one party or another and tend to vote like their partisan couterparts 
 
 
-Since the 1960s, more people have chosen to be independents rather than identify with either Republicans or Democrats, which means that less and less people vote based on their identification with a specific party. This graph shows the party identification based on voters identification in the 2004 election. 
+When I talk about PID, I’m talking about a psychological attachment to one party or another. 
+The stronger your PID, the more likely you are to vote, and the more likely you are to vote for one particular party. 
 
-Party identification is not just an individual identity; it can also be important for groups. Social, economic, racial, and other similar groups can become aligned to certain parties, and then vote according to that party identification. When people identify very strongly with one party, they tend to vote for that party consistently. This can lead to straight-ticket voting.
+Just like with public opinion, people do not have the time, energy, education necessary to learn everything they need to know about candidates. Therefore, they tend to rely on PID as a shortcut.
+People do this all the time, especially with state and local level offices
+
+Party attachment tends to come from two primary sources
+Socialization: Most people tend to adopt the PID of their parents
+Retrospective: Voters keep a tally of the good/bad things each party has done (ex. Great Depression & FDR led many voters to become Democrats)
+.
 
 ---
 
