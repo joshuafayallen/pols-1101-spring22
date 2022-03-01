@@ -117,21 +117,7 @@ Voting takes place in a variety of ways, from standing in certain groups to rais
 
 ---
 
----
-## Tl;DR
 
-```{r}
-primary_ca = tibble::tribble(~' ',~Caucus, ~Primary,
-                             "Voting Method", "Voting is conducted at local party meetings by raising hands or breaking into groups", "An election is held by secret ballot", "Who Can Vote", "Only members who physically attend the local party meeting can participate", "Depends on Open, closed, or semi-closed primary rules",
-                             "States That Do it", "Only members who physically attend the local party meeting can participate
-Alaska, Colorado, Hawaii, Kansas, Maine, Minnesota, Nevada, North Dakota, Wyoming, and Iowa", "Pretty Much Everyone Else")
-
-gt::gt(primary_ca) %>% 
-  gtExtras::gt_theme_538()
-
-```
-
----
 
 ---
 ## Primary ELection Voting Rules 
@@ -145,6 +131,15 @@ gt::gt(primary_ca) %>%
 .bold[Run-Offs]: In some states, if neither candidate receives a majority vote (50%+1) then the two candidates must face each other in a run off.
 
 ???
+
+Primary
+Open- Anyone can vote in either party’s primary (regardless of how one is registered), but voters can generally only vote in one primary
+S
+emi-Open- Voters that are registered members of a political party can only vote in THAT party’s primary. But voters that aren’t registered with a particular party can vote in either party’s primary
+
+Closed- Voters can only vote in the primary of the party they are registered with. Independents cannot vote in either primary
+
+
 Two-round system, a voting system used to elect a single winner, whereby only two candidates from the first round continue to the second round, where one candidate will win.
 
 If you think back to the georgia senate runoff. Theoretically Senator Warnock could have won 50.1 percent of the vote and we wouldnt have gone to the january portion of the election. 
@@ -172,6 +167,22 @@ What effects does this have on primary elections?
 
 ---
 
+
+---
+## Tl;DR
+
+```{r}
+primary_ca = tibble::tribble(~' ',~Caucus, ~Primary,
+                             "Voting Method", "Voting is conducted at local party meetings by raising hands or breaking into groups", "An election is held by secret ballot", "Who Can Vote", "Only members who physically attend the local party meeting can participate", "Depends on Open, closed, or semi-closed primary rules",
+                             "States That Do it", "Only members who physically attend the local party meeting can participate
+Alaska, Colorado, Hawaii, Kansas, Maine, Minnesota, Nevada, North Dakota, Wyoming, and Iowa", "Pretty Much Everyone Else")
+
+gt::gt(primary_ca) %>% 
+  gtExtras::gt_theme_538()
+
+```
+
+---
 
 ---
 ## Effects of the Current System 
