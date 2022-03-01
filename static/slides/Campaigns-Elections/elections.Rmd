@@ -120,7 +120,8 @@ Voting takes place in a variety of ways, from standing in certain groups to rais
 
 
 ---
-## Primary ELection Voting Rules 
+## Primary El
+ection Voting Rules 
 
 .bold[Closed]: People may vote in a party's primary only if they are registered members of that party. Independents cannot participate.
 
@@ -134,8 +135,8 @@ Voting takes place in a variety of ways, from standing in certain groups to rais
 
 Primary
 Open- Anyone can vote in either party’s primary (regardless of how one is registered), but voters can generally only vote in one primary
-S
-emi-Open- Voters that are registered members of a political party can only vote in THAT party’s primary. But voters that aren’t registered with a particular party can vote in either party’s primary
+
+Semi-Open- Voters that are registered members of a political party can only vote in THAT party’s primary. But voters that aren’t registered with a particular party can vote in either party’s primary
 
 Closed- Voters can only vote in the primary of the party they are registered with. Independents cannot vote in either primary
 
