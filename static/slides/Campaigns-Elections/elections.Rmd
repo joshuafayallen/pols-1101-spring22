@@ -136,6 +136,7 @@ ection Voting Rules
 Primary
 Open- Anyone can vote in either party’s primary (regardless of how one is registered), but voters can generally only vote in one primary
 
+
 Semi-Open- Voters that are registered members of a political party can only vote in THAT party’s primary. But voters that aren’t registered with a particular party can vote in either party’s primary
 
 Closed- Voters can only vote in the primary of the party they are registered with. Independents cannot vote in either primary
@@ -338,6 +339,8 @@ Why does it happen?
 In all states, except Maine and Nebraska, the winner of a plurality of the vote, they receive all of that states electoral votes.
 
 TX example: Whoever wins more of the popular vote than any other candidate receives all 34 of the states vote
+
+
 Nebraska and Maine award candidates 1 electoral vote to popular vote winner in each district and then give their two remaining votes to state-wide popular vote winner
 
 Why is it a problem?
