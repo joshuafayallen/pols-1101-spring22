@@ -63,6 +63,9 @@ class: center, middle, inverse
 
 .hiro-dark-blue[General Election]: An election between two parties to select a candidate for office
 
+???
+Back in the day think like pre-Nixon these things existed. But more in the sense that they were there to placate the unwashed masses. Back in the day party elites would choose the presidential candidates they thought. You had to work your way up in the party be drinking buddies with the right dudes be a dutiful member of the party you may be selected to be your parties candidate for president
+
 ---
 
 ---
@@ -78,22 +81,6 @@ The type of contest that each state has depends on state laws and party rules
 
 .footnote[[1]:  [This](https://www.youtube.com/watch?v=_S2G8jhhUHg) is a good video for how wild this process can be]
 ???
-Caucus- A meeting of party leaders
-
-Caucuses occur in a variety of places including libraries and schools, and even people’s living rooms
-
-This occurs on one day, at a given time, and can last for HOURS
-
-Caucus goers don’t just vote for a candidate. They debate issues that are important to the party as well as about the candidates themselves. This is done to try to persuade others to support your preferred candidate and issue
-
-Voting takes place in a variety of ways, from standing in certain groups to raising your hand, but is always done publicly
-
-Primary
-Open- Anyone can vote in either party’s primary (regardless of how one is registered), but voters can generally only vote in one primary
-
-Semi-Open- Voters that are registered members of a political party can only vote in THAT party’s primary. But voters that aren’t registered with a particular party can vote in either party’s primary
-
-Closed- Voters can only vote in the primary of the party they are registered with. Independents cannot vote in either primary
 
 
 Washington has both 
@@ -178,7 +165,7 @@ knitr::include_graphics("primaries.png")
 Generally turnout is low in primaries and this doubles for caucuses. Why?
   - Rules vary on who can participates
   - Uninformed voters lack the cues they rely on 
-  - Primary rules are foten complex and not well understood
+  - Primary rules are often complex and not well understood
   
 What effects does this have on primary elections?
   - Candidates tend to be more extreme
@@ -234,7 +221,7 @@ class: center, middle, inverse
 ---
 ## General Election
 
-- Officially Starts following the concclusion of the national conferences of both political parties 
+- Officially Starts following the conclusion of the national conferences of both political parties 
   - National conferences are meetings held by both major parties to create the party platform and OFFICIALLY select the presidential candidates and their running mates
 
 - Most voters, however, don’t really start paying attention to the election until Labor Day
@@ -383,7 +370,7 @@ What is it
 
 - $\text{Electoral College Votes} = \text{House Reps} + \text{Senators}$
 
-- Citizens from small states have relatively more representation in the electoral college that their couterparts from large states
+- Citizens from small states have relatively more representation in the electoral college than their couterparts from large states
 
 
 ???
@@ -396,9 +383,34 @@ while in a big state like CA, every 640,000 get 1 vote and the extra 2 are dispe
 
 After #3- put up colored slide of 2000 & 1992 elections- show how candidates can win elections by carrying some small states and the South- since 1960’s- this is critical for Republicans. 
 
--So- in other words its important b/c small states can impact election if candidate wins a lot of them. 
+-So- in other words its important b/c small states can impact election if candidate wins a lot of them.
+
+idaho = 1.87
+
+utah 3.2
+
+new mexic = 2.111
+
+colorado = 5.7
 
 
+wyoming  = 500,00
+
+montana = 1.00
+
+north dakota = 700,00
+
+South Dakota = 888,894
+
+nebraska = 1.934
+
+kansas = 2.913
+
+okalhoma = 3957000
+
+
+
+1870000 + 3200000 +2111000 + 5700000 +1000000 + 700000 +888894 + 1934000 + 2913000 + 3957000 = 24,273,894
 ---
 
 ---
@@ -658,7 +670,7 @@ We don't really spend a ton of times on campaigns. From what I gather the Americ
 
 
 ---
-## Campaing Strategy
+## Campaign Strategy
 
 - Campaign Manager
   - Responsible for the overall strategy and planning in a campaign organization
@@ -741,4 +753,8 @@ vembedr::embed_url("https://www.youtube.com/watch?v=Y_zTN4BXvYI")
 - [Squel](https://www.youtube.com/watch?v=zc8uLuHsNw0)
 - [Got Ball?](https://www.youtube.com/watch?v=8Gl7xcy8ILU)
 - [Role Models](https://www.youtube.com/watch?v=mrX3Ql31URA)
+
+
+???
+Negative campaign ads work in the sense that they are likely to inform people about policy positions of various candidates and are good at depressing turnout 
 ---
