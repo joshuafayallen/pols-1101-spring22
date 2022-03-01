@@ -120,8 +120,7 @@ Voting takes place in a variety of ways, from standing in certain groups to rais
 
 
 ---
-## Primary El
-ection Voting Rules 
+## Primary Election Voting Rules 
 
 .bold[Closed]: People may vote in a party's primary only if they are registered members of that party. Independents cannot participate.
 
@@ -321,7 +320,7 @@ Finally, both candidate’s campaigns went to the Supreme Court, which stopped t
 
 
 ---
-class:middle
+
 ## Problem 1
 
 - Popular Vote Winner May Lose in the Electoral College
