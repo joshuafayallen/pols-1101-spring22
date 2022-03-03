@@ -230,6 +230,9 @@ Remember the media has the right to get stuff wrong
 New York Times v. Sullivan – established the standard of actual malice in First amendment standards concerning the press. When discussing/writing/etc. about an individual the press much avoid making statements of malice (knowledge that they are false or in reckless disregard of their truth or falsity) especially against public figures. If such statements are made then the individual has the right to sue/you are not protected by first amendment.  This is partially where the Snyder v. Phelps decision rises from. 
 
 
+
+page report on the history of the United States’ political and military involvement in Vietnam between 1945 and 1967. The report, which was produced by the Department of Defense for internal purposes and was not intended to be made public, contained information demonstrating, among other things, that President Lyndon Johnson had lied repeatedly to Congress and the American public in an effort to build public support for a military escalation in Vietnam.
+
 The U.S. Supreme Court affirmed that the government’s power to prevent the publication of information, even classified information, is strongly limited by the First Amendment. The Court ruled the newspapers had a right to publish most of the Pentagon Papers. The Court also held, however, that revelations of troop movements and the names of undercover operatives are some of the few approved reasons for which the government can stop publication or reporting
 
 
@@ -246,8 +249,9 @@ knitr::include_graphics("freedom-of-the-press.png")
 ```
 
 ???
+The 2018 world press freedom index compiled by Reporters without Borders (RSF) is based on incidents and types of attacks on the media across the world. The RSF classifies this time period as the “age of post truth” and propaganda. The suppression of these freedoms has become especially problematic in democracies. 
 
-RSF) is based on incidents and types of attacks on the media across the world. The RSF classifies this time period as the “age of post truth” and propaganda. The suppression of these freedoms has become especially problematic in democracies. 
+
 
 The obsession with surveillance and violations of the right to the confidentiality of sources have contributed to the continuing decline of many countries previously regarded as virtuous. The rise of authoritarian strongman in democracies across the world (United States, Poland, Hungary, Turkey, etc.) combined with toxic anti-media discourse (United Kingdom, US, Poland, Chile, and New Zealand) have also led to significant drops in the position of many of these countries. 
 
