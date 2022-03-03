@@ -355,7 +355,10 @@ so this website and amazon are to be treated equally by the internet service pro
 .bold[Agenda Setting]:  The power of the media to bring public attention to particular issues and problems
 
 .bold[Framing]: The power of the media to influence how events and issues are interpreted
-  - the  words,  images,  phrases,  and  presentation  styles  that  a speaker  (e.g.,  a  politician,  a  media  outlet)  uses  when  relaying  information  about an issue or event to an audience
+  - the  words,  images,  phrases,  and  presentation  styles  that  a speaker  (e.g.,  a  politician,  a  media  outlet)  uses  when  relaying  information  about an issue or event to an audience\
+  
+.bold[Priming]: process of preparing the public to take a particular view of an event or political actor.
+
 
 
 ???
@@ -416,71 +419,6 @@ Framing – the process by which media encourages viewers to interpret journalis
 
 ---
 
----
-## Public Opinion Experiment
-
-Imagine the US is preparing for the outbreak of an unusual respiratory disease, which is expected to kill 600 people. Two alternative programs to combat the disease have been proposed. 
-
-
-.pull-left[
-
-### Program A
-
-200 People Die
-
-]
-
-.pull-right[
-
-### Program B
-
-1/3 probability that everyone is saved. 
-2/3 probability no one is saved. 
-
-
-]
-
-
-???
-An “overwhelming majority” of people chose Program A which saves 200 lives for sure.
-
-An “overwhelming majority” of the group given problem 2 chose Program D. Note that Program A and C are identical in their outcomes as are B and D. The questions are just framed differently. When A was framed as a gain, people chose it; when it was phrased as a loss (as it is in C), people rejected it.
-
----
-
-
----
-layout: false 
-
-Imagine the US is preparing for the outbreak of an unusual respiratory disease, which is expected to kill 600 people. Two alternative programs to combat the disease have been proposed
-
-.pull-left[
-
-### Program C
-
-400 People Die
-
-]
-
-.pull-right[
-
-### Program D
-
-
-1/3 probability that no one dies. 
-2/3 probability that everyone dies. 
-
-
-
-]
-
-???
-An “overwhelming majority” of people chose Program A which saves 200 lives for sure.
-
-An “overwhelming majority” of the group given problem 2 chose Program D. Note that Program A and C are identical in their outcomes as are B and D. The questions are just framed differently. When A was framed as a gain, people chose it; when it was phrased as a loss (as it is in C), people rejected it.
-
-
----
 
 
 ---
