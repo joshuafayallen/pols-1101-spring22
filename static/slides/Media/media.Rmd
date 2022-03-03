@@ -52,6 +52,7 @@ Survey after survey has demonstrated that Americans as a whole are not well info
 
 ---
 layout: false
+class: middle
 <center>
 <gsu-blockquote-blue>
 
@@ -499,6 +500,7 @@ This messes with peoples utility function making them either risk averse or risk
 ---
 
 ---
+class: middle
 ## Real World Example
 
 
