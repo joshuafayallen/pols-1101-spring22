@@ -94,6 +94,19 @@ Types of Media:
   - Social 
   - New Media
 
+???
+
+Fourth branch?  The role of the mass media in a democratic society.
+
+Referred to “fourth branch” because of its essential role in a representative democracy. 
+
+Information in the news is the primary source of information about society, politics, and government.
+
+Without a free flow of accurate, timely and useful information, people cannot participate effectively. 
+
+More to the point, a free and active media is the central means through which citizens learn about and assess the claims and actions of government officials.  Essential to accountability. 
+
+Modern problems and their potential solutions are so complicated that the typical citizen must rely on various individuals in the media (experts, politicians, pundits, etc.) to make sense of it all.   
 
 
 ---
@@ -116,6 +129,15 @@ Types of Media:
   - Allows any citizen to get information from government records after filing an official request for the release of documents  
 - Television becomes primary source of news for citizens
 
+
+???
+The Communicaion act of 1934 establishes the FCC how the airwaves work first starting 
+
+
+powerful entity to monitor the airwaves—a seven-member (now five-member) FCC to oversee both radio and telephone communication. The FCC requires radio stations to apply for licenses, which are granted only if stations follow rules about limiting advertising, providing a public forum for discussion, and serving local and minority communities. With the advent of television, the FCC was given the same authority to license and monitor television stations. The FCC now also enforces ownership limits to avoid monopolies and censors materials deemed inappropriate
+
+
+
 ---
 
 ---
@@ -129,6 +151,8 @@ layout: false
 - .bold[Soft News]: a type of media that provides a combination of information and entertainment.
 - Ex. Trevor Noah, Samantha Bee, John Oliver
 
+???
+IN 1996 a new communication act was passed that  dropped the limit on the number of radio stations (forty) and television stations (twelve) a single company could own. It also allowed networks to
   
 ---
 
@@ -189,7 +213,8 @@ knitr::include_graphics("age-breakdown.jpg")
   - Content can be regulated when questions of libel and slander are brought forward 
   - Must reach standard of ”Actual Malice” 
   - Content can also be regulated sometimes via prior restraint 
-- .bold[Prior Restraint]: censorship imposed, usually by a government, on publication of documents or specific information.     - Unconstitutional in the United States except in extremely limited circumstances such as national security. 
+- .bold[Prior Restraint]: censorship imposed, usually by a government, on publication of documents or specific information. 
+  - Unconstitutional in the United States except in extremely limited circumstances such as national security. 
 
 
 ???
@@ -440,6 +465,21 @@ Imagine the US is preparing for the outbreak of an unusual respiratory disease, 
 An “overwhelming majority” of people chose Program A which saves 200 lives for sure.
 
 An “overwhelming majority” of the group given problem 2 chose Program D. Note that Program A and C are identical in their outcomes as are B and D. The questions are just framed differently. When A was framed as a gain, people chose it; when it was phrased as a loss (as it is in C), people rejected it.
+
+
+---
+
+
+---
+## Why?
+
+.bold[Risk Averse]: the behavior of individuals that when exposed to uncertainty will attempt to lower that uncertainty. 
+
+.bold[Risk Seeking]: the behavior of individuals that when exposed to uncertainty will choose greater volatility in exchange for anticipated higher returns.  
+
+
+???
+People tend to 
 
 
 ---
