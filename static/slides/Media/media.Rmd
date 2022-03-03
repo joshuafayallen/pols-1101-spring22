@@ -434,6 +434,8 @@ A framing effect occurs when transparently and objectively identical situations 
 
 This messes with peoples utility function making them either risk averse or risk seeking because of their perceived benefit or the percevied losses 
 
+Frames can also play up or down the frequency of an event changing our sort of internal calculations 
+
 
 ---
 
