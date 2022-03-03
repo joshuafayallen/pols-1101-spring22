@@ -327,13 +327,21 @@ FCC gradually extended the rules of the Fairness Doctrine to apply to statements
 
 
 Thus, when a broadcast included a personal attack on a public figure, the station that aired the attack was required to notify the person who was attacked and offer him or her a reasonable opportunity to respond.
-Reagan appointed several new members to the FCC, all of whom were strongly committed to a free market approach to broadcasting.  In 1987 the FCC decided to repeal the fairness doctrine, on the grounds that technological advances had made it possible to accommodate many stations in a given local, making it unnecessary to force stations to present opposing viewpoints. 
+Reagan appointed several new members to the FCC, all of whom were strongly committed to a free market approach to broadcasting. 
+
+
+In 1987 the FCC decided to repeal the fairness doctrine, on the grounds that technological advances had made it possible to accommodate many stations in a given local, making it unnecessary to force stations to present opposing viewpoints. The fairness doctrine ended in the 1980s, after a succession of court cases led to its repeal by the FCC in 1987, with stations and critics arguing the doctrine limited debate of controversial topics and placed the government in the role of editor 
 
 The F.C.C. says that the old rules are no longer necessary because the marketplace has changed. According to the official line, new media -- first cable television, then the Internet -- have given the public access to a diversity of news sources, eliminating the need for public guidelines. 
 
 
  The equal-time rule, for instance, states that registered candidates running for office must be given equal opportunities for airtime and advertisements at non-cable television and radio stations beginning forty-five days before a primary election and sixty days before a general election. If WBNS in Columbus, Ohio, agreed to sell Joe Biden thirty seconds of airtime for a presidential campaign commercial in 2020, the station would also need to sell President Donald Trump thirty seconds of airtime at the same price.
 
+
+
+The idea that Internet Service Providers must treat all web traffic equally, and therefore may not be allowed to charge different rates or discriminate against different websites in any way, is known as net neutrality.
+
+so this website and amazon are to be treated equally by the internet service providers and they can't up charge you for going to high traffic websites. Under the Trump administration that 
 ---
 
 
@@ -358,15 +366,6 @@ Balance the public’s need for information against potential harm or discomfort
 
 
 
----
-layout: false
-
-```{r out.width= "70%"}
-knitr::include_graphics("media-bias.jpg")
-```
-
-
----
 
 ---
 ## Sources of Media Power
@@ -529,3 +528,16 @@ vembedr::embed_url("https://www.youtube.com/watch?v=lAz-F1QnyCk&t=5s")
 
 ---
 
+
+---
+layout: false
+## Consumption
+```{r out.width= "70%"}
+knitr::include_graphics("media-bias.jpg")
+```
+
+???
+Because things are complicated the book advises you to be good consumers of the media that don't consume political information for its entertainment value. You should tend toward the boring stuff. So my grandma loves the news especially Maddow. She loves her a lot but thats not always good because Maddow will tend to be very liberal and is more on the editorial side of news. The book and allsides where this graphic comes from argues that you should be up in the high news content side put sample from a range of outlets
+
+I tend to read news articles more often than not and essentially never look at the editorials. The sort of exception to this is monkey cage because it is where a lot of public facing scholarship lies. They tend to just be snapshots of political science articles but in ways that are accessbile to a general public and not just political scientists
+---
