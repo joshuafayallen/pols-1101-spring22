@@ -63,23 +63,6 @@ knitr::include_url("https://www.pewresearch.org/politics/quiz/what-do-you-know-a
 
 
 
----
-layout: false
-class: middle
-<center>
-<gsu-blockquote-blue>
-
-Congress shall make no law …. or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.”
-
-
-</gsu-blockquote-blue>
-</center>
-
-???
-The Media is often referred to as the “4th branch” of the government, because it plays an essential role in a representative democracy. The news is the primary source of information about society, politics, and government. Without this essential body to promote the free flow of accurate, timely, and useful information, individuals cannot participate effectively. 
-
-
----
 
 
 
@@ -92,7 +75,7 @@ Conveyors of information to the public
 
 Setting the agenda
 
-Promoter of free flow and exchange of idea
+Promoter of free flow and exchange of ideas
 
 
 ---
@@ -116,11 +99,14 @@ Referred to “fourth branch” because of its essential role in a representativ
 
 Information in the news is the primary source of information about society, politics, and government.
 
+
 Without a free flow of accurate, timely and useful information, people cannot participate effectively. 
 
 More to the point, a free and active media is the central means through which citizens learn about and assess the claims and actions of government officials.  Essential to accountability. 
 
 Modern problems and their potential solutions are so complicated that the typical citizen must rely on various individuals in the media (experts, politicians, pundits, etc.) to make sense of it all.   
+
+  
 
 
 ---
@@ -145,6 +131,13 @@ Modern problems and their potential solutions are so complicated that the typica
 
 
 ???
+
+Joseph Pulitzer and the New York World gave them what they wanted in the 1890s. The tabloid-style paper included editorial pages, cartoons, and pictures, while the front page news was sensational and scandalous, appealing to audience emotion and less on the substantive aspects of the important issues of the day. This style of coverage became known as yellow journalism. Ads quickly sold thanks to the paper’s popularity, and the Sunday edition became a regular feature of the newspaper. As the New York World’s circulation increased, other papers copied Pulitzer’s style in an effort to increase circulation. Competition between newspapers led to increasingly sensationalized covers and crude issues
+
+In 1896, Adolph Ochs purchased the New York Times with the goal of creating a dignified newspaper that would provide readers with important news about the economy, politics, and the world rather than gossip and comics. The New York Times brought back the informational model, which exhibits impartiality and accuracy while promoting transparency in government and politics.
+
+
+
 The Communicaion act of 1934 establishes the FCC how the airwaves work first starting 
 
 
