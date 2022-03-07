@@ -12,5 +12,5 @@ links:
   name: Slides
   url: "slides/Exam-2-Review/exam-2.html"
 show_post_time: false
-title: Exam Review
+title: Exam 2 Review
 ---
