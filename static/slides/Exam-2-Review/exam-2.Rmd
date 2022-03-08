@@ -59,15 +59,16 @@ class: center, middle, inverse
 ---
 ## First Amendment
 
-- Free Excercise Clause
+- Free Exercise Clause
   - What is it?
   - What are its limits?
---
+
 
 - Establishment Clause
   - What is it?
   - What are its limits?
   - What are the components of the Lemon Test?
+  - What aree the components of the Sherbert Test?
 
 ???
 Individuals have the right to hold whatever religious beliefs that they would like, but this does not mean that they are exempt from criminal prosecution under other laws. 
@@ -86,6 +87,8 @@ Neither Advances nor prohibits religion
 
 Not Promote excessive government entanglement 
 
+Sherbert test: used for determining whether a government action interferes with the legal right to the free exercise of religion. By this test, if a government action imposes an actual burden on the ability for a person to act upon a sincere religious belief, then the government action is unlawful unless it can withstand strict scrutiny. 
+
 ---
 
 
@@ -102,6 +105,11 @@ Not Promote excessive government entanglement
 The government cannot punish inflammatory speech (essentially they thought Brandenburg was just making a bunch of noise he wouldn’t/couldn’t follow through on) unless that speech is directed to inciting, and is likely to incite imminent lawless action (essentially an actual violent over throw of the government/military coup/junta etc.) 
 
 
+the limits on student speech are essentially that it can't be like really disruptive to the classroom. If you remember back to Morse v Fedrick  court said, yes this is considered school speech, but since it was promoting the use of illicit drugs it was not considered protected speech. 
+
+
+In practicallity these are often really squishy and hard to enforce 
+
 ---
 
 
@@ -115,7 +123,16 @@ The government cannot punish inflammatory speech (essentially they thought Brand
   - defamation
 
 ???
-he supreme court said sorry buddy, this is not a protected form of speech and to avoid further confusion we are going to create a test so you know whether your material is safe or not. 
+
+Miller v. California
+the supreme court said sorry buddy, this is not a protected form of speech and to avoid further confusion we are going to create a test so you know whether your material is safe or not. 
+
+Is the speech of lewd interest to the average person?
+
+Does the speech depict or describe sexual acts or conduct in an offensive manner?
+
+ Does the speech have a serious literary, political, artistic, or scientific interest
+
 
 
 Is the speech of lewd interest to the average person?
@@ -169,6 +186,24 @@ Exclusionary rule – evidence that is seized during violations of the fourth am
 - Miranda Warning and the right to remain silent 
 
 
+
+???
+Grand Jury: a step within the criminal/civil trial in which a jury decides whether there is sufficient evidence available in a case to justify a trial
+
+Double Jeopardy: the instance where an individual is being tried before a court of law for the same crime twice. 
+
+
+Eminent Domain: the right of the government to take private property for public use with just compensation
+
+
+Habeas Corpus: a protection against illegal imprisonment requiring that those detained have access to a court of law concerning the reasons for their detention
+
+
+Miranda warning: You have the right to remain silent. Anything you say can and will be used against you in a court of law. You have the right to speak to an attorney, and to have an attorney present during any questioning. If you cannot afford a lawyer, one will be provided for you at government expense.”
+
+established miranda v Arizona
+
+Miranda’s lawyer objected that because Miranda was not advised of his rights, the confession was not truly voluntary and should be excluded. Moore's objection was overruled and based on this confession and other evidence, Miranda was convicted of rape and kidnapping and sentenced to 20 to 30 years imprisonment on each charge, with sentences to run concurrently. Moore filed Miranda's appeal to the Arizona Supreme Court claiming that Miranda's confession was not fully voluntary and should not have been admitted into the court proceedings.  And the court said, while you are an unfortunate human being, you still deserve to have your rights read to you. 
 
 
 
@@ -252,6 +287,257 @@ class: center, middle
 
 - .bold[Priming]
 
+???
+Leading Questions encourage the respondent to give a certain answer
+
+Double Barrelled Questions Ask for opinions about more than one issue
+
+Social Desirability Bias Frames questions in a way that it makes one believe tthat a certain answer is not preferred
+
+Priming a previous question which influences answers to future questions
+
+---
+
+---
+
+.pull-left[
+```{r}
+pacman::p_load("stevemisc", "dqrng")
+Population = rbnorm(250000, mean = 40.01578, sd = 40.24403,
+                     lowerbound = 0, 
+                     upperbound = 100,
+                     round = TRUE,
+                     seed = 1994)
+
+
+
+Popsamples = tibble(
+  samplemean=sapply(1:1000000, 
+           function(i){ x = mean(
+             dqsample(Population, 10, 
+                    replace = FALSE)) 
+           })) 
+sample_sizes = c(10, 25, 100, 400, 1000, 2000)
+
+Samps = list() 
+set.seed(1994)
+for (j in sample_sizes) {
+   Samps[[paste0("Sample size: ", j)]] = data.frame(sampsize=j, samp=sapply(1:10, function(i){ x = sample(Population, j, replace = TRUE) }))
+}
+
+Samps = Samps %>%
+  map_df(as_tibble) %>%
+  gather(samp, value, samp.1:samp.10)
+
+
+
+Samps %>%
+  group_by(sampsize, samp) %>%
+  summarize(sampmean = mean(value)) %>%
+  ggplot(., aes(as.factor(sampsize),sampmean)) + 
+  geom_point(size=3, color="black", alpha=0.5) +
+  theme_allen() +
+  geom_hline(yintercept = mean(Population), linetype="dashed") +
+  labs(x = "Sample Size",
+       y = "Sample Means",
+       title = "Ten Sample Means of Varying Sample Sizes from a Population",
+       subtitle = "The diminishing returns of increasing sample size emerge around 1,000 observations.")
+
+```
+
+]
+
+
+.pull-right[
+
+```{r}
+Samps %>%
+  group_by(sampsize, samp) %>%
+  mutate(sampmean = mean(value),
+         se = sd(Population)/sqrt((sampsize)),
+         lb95 = sampmean - 1.96*se,
+         ub95 = sampmean + 1.96*se) %>%
+  distinct(sampsize, samp, sampmean, se, lb95, ub95) %>%
+  ungroup() %>%
+  mutate(sampsize = fct_inorder(paste0("Sample Size: ", sampsize)),
+         samp = as.numeric(str_replace(samp, "samp.", ""))) %>%
+  ggplot(.,aes(as.factor(samp), sampmean, ymax=ub95, ymin=lb95)) +
+  theme_allen() +
+  facet_wrap(vars(sampsize)) +
+  geom_hline(yintercept = mean(Population), linetype="dashed") +
+  geom_pointrange() + coord_flip() +
+  labs(y = "Sample Mean (with 95% Intervals)",
+       x = "Sample Number [1:10]",
+       title = "Ten Sample Means of Varying Sizes\n (with 95% Intervals) from a Population")
+```
+
+
+]
+???
+What does this tell us about polling
+
+
+we are just showing the central limit theorem and that as we taken infinite samples our means will be normally distributed and as we increase the sample size not  only do our confidence intervals get tighter but we get closer and closer to the sample mean
+---
+
+
+
+
+---
+## Some other stuff
+Delegate:
+
+Trustee:
+
+Funnel of Causality
+???
+Normative conception of political representation that holds the first duty of representatives is to follow the opinions of their constituents. By this view, the people who vote for representatives are the ones who should exercise judgment over questions of public policy, and if representatives do not follow their lead, they deserve to be voted out of office in the next election.
+
+
+Normative conception of political representation that says an elected representative is obligated to act according to their own best judgment of what is just or what will promote the public good even if it is unpopular and leads to their being voted out of office in the next election.
+
+
+Political scientific theory that posits that over the course of a lifetime, the environmental factors that influence our political predispositions become fewer in number and more limited in impact—just as space becomes more limited as material moves from the wide end of a funnel toward the narrow. 
+
+This is another way of thinking of of our frames of references
+
+The funnel metaphor represents something called the primacy principle: the idea that early socialization creates a base of values, attitudes, and beliefs that tend to be quite stable, and that this early learning shapes and conditions all future learning
+
+---
+
+
+---
+class: middle,center
+
+# Political Participation
+
+---
+
+
+---
+## What does this tell us about voting?
+
+
+$$
+\begin{align}
+R = P \times B - C(B	> C)
+\end{align}
+$$
+???
+What does this tell us about the benefit of voting 
+
+R- The reward you get from voting
+P- The probability that your vote matters
+B- The benefit you will directly receive if your candidate wins
+C- The cost of voting
+
+
+---
+
+
+---
+## Consumptive Model of Voting
+
+
+$$
+\begin{align}
+R = P \times B - C + D 
+\end{align}
+$$
+
+???
+D is equal to the amount of duty felt by an individual
+
+
+---
+## Voting
+
+Pocketbook:
+
+
+Sociotropic:
+
+
+???
+Sociotropic: how well the overall econmy is doing
+
+
+pocketbook voting: 
+
+---
+
+
+
+---
+
+---
+class: center, middle 
+
+# Media 
+
+---
+
+
+--- 
+## Power of the Media 
+
+- Agenda Setting 
+
+- Priming
+
+- Framing
+
+
+---
+
+
+---
+## The Doctrines
+
+## The FCC Regulates Broadcast Media through Various Rules
+
+.panelset[
+
+.panel[.panel-name[Fairness Doctrine]
+
+
+
+]
+
+.panel[.panel-name[Equal Time Rule]
+
+
+
+
+]
+
+
+.panel[.panel-name[Net Neutrality]
+
+
+]
+]
+
+
+---
+
+
+---
+## Power of the Media
+
+- Agenda Setting:
+
+
+- Framing
+
+- Priming
+
+
+---
+
+---
+
+# Appendix
 
 ---
 
@@ -348,7 +634,7 @@ full_sample_annotated
 
 ]
 ???
-In our toy model what I did was basically included being in the NBA in the model distoring the true effect of 
+In our toy model what I did was basically included being in the NBA in the model distorting the true effect of 
 
 ---
 
@@ -364,135 +650,7 @@ collider_bias
 This is what the relationship looks like in the simulation I did when take a representative sample 
 ---
 
----
-## Some other stuff
-Delegate:
 
-Trustee:
-
-Funnel of Causality
-???
-Normative conception of political representation that holds the first duty of representatives is to follow the opinions of their constituents. By this view, the people who vote for representatives are the ones who should exercise judgment over questions of public policy, and if representatives do not follow their lead, they deserve to be voted out of office in the next election.
-
-
-Normative conception of political representation that says an elected representative is obligated to act according to their own best judgment of what is just or what will promote the public good even if it is unpopular and leads to their being voted out of office in the next election.
-
-
-Political scientific theory that posits that over the course of a lifetime, the environmental factors that influence our political predispositions become fewer in number and more limited in impact—just as space becomes more limited as material moves from the wide end of a funnel toward the narrow
-
----
-
-
----
-class: middle,center
-
-# Political Participation
-
----
-
-
----
-## What does this tell us about voting?
-
-
-$$
-\begin{align}
-R = P \times B - C(B	> C)
-\end{align}
-$$
-???
-What does this tell us about the benefit of voting 
-
-R- The reward you get from voting
-P- The probability that your vote matters
-B- The benefit you will directly receive if your candidate wins
-C- The cost of voting
-
-
----
-
-
----
-## Consumptive Model of Voting
-
-
-$$
-\begin{align}
-R = P \times B - C + D 
-\end{align}
-$$
-
-???
-D is equal to the amount of duty felt by an individual
-
-
----
-
-
----
-class: center, middle 
-
-# Media 
-
----
-
-
---- 
-## Power of the Media 
-
-- Agenda Setting 
-
-- Priming
-
-- Framing
-
-
----
-
-
----
-## The Doctrines
-
-## The FCC Regulates Broadcast Media through Various Rules
-
-.panelset[
-
-.panel[.panel-name[Fairness Doctrine]
-
-
-
-]
-
-.panel[.panel-name[Equal Time Rule]
-
-
-
-
-]
-
-
-.panel[.panel-name[Net Neutrality]
-
-
-]
-]
-
-
----
-
-
----
-## Power of the Media
-
-- Agenda Setting:
-
-
-- Framing
-
-- Priming
-
-
----
 
 
 ---

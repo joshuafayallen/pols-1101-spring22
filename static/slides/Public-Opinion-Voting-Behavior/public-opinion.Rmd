@@ -645,7 +645,7 @@ Samps %>%
 
 - Check the target population and how it is sampled
 
-- Asess the sample size and margin of error 
+- Assess the sample size and margin of error 
 
 - Compare across survey houses and look at poll aggregators 
 
