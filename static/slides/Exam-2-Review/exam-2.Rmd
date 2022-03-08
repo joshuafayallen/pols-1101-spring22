@@ -42,11 +42,8 @@ class: center, middle, inverse
 
 - What are they?
 
-- What is incorporation 
-
---
-
-- How does it work?
+- What is incorporation?
+  - How does it work?
 
 
 ???
@@ -384,7 +381,7 @@ we are just showing the central limit theorem and that as we taken infinite samp
 
 
 ---
-## Some other stuff
+## Models of socialization and What we think our Reps should be
 Delegate:
 
 Trustee:
@@ -536,118 +533,9 @@ class: center, middle
 ---
 
 ---
-
+class:center, middle
 # Appendix
 
----
-
----
-## Readers Digest
-```{r}
-library(ggdag)
-nice_skill_data = tibble(height = rnorm(10000, mean = 0, sd = 1),
-                               skill = rnorm(10000, mean = 0, sd = 1))
-plot_labels = tribble(
-  ~x, ~y, ~label, 
-  -2, 2, "Short and Skilled",
-  2, 2, "Tall and Skilled",
-  2, -2, "Tall and Not Skilled",
-  -2, -2, "Short and Not SKilled",
-)
-full_sample = ggplot(nice_skill_data, aes(x = height, y = skill)) +
-  geom_point(color = "grey40", size = 0.5, alpha = 0.8) +
-  geom_smooth(size = 2, method = "lm") +
-  labs(x = "height", y = "Number of Points Scored") +
-  theme_bw(base_family = "Lato") +
-  theme(axis.ticks.x = element_blank(),
-        axis.text.x = element_blank(),
-        axis.ticks.y = element_blank(),
-        axis.text.y = element_blank())
-full_sample_annotated = full_sample +
-  geom_vline(xintercept = 0) +
-  geom_hline(yintercept = 0) +
-  geom_label(data = plot_labels, aes(label = label, x = x, y = y),
-             fill = "#CF4446", color = "white",
-             family = "Lato", fontface = "bold") 
-collider_bias = ggplot(filter(nice_skill_data, 
-                               !(height <= 0 & skill <= 0)), 
-       aes(x = height, y = skill)) +
-  geom_point(color = "grey40", size = 0.5, alpha = 0.8) +
-  geom_vline(xintercept = 0) +
-  geom_hline(yintercept = 0) +
-  geom_smooth(size = 2, method = "lm") +
-  geom_label(data = plot_labels, aes(label = label, x = x, y = y),
-             fill = "#CF4446", color = "white",
-             family = "Lato", fontface = "bold") +
-  labs(x = "height", y = "Points") +
-  theme_bw(base_family = "Lato")
-ggsave(full_sample, filename = "collider_bias.png", dpi = 500)
-collider_dag = dagify(
-  Y ~ X,
-  Z ~ X + Y,
-  coords = list(x = c(X = 1, Y = 3, Z = 2),
-                y = c(X = 1, Y = 1, Z = 2)),
-  exposure = "X",
-  outcome = "Y"
-) %>% 
-  tidy_dagitty() %>% 
-  node_status() %>% 
-  mutate(across(c(name, to), 
-                ~recode(., X = "height", Y = "Points Scored", 
-                        Z = "Being in the NBA"))) %>% 
-  mutate(arrow_color = ifelse(to == "Being in the NBA", "#F012BE", "black"))
-plot_dag = ggplot(collider_dag, aes(x = x, y = y, xend = xend, yend = yend)) +
-  geom_dag_edges(aes(edge_color = arrow_color)) +
-  geom_dag_point(aes(color = status), size = 17) +
-  geom_dag_text(data = filter(collider_dag, name != "Being in the NBA"),
-                color = "black", size = 5, nudge_y = -0.2,
-                family = "Lato", fontface = "bold") +
-  geom_dag_text(data = filter(collider_dag, name == "Being in the NBA"),
-                color = "black", size = 5, nudge_y = 0.2,
-                family = "Lato", fontface = "bold") +
-  scale_color_manual(values = c("#2ECC40", "#0074D9"), 
-                     na.value = "grey80", guide = "none") +
-  coord_cartesian(xlim = c(0.8, 3.2), ylim = c(0.8, 2.2)) +
-  theme_dag()
-full_sample
-```
-
-
-???
-Intuitively this kind of makes sense why the readers digest poll did really poorly because they conditioned on what statisticians call a collider. Let us take an intuitive example of why doing this is bad. Would we think that being taller help you score more point in a basketball game. I learned it like this and throught the example of being nice and attractiveness 
----
-
-
----
-## What Happened... Kind of 
-.pull-left[
-```{r  fig.width=4.5, fig.height=3.35, out.width="100%"}
-plot_dag
-```
-]
-
-
-.pull-right[
-```{r  fig.width=4.5, fig.height=3.35, out.width="100%"}
-full_sample_annotated
-```
-
-]
-???
-In our toy model what I did was basically included being in the NBA in the model distorting the true effect of 
-
----
-
----
-## What.. Happened Kind of 
-
-```{r}
-collider_bias
-```
-
-
-???
-This is what the relationship looks like in the simulation I did when take a representative sample 
 ---
 
 
