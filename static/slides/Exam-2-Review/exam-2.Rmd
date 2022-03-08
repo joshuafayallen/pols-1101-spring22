@@ -479,3 +479,71 @@ class: center, middle
 
 
 ---
+
+
+---
+## Power of the Media
+
+- Agenda Setting:
+
+
+- Framing
+
+- Priming
+
+
+---
+
+
+---
+## Agenda Seeding? 
+### Wasow(2020)
+.pull-left[
+
+<gsu-blockquote-red>
+
+News organization still set public
+agendas but social movements, like any group seeking
+greater attention or publicity, attempt to entice media to
+prioritize their concerns. Southern civil rights protests,
+for example, were often planned for mornings so
+footage could be flown to New York in time to air
+nationally on the evening news 
+
+
+</gsu-blockquote-red>
+
+]
+
+--
+
+.pull-right[
+
+<gsu-blockquote-blue>
+
+Media attention, however, can be sympathetic or
+hostile. Even presented with similar facts, different
+reporters and news organizations often structure stories
+in systematically different ways
+</gsu-blockquote-blue>
+
+]
+
+???
+Wasow's argument is that media has lots of power not only in what they cover but how they cover it. That part we have already covered. What is interesting in this model is that the strategic timing of these events to not only get maximum coverage but it allows activists to generate a state response that is then covered by the media. This affects not only coverage but the frames that are used. 
+
+---
+
+
+---
+layout: false
+
+
+```{r  out.width= "80%"}
+knitr::include_graphics("wasow_fig_1.png")
+```
+
+
+
+
+---
