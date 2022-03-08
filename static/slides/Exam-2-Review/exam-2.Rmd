@@ -515,7 +515,34 @@ class: center, middle
 ]
 ]
 
+???
+Introduced by the FCC in 1949 and suspended in 1987
 
+Where as the equal time rule is concerned with equal access, the fairness doctrine was concerned with making sure broadcasters provided a free and open discussion of public issues. 
+
+The Fairness Doctrine requires that stations (1) provide a reasonable amount of air time to coverage of controversial issues of public important, and (2) accord a reasonable opportunity for the voicing of contrasting viewpoints concerning these issues.
+
+Enforced through the license renewal process in which the states were required to document their compliance.
+
+FCC gradually extended the rules of the Fairness Doctrine to apply to statements about individuals rather than just abstract issues.  
+
+
+Thus, when a broadcast included a personal attack on a public figure, the station that aired the attack was required to notify the person who was attacked and offer him or her a reasonable opportunity to respond.
+Reagan appointed several new members to the FCC, all of whom were strongly committed to a free market approach to broadcasting. 
+
+
+In 1987 the FCC decided to repeal the fairness doctrine, on the grounds that technological advances had made it possible to accommodate many stations in a given local, making it unnecessary to force stations to present opposing viewpoints. The fairness doctrine ended in the 1980s, after a succession of court cases led to its repeal by the FCC in 1987, with stations and critics arguing the doctrine limited debate of controversial topics and placed the government in the role of editor 
+
+The F.C.C. says that the old rules are no longer necessary because the marketplace has changed. According to the official line, new media -- first cable television, then the Internet -- have given the public access to a diversity of news sources, eliminating the need for public guidelines. 
+
+
+ The equal-time rule, for instance, states that registered candidates running for office must be given equal opportunities for airtime and advertisements at non-cable television and radio stations beginning forty-five days before a primary election and sixty days before a general election. If WBNS in Columbus, Ohio, agreed to sell Joe Biden thirty seconds of airtime for a presidential campaign commercial in 2020, the station would also need to sell President Donald Trump thirty seconds of airtime at the same price.
+
+
+
+The idea that Internet Service Providers must treat all web traffic equally, and therefore may not be allowed to charge different rates or discriminate against different websites in any way, is known as net neutrality.
+
+so this website and amazon are to be treated equally by the internet service providers and they can't up charge you for going to high traffic websites. Under the Trump administration that 
 ---
 
 
@@ -524,11 +551,15 @@ class: center, middle
 
 - Agenda Setting:
 
-
 - Framing
 
 - Priming
 
+???
+Agenda setting is imporant because the media can start to affect what we think of as important throught just the very act of covering things. There are sort of some issues that we can think of as sort of inherently news worthy. While other stuff maybe escape our attention because the public just isn't paying attention 
+
+
+Framing you can kind of think of it as the how it is being covered
 
 ---
 
