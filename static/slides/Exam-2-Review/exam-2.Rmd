@@ -50,7 +50,7 @@ class: center, middle, inverse
 
 
 ???
- Civil Rights Legal rights designed to protect individuals from abuse of power by government.
+ Civil liberties Legal rights designed to protect individuals from abuse of power by government.
  
  incorporation:  Name for when the U.S. Supreme Court holds that a civil liberty from the Bill of Rights applies to state governments (rather than only the federal government) through the Fourteenth Amendment Due Process Clause’s command that no “State deprive any person of … liberty … without due process of law.” (See also Selective Incorporation and Total Incorporation
 
@@ -546,7 +546,8 @@ layout: false
 knitr::include_graphics("wasow_fig_1.png")
 ```
 
-
+???
+The verical lines denote presidential elections but the author put them on the exact date so they are slightly off kilter. 
 
 
 ---
