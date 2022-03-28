@@ -91,8 +91,75 @@ Most often the expectation or right that is wanted by these individuals is the r
 - The Court has used its authority to broadly protect individuals  from this type of discrimination 
 
 
+]
 
+---
+
+---
+class: center, middle 
+
+```{r}
+vembedr::embed_url("https://www.youtube.com/watch?v=1suZiTIq3XI")
+```
+
+
+---
+
+
+---
+## Suspect Class
+
+
+.pull-left[
+
+<gsu-blockquote-red>
+
+Any classification of groups meeting a series of criteria suggesting that they are likely the subject of discrimination. These groups generally have strict  or intermediate (if considered quasi-suspect) scrutiny applied to them
+
+</gsu-blockquote-red>
 
 ]
+
+
+.pull-right[
+###  Criteria 
+
+- The group has a history of being discriminated against or has been subject to prejudice, stigma, or genuine hostility 
+
+- They are powerless to protect themselves via the political process. 
+
+- They possess a highly visible and immutable trait, that does not inhibit them from contributing meaningfully to society 
+
+- .bold[Protected Classes]: Race, Color, Age, Sex(orientation and gender identity), Pregnancy, Familial Status, Disability, Veteran, and pre-existing medical conditions
+
+]
+
+
+???
+
+Is a class or group of persons meeting a series of criteria suggesting they are likely the subject of discrimination. These classes receive closer scrutiny by courts when an Equal Protection claim alleging unconstitutional discrimination is asserted against a law, regulation, or other government action, or sometimes private action.
+
+Basically, race discrimination is treating people differently based on their ancestral or cultural characteristics.
+
+Color discrimination is treating people differently based on their skin color, but can occur between persons of different and/or the same race.
+---
+
+---
+class: center  
+
+
+```{r}
+df = tibble::tribble(~Test, ~Application, ~`Suspect Status`, ~`Standard Used`,
+                     "Strict Scrutiny", "Race, Ethnicity, Religion, and Citizenship", "Suspect Class", "Law is assumed unconstitutional in the absence of an overwhelming justification", "Intermediate Scrutiny", "Gender or Sexual Orientation", "Quasi-Suspect Class", "Law is assumed  unconstitutional unless the law serves a clearly compelling and justified purpose", "Rational Bias", "Age, Disability, Wealth, Political Preference, and Criminal Background", "Not suspect category", "Law assumed constitutional unless no sound rationale for the law can be provided")
+
+gt(df) %>% 
+  tab_header(title = "How Do Judges Make Decisions") %>% 
+  opt_align_table_header(align = "center") %>% 
+  gtExtras::gt_theme_guardian()
+
+```
+
+
+
 
 ---
