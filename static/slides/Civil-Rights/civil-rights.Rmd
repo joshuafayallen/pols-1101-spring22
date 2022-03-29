@@ -218,7 +218,7 @@ To use strict scrutiny the class of people in question must have a history of di
 
 - Japanese Americans
 
-- Japanese Americans
+- Native Americans
 ]
 
 .panel[.panel-name[Gender]
@@ -284,10 +284,8 @@ August of 1619 is the first recorded instance of slavery coming to the shores of
 ---
 
 ---
-## The American Civil War & Reconstruction
+## The American Civil War 
 
-.pull-left[
-### Some Dates from the Civil War
 
 - Dred Scott v. Sanford(1857)
 
