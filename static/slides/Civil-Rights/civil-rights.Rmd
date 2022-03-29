@@ -244,14 +244,14 @@ To use strict scrutiny the class of people in question must have a history of di
 
 ---
 layout: false
-
+class: middle 
 
 - _De Jure_ - Equal protection under the laws
 
 - _De Facto_ - Equal access to opportunity & societal benefits
 
 ???
-We talked about this quote from the Declaration of Independence on the first day of class, but what does it really mean?  Thomas Jefferson wrote this very phrase at the Second Continental Congress, but at the time he owned over 200 slaves at his plantation home in Virginia (Monticello). Even on his death bed he refused to free them. It is even believed that he had several illegitimate children by his slaves.  So what the framers actually meant was that all “Free White property owning men were created equal….” Thankfully we have moved past this and have eradicated almost all means of inequality under the law (de jure), but within society we still continue to struggle with De Facto discrimination. 
+Thomas Jefferson wrote that all men are created equal endowed by their creator with certain unalienble right. at the Second Continental Congress, but at the time he owned over 200 slaves at his plantation home in Virginia (Monticello). Even on his death bed he refused to free them. It is even believed that he had several illegitimate children by his slaves.  So what the framers actually meant was that all “Free White property owning men were created equal….” Thankfully we have moved past this and have eradicated almost all means of inequality under the law (de jure), but within society we still continue to struggle with De Facto discrimination. 
 
 
 ---
@@ -452,7 +452,11 @@ knitr::include_graphics("images/little-rock-nine.png")
   - 1969 – 634 school districts under investigation by courts and 120 with $ withdrawn ]
 
 ???
+
+
 Even with the Brown decision, integration  was not an instantaneous thing. It would take years for most states to even begin procedures.  The Court had established no plan for integration, in fact they said the process should be enacted with all deliberate speed. 21 states had schools that were segregated, and by 1961 only 12 of them had actually begun integration procedures. 
+
+On the left you have a picture of Hazel brown, one of the little rock nine 
 
 The story of the Little Rock Nine was one of the most sensationalized. In this case Governor Orval Faubus of Arkansas defied federal orders and called upon the National Guard of Arkansas to support the segregationists and to prevent integration in the local high school.  President Eisenhower quickly responded by sending in federal troops in breaking up the protests and providing armed escorts to the students to get to class.  
 
@@ -574,7 +578,7 @@ Question 10 asks for something to be done to “the first word beginning with �
 
 
 <gsu-blockquote-alt>
-The requirements of the Coverage Formula create an unconstitutional burden on states concerning voting restrictions.  The burden on the states is no longer reflective of the conditions in the voting districts with the most “discriminatory behavior" `r tufte::quote_footer('--- Shelby County v Holder')`
+The requirements of the Coverage Formula create an unconstitutional burden on states concerning voting restrictions.  The burden on the states is no longer reflective of the conditions in the voting districts with the most “discriminatory behavior" `r tufte::quote_footer('--- Shelby County v Holder 2013')`
 
 </gsu-blockquote-alt>
 
