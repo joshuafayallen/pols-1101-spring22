@@ -167,7 +167,7 @@ Any classification of groups meeting a series of criteria suggesting that they a
 
 - They possess a highly visible and immutable trait, that does not inhibit them from contributing meaningfully to society 
 
-- .bold[Protected Classes]: Race, Color, Age, Sex(orientation and gender identity), Pregnancy, Familial Status, Disability, Veteran, and pre-existing medical conditions
+- .bold[Protected Classes]: Race, religion, national origin, and alienage.
 
 ]
 
