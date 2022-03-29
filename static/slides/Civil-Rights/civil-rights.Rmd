@@ -174,7 +174,9 @@ Any classification of groups meeting a series of criteria suggesting that they a
 
 ???
 
-Is a class or group of persons meeting a series of criteria suggesting they are likely the subject of discrimination. These classes receive closer scrutiny by courts when an Equal Protection claim alleging unconstitutional discrimination is asserted against a law, regulation, or other government action, or sometimes private action.
+When somebody says that they are discriminated against the court determines whether or not they are suspect class. 
+
+Supsect class  a class or group of persons meeting a series of criteria suggesting they are likely the subject of discrimination. These classes receive closer scrutiny by courts when an Equal Protection claim alleging unconstitutional discrimination is asserted against a law, regulation, or other government action, or sometimes private action.
 
 Basically, race discrimination is treating people differently based on their ancestral or cultural characteristics.
 
