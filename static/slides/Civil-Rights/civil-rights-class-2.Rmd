@@ -52,7 +52,7 @@ class: center, middle
 
 
 ---
-## Womens Suffargae 
+## Womens Suffrage  
 
 <center>
 
@@ -123,13 +123,13 @@ knitr::include_graphics("images/womans-suffrage.jpg")
 
 
 ???
- 
 
-Elizabeth Staton was one of the primary organizers and primary authors of the Declaration of Rights and Sentiments was deeply influenced by her experience at the World Anti-Slavery convention. 
 
 The Seneca Falls Convention kicks off the First wave of feminism and what many consider the start of the suffragist movement. Of the 200-300 members of the Seneca Falls convention there was only one member of the convention who was black. Frederick Douglas saw the issue of womens suffrage and abolition as intertwined. 
 
-Douglass, Staton, and Susan B Anthony would eventually form the American Equal rights Association to push for universal suffrage. However, the question of the 15th amendment starkly divided this organization leading to its dissolution just 3 years later. The suffragist movement would start to reframe women's suffrage as a white women's issue. However, it is important to note that woman like Sojourner Truth and Jarena Lee were critical figures in the woman's rights movement in the United States. However their contributions to the movement would quickly be erased.
+Douglass, Staton, and Susan B Anthony would eventually form the American Equal rights Association to push for universal suffrage. However, the question of the 15th amendment starkly divided this organization leading to its dissolution just 3 years later. The suffragist movement would start to reframe women's suffrage as a white women's issue. Staton and Anthony would frame black men as gaining the rigth to vote over white woman in about as racist ways as you could.
+
+However, it is important to note that woman like Sojourner Truth and Jarena Lee were critical figures in the woman's rights movement in the United States. However their contributions to the movement would quickly be erased. 
 
 Western states lead the charge in woman's suffrage with women getting the right to vote as early as 1869. Many states would pass some form of women's suffrage in subsequent years due to this activism. The only states not to have some form of women's suffrage any where were Alabama, the Carolinas, WV, VA, MD, and PA
 
@@ -203,15 +203,12 @@ Work place
 Federal Law
 
 Although federal laws protect people from workplace discrimination on the basis of race, national origin, religion, sex, age, and disability, there is no federal law that specifically outlaws workplace discrimination on the basis of sexual orientation in the private sector. (Federal government workers are protected from such discrimination.) Attempts to pass federal legislation that would outlaw sexual orientation discrimination in private workplaces have been unsuccessful to date, although more members of Congress support such a bill each year.
-State Laws
+
 
 There is more hope at the state level. Almost half the states and the District of Columbia have laws that currently prohibit sexual orientation discrimination in both public and private jobs: California, Colorado, Connecticut, Hawaii, Illinois, Iowa, Maine, Maryland, Massachusetts, Minnesota, Nevada, New Hampshire, New Jersey, New Mexico, New York, Oregon, Rhode Island, Vermont, Washington, and Wisconsin.
 In addition, a few states have laws prohibiting sexual orientation discrimination in public workplaces only.
 
-Don’t ask don’t tell - The policy prohibited people who "demonstrate a propensity or intent to engage in homosexual acts" from serving in the armed forces of the United States, because their presence "would create an unacceptable risk to the high standards of morale, good order and discipline, and unit cohesion that are the essence of military capability“ – Repealed in 2011
-
-
-During this time lots of religious liberty bills were passed. Essentially these bills were just legalized homophobia. The crux of the bills were that due to religous beliefs you could deny your services to people due to deeply held religious beliefs. 
+However this is a double edged sword when we start to think about the Don't Say Gay bill in Florida or bans on trans athletes competing in sports or states making gender affirming care more difficult to access, or bathroom bans.
 
 ---
 
@@ -264,8 +261,13 @@ Typically in these models you have a training set of data and what is known as a
 
 The problem with this is that what the model gets trained on is subject to our own systemic biases.
 
-AI experts have found lots of training data was collected and hand coded. Meaning that I look at a sentence and determine what the vibes are. 
+AI experts have found lots of training data was collected and hand coded. Meaning that I look at a sentence and determine what the vibes are. You may have some coding rules that help you determine what you should code it as. In the case of predictim there were validation checks by human reviewers built in. However, while the CEO of the company ensured the reporter in the story knew that reviewers went through extensive bias training. However, through the course of these reviews candidates with very similar social media feeds were assigned differently in many cases. Black women in particular were over penalized compared to white people. 
 
+The model is dependent on good training data. The numbers in the spreadsheet are not in of itself racist. Nor is the algorithm racist. Barring a programmer setting an argument to make it so it is basically just a math equation. However the processing and data collection itself can be inherently biased. Which implicitly passed on the biases of the coders. Lots of judges use or used algorithms that set bail based on the characteristics of the offender. One prominent example of this problem was the algorithm was trained on historical prison data. 
+
+What do you think would be a pretty good historical predictor long prison sentences?
+
+The sort of motivation behind this rant is to say that we see lots and lots of news about the extent to which we are trying to relegislate bias. We have talked about voter id laws which disproportionatly impact historically excluded groups. While these are undoubtedly important 
 
 ---
 
