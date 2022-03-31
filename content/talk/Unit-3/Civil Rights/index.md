@@ -11,7 +11,7 @@ links:
   icon_pack: fas
   name: Class 1 Slides 
   url: "slides/Civil-Rights/civil-rights.html"
--icon: door-open
+- icon: door-open
   icon_pack: fas
   name: Class 2 Slides
   url: "slides/Civil-Rights/civil-rights-class-2.html"
