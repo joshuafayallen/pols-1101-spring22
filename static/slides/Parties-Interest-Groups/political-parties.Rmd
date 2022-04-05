@@ -113,10 +113,17 @@ Also support talented candidates, help them get started which brings qualified p
 - .bold[Party-in-Government]: Party identifiers who have been elected to office and are responsible for coordinating governance.
 
 ???
+
+
+party organization 
+
+is the formal structure of the political party, and its active members are responsible for coordinating party behavior and supporting party candidates. It is a vital component of any successful party because it bears most of the responsibility for building and maintaining the party “brand.” It also plays a key role in helping select, and elect, candidates for public office
+
+
 When we think about parties we can think of them as having many faces. The faces of the party range from the how we see oursleves and see the role of the party. We bring the stuff that we think are important to the party. We have some set of stuff that we find important. The parties represent that imperfectly in many cases. Party in the electorate is just people who consider themselves a member of the party. There has been a general decline in party id with the democrats and republicans with increases in identification as an independent. These people are kind of just partisans in hiding. When polling houses and poltical scientists start poking them they tend to look and act like their partisan counterparts. As we have covered in the past PID is a really good predictor of who is going to vote for who an election 
 
 
-The party in government actually has to do the governing. Part of governance is dealing with conflictual preferences and the political context that this occurs. They have to write the things, kind of, and they have to do other stuff. The party in government tries to execute the vision in whatever form that may be 
+The party in government
 
 Arguably, this is where political parties have the most power today. Parties work hard to provide organization and coordination amongst individuals in government, especially at the federal level. This is particularly true in Congress, where we talked about the important role that parties play in the leadership of Congress, assigning committee membership and roles, and coordinating action on various legislative initiatives across the two chambers.
 
