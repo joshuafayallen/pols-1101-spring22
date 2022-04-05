@@ -631,21 +631,42 @@ vembedr::embed_url("https://youtu.be/MepXBJjsNxs")
 ---
 
 ---
-## Top Spenders 
 
-```{r eval=FALSE}
-spender_raw = read_csv("top_spenders.csv") %>% janitor::clean_names() 
+
+```{r }
+spender_raw = read_csv("data/pac-all.csv") %>% janitor::clean_names() 
 
 spender = spender_raw %>% 
   mutate(money = str_replace_all(total_spent, "[[$,]]",""),
-         money = as.numeric(money))
+         money = as.numeric(money)) %>% 
+   arrange(year, desc(money)) %>% 
+  filter(year == max(year)) %>% 
+  slice(1:5)
 
+ recent = ggplot(spender, aes(x = money, y = fct_reorder(name, money), fill = name)) +
+  geom_col() +
+  scale_x_continuous(labels = scales::dollar) +
+  labs(y = NULL, x = NULL) + 
+  guides(fill = "none") +
+  theme_allen() +
+  scico::scale_fill_scico_d(palette = "vikO") 
 
-ggplot(spender, aes(x = money, y = fct_reorder(lobbying_client, money))) +
+old = spender_raw %>% 
+  mutate(money = str_replace_all(total_spent, "[[$,]]",""),
+         money = as.numeric(money)) %>% 
+  arrange(year, desc(money)) %>% 
+  filter(year == min(year)) %>% 
+  slice(1:5) %>% 
+  ggplot(., aes(x = money, y = fct_reorder(name, money), fill = name)) +
   geom_col() +
   scale_x_continuous(labels = scales::dollar) +
   labs(y = NULL, x = NULL, caption = "Data are Derived from Open Secrets.org") + 
-  theme_allen()
+  guides(fill = "none") +
+  theme_allen() +
+  scico::scale_fill_scico_d(palette = "vikO")
+
+    recent/old
+
 
 
 ```
@@ -665,6 +686,7 @@ It is something like 80% of all lobbyists are business groups. They tend to be t
 
 
 ---
+
 
 
 
