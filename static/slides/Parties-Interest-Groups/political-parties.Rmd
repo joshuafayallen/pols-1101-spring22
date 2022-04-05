@@ -631,10 +631,6 @@ class: center, middle, inverse
   - Organizations or bodies that provide entry points into the American political process. 
   - Provide a “link” between government and the people. 
   
-- Iron Law of Organizations 
-  - Over time, a group no matter its origins will become elite dominated since they have all the “control” 
-
-
 
 ???
 Americans are more likely than any other people to join a group: book clubs, social groups and most especially church related organizations
