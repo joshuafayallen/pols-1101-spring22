@@ -623,7 +623,7 @@ class: center, middle, inverse
 ---
 
 ---
-## What Are Interst Groups?
+## What Are Interest Groups?
 
 .bold[Interest Groups]: Organizations of people with similar policy goals who enter the political process to achieve those aims.  
 
