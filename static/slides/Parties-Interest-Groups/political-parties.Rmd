@@ -212,7 +212,7 @@ layout: false
 
 ```{r }
 
-# devtools::install_github("zmeers/ggparliament") run on laptop
+
 pacman::p_load("ggparliament")
 
 data("election_data")
@@ -633,7 +633,7 @@ vembedr::embed_url("https://youtu.be/MepXBJjsNxs")
 ---
 ## Top Spenders 
 
-```{r}
+```{r eval=FALSE}
 spender_raw = read_csv("top_spenders.csv") %>% janitor::clean_names() 
 
 spender = spender_raw %>% 
@@ -649,6 +649,9 @@ ggplot(spender, aes(x = money, y = fct_reorder(lobbying_client, money))) +
 
 
 ```
+
+
+
 
 
 
