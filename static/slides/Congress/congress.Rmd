@@ -363,7 +363,7 @@ Trustee – (key term) – a member of congress that represents constituents int
 
 Three models on the National level:
 
-.bold[BurkeanModel (Edmund Burke)] – Legislators work for what they know is best for their districts and the nation
+.bold[Burkean Model (Edmund Burke)] – Legislators work for what they know is best for their districts and the nation
 Trustee
 
 .bold[Instructed Delegate Model] – Legislators will follow the will, or the voice, of the people in their districts exactly
