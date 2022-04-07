@@ -241,7 +241,7 @@ Partisan vote share is the newest one where it looks at the difference between v
 
 
 ---
-## Is it Gerrymandering all The Way Down
+## Is it Gerrymandering all The Way Down?
 
 
 - Ehh no
@@ -297,9 +297,27 @@ gt::gt(gender) %>%
 ```
 
 
+???
+Congress is overwhelmingly pale and overwhelmingly male. Which really stands in stark contrast to America. One other thing to put a finer point on it 
+
+ the professional background of many members of Congress is far different than that of the United States population. In particular, teachers and lawyers are vastly overrepresented in Congress, compared to the United States population. This is particularly true of lawyers. For example, while only 0.4% of the U.S. population possesses a law degree, roughly 35% percent of members of the House of Representatives have a law degree.
+
+
+Over all, Congress does not do a great job of reflecting the diversity of the American population. This lack of representation is due to a number of different factors. 
+
+First, gerrymandering plays a significant role in this lack of diversity. Because states draw lines to favor their political parties and sitting incumbents, this results in significant racial and gender advantages. Because white men tended to hold these seats before gerrymandering became more prolific, they tend to have a significant advantage in maintaining those seats once gerrymandering started to occur with greater frequency.
+
+Second, the institution of voter ID laws in recent years has had a dramatic impact on voter turnout. This is particularly true for individuals that face more financial disadvantages which may prevent them from turning out, or those voters from racial and ethnic minority groups that are disproportionately affected by these laws. Each of these groups are more likely to vote for candidates that would increase the diversity of Congress, so when they don’t participate Congress is less likely to diversify.
+
+Third, as we discussed in the last unit, voter turnout has steadily decreased in recent decades. Declines in turnout descrease the likelihood of new candidates being elected to serve in Congress, prolonging the lack of diversity.
+
+Finally, changes to campaign finance rules in recent years have made it easier than ever for specific individuals to contribute to the campaigns of Congressional candidates. Again, as we have discussed, because people do not like betting on candidates that may not win an election, donors are more likely to contribute to candidates that have won an election. After all, the people that have already demonstrated an ability to win an election are also those that are most likely to win future elections.
 
 
 ---
+
+
+
 
 ---
 ## Two Models of Representation
