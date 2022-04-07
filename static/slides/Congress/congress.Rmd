@@ -91,15 +91,16 @@ gt::gt(bicameral) %>%
 
 Go through chart for basic differences between house and senate. (age, required citizenship, representation and term lengths) 
 
-Senatorial Representation – is based on a statewide level thus representing heterogeneity of state populations. The Framers intention was to create a body of statesmen that based their decisions on wisdom and deliberation with their interests attuned to the interests of those with property rather then population. 
+Senatorial Representation – is based on a statewide level thus representing heterogeneity of state populations. The Framers intention was to create a body of statesmen that based their decisions on wisdom and deliberation with their interests attuned to the interests of those with property rather then the broader population population. 
+
+This was sort of exemplified by the fact that before the 17th amendment senators were chosen by state legislatures
 
 House Representation – the house was created for the direct link that it provided to the people with interests attuned to public opinion.  Thus the shorter term lengths to reflect societal change that occurs with shifts in population. 
 
-Discuss the change in type of election that occurred in 1913 with the 17th amendment. Change from the indirect election of Senators through the legislatures to direct elections. 
 
 Powers of the House exclusively – origination of all tax bills; vote to impeach 
 
-Powers of the Senate exclusively – nomination and confirmations of  federal officials; Holds the trial to impeach, and ratify all treaties. 
+Powers of the Senate exclusively – The senate confirms Presidential nominations; Holds the trial to impeach, and ratify all treaties. 
 
 Advice and Consent – this is a special “power” of the Senate in which they are consulted/approached by the executive branch to approve treaties and appointments made by the President to various government positions (cabinets seats, federal judges, ambassadors, and US attorneys) 
 
