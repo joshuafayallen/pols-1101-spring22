@@ -199,7 +199,12 @@ knitr::include_url("https://projects.fivethirtyeight.com/redistricting-maps/geor
 
 ]
 
+???
+In addition to providing for reapportionment, the Census creates an opportunity for redistricting. This is the process of redrawing the geographic boundaries of legislative districts. If a state has gained or lost districts in the House, the remaining districts have to be drawn to either create these new districts or to absorb the territory/people in the previously existing district. 
 
+However, some states may have to redistrict even if they have not gained or lost seats. At times, people may move drastically within a state, requiring a district to be shifted from one part of the state to another. An example would include a large shift of people from Atlanta to Athens. If this were to take place, Georgia may move one district from the Atlanta area and add it to the Athens area.
+
+The process of redistricting is done by the state, and is usually controlled by the State legislature. This creates the problem of gerrymandering, which we have discussed previously
 ---
 
 ---
