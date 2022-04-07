@@ -139,6 +139,43 @@ Upon ACA’s passage a Senate staffer decided to bring home a completed copy in 
 
 ---
 
+
+---
+## Where Do We Get 435?
+
+- First House had 65 members: 13 states
+  - 1790 Census: expanded to 105 members
+  - 1800 Census: expanded to 142 members: 16 states
+  - 1920 Census: expanded to 435 members: 48 states
+
+- Permanent Apportionment Act of 1929
+  - Set the 435 Representatives cap
+  - Why would Congress cap its own power?
+  - WWI, Industrialization, mechanization of agriculture
+  - Southern/Rural states who dominated the Senate pass the cap to maintain power
+
+???
+Despite adding two more states following the 1920 Census and the massive explosion in population our country faced in the following decades, the size of the House of Representatives has not changed since that 1920 Census. This is due to the Permanent Apportionment Act of 1929. This bill capped the size of the House of Representatives at 435 members, regardless of how much the population may have grown or shrank.
+
+Why would Congress cap its own power and size?
+This was largely due to significant changes that were taking place across the country. World War I, Industrialization, and the mechanization of agriculture saw drastic changes in the economic landscape across the country. As fewer people were needed in agricultural industries and more were needed in manufacturing, large elements of the population were leaving Southern and rural states to move industrialized states and cities.
+At the time, the Senate was largely controlled by members from these Southern and rural states. These members passed the Permanent Apportionment Act in an effort to maintain power for their states.
+
+This act has a large impact on how “well” the people are represented in Congress. It is worth looking at an example to see this.
+
+
+---
+
+---
+## What Would it look like today 
+
+```{r}
+knitr::include_url("https://projects.fivethirtyeight.com/435-representatives/")
+```
+
+
+---
+
 ---
 ## Redistricting 
 
