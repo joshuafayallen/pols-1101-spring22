@@ -9,8 +9,12 @@ layout: single
 links:
 - icon: door-open
   icon_pack: fas
-  name: Slides 
+  name: Class 1
   url: "slides/Congress/congress.html"
+- icon: door-open
+  icon_pack: fas
+  name: Class 2
+  url: "slides/Congress/congress_tues.html"
 show_post_time: false
 subtitle: Congress
 title: Chapter 12
