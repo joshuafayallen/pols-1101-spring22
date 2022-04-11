@@ -4,14 +4,18 @@
 
 pacman::p_load("tidyverse", "patchwork", "modelsummary", "ggridges", "kableExtra","gameofthrones","viridis", "here", "lubridate", "stevemisc", "xaringanExtra", "flair", "countdown","hrbrthemes","ggthemes", "kable", "vembedr", "gtExtras", "gt")
 
+  if(!require("showtext")) {
+	print("Install the package `showtext`.")} else {
+	library("showtext")
+    sysfonts::font_add_google("Roboto Condensed", "Roboto Condensed")
+    sysfonts::font_add_google("IBM Plex Sans", "IBM")
+  }
+
+
 theme_allen  = function(title_pos = "center", axis_title_pos = "left", slides = FALSE, has_subtitle = FALSE, base_size = 14, ...) {
   
   # Check if fonts were loaded. If not, load them
-  if( !("fira_sans" %in% sysfonts::font_families()) ) {
-    sysfonts::font_add_google("Roboto Condensed", "Roboto Condensed")
-    sysfonts::font_add_google("IBM Plex Sans", "IBM")
-    showtext::showtext_auto()
-  }
+
   
   title_hjust <- switch(title_pos, "center" = 0.5, "left" = 0)
   axis_title_hjust_y <- switch(axis_title_pos, "center" = 0.5, "left" = 1.0)
