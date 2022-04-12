@@ -56,6 +56,51 @@ The second kind of powers that Congress has are implied powers. These are powers
 ---
 
 ---
+## Enumerated Powers of Congress
+
+
+- Lay and collect taxes 
+- To borrow on the credit of the US
+- To regulate Commerce 
+- To establish uniform rule of Naturalization
+- To Coin Money 
+- To Provide for Punishment of Counterfeiting Money 
+- To Establish Post Offices 
+- To Promote the Progress of Science and useful Arts– Copyrights 
+- To constitute Tribunals inferior to the  Court 
+- To define and punish Piracy and Crimes on the High Seas 
+- To Declare War
+-  To raise and support Armies 
+- To provide and maintain a Navy 
+- To make rules for governing and regulating the military 
+- To provide for militias to suppress insurrection or repel invasion
+- To organize, arm, and discipline the Militia in service to the US
+- To make laws  
+
+
+
+
+---
+
+---
+## Special Powers of Each Branch
+
+
+- House
+  - Vote to impeach
+  - Origination of all Revenue bills
+- Senate
+  - Nominations & confirmations 
+  - Holds the trial to impeach
+  - Ratify all treaties
+
+
+
+---
+
+
+
+---
 ## The Ones We Will Focus On
 
 - Impeachment
@@ -90,7 +135,7 @@ War powers – Congress has to officially declare war. Does this happen every ti
 - The check that Congress has over the other branches that - allows them to remove officers of the United States for - various different abuses of powers
  
 - Does _*NOT*_ mean removal from office
-  - 3 Presidents
+  - 4 Presidents
   - 15 Federal Court Judges
   - 1 Senator
 
@@ -192,7 +237,20 @@ Before we dive into the lawmaking powers and process of Congress, we need to tak
 
 ---
 
+---
 
+## Political Parties in Government
+
+- Unified Government – Presidency, House and the Senate are all controlled by the same party
+Fast policy changes
+
+- Divided Government – when one party controls the Presidency, and another party controls the House, the Senate or both
+  - Leads to gridlock or slow policy changes
+  - Can lead to government shutdowns
+
+
+
+---
 
 
 ---
@@ -476,6 +534,44 @@ Conference committees– temporary committees appointed by Speaker and the presi
 
 ---
 
+
+---
+## Most Powerful Committees in Congress
+
+.pull-left[
+### House
+
+- Appropriations 
+  - Money - regulate expenditure of US govt 
+- Budget 
+  - Reviews Federal budget process 
+- Rules 
+  - Determines all the rules of how a bill can come to the floor 
+  - “traffic cop of Congress” 
+- Ways and Means 
+  - Writes all tax legislation and revenue programs 
+  - If a member it is only committee member can serve on 
+
+
+]
+
+.pull-right[
+
+### Senate
+
+- Appropriations 
+  - Money - regulate expenditure of US govt
+- Armed Services 
+  - Legislative oversight of all US military branches 
+- Finance 
+  - Legislation concerning taxation and other revenue programs 
+- Foreign Relations 
+  - Oversees all foreign-policy legislation including foreign aid, funding, and treaty ratification 
+
+
+]
+
+---
 
 ---
 ## Special Votes
