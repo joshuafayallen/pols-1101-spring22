@@ -424,6 +424,8 @@ vembedr::embed_url("https://www.youtube.com/watch?v=s5eILKG5oSE")
 ```
 
 ]
+???
+Now, the Schoolhouse Rock example is really the best case scenario. Now watch the video hyperlinked in this slide. It provides a much more realistic example of the lawmaking practice works in person, and the role that parties and party leadership can play in the process.
 
 ---
 ## How the Sausage Gets Made
