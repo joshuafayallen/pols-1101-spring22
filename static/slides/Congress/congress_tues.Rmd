@@ -230,7 +230,7 @@ knitr::include_graphics("gop-leadership.jpg")
 
 ---
 layout: false
-```{r out.width="80%"}
+```{r out.width="50%"}
 
 
 knitr::include_graphics("senate-dem.jpg")
