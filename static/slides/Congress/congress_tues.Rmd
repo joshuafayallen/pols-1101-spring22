@@ -501,7 +501,7 @@ If this piece of legislation is then passed by both chambers of Congress again, 
 Once a bill reaches the President he has 10 days to act:
 
 - Sign the Bill and it becomes law
-  -  Veto
+-  Veto
   - 2/3 Support from both chambers may override a veto
 
 - Not Sign
