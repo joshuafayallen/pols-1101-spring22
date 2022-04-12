@@ -226,22 +226,6 @@ knitr::include_graphics("gop-leadership.jpg")
 
 ---
 
-
-
----
-layout: false
-```{r out.width="50%"}
-
-
-knitr::include_graphics("senate-dem.jpg")
-
-```
-
-
-
-
----
-
 ---
 ## House Partisan Breakdown 
 
@@ -281,6 +265,22 @@ representatives
 
 
 ---
+
+
+---
+layout: false
+```{r out.width="58%"}
+
+
+knitr::include_graphics("senate-dem.jpg")
+
+```
+
+
+
+
+---
+
 
 
 ---
@@ -391,7 +391,7 @@ vembedr::embed_url("https://www.youtube.com/watch?v=s5eILKG5oSE")
   - Report to full Chamber of Senate
 - .bold[NO RULES COMMITTEE IN SENATE]
 - Goes to Senate floor for votes
-  - Here Senators may filibuster bills (i.e. talk them to death)
+  - Here Senators may filibuster bills 
   - Filibusters are ended with a cloture vote
 - If Senate version is different from the original House - version the bill is sent to a Conference Committee: 
   - Conference Committee - members _from both chambers review the new bill_ 
