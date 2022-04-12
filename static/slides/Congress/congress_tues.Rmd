@@ -170,7 +170,7 @@ Congress has the exclusive power to officially declare war. However, in the mode
 Despite it’s rare usage, Congress has passed a number of bills related to it’s war making powers.
 The first was the War Powers Act of 1941. This act dramatically increased federal power during World War II, authorizing Franklin Roosevelt to reorganize the Executive branch and the Bureaucracy to streamline the war effort. A subsequent act passed in 1942 which allowed the federal government to acquire any land within the United States for the war effort, among other things.
 
-Following the Executive branches continued willingness to engage in military conflicts without a declaration of war, Congress passed the War Powers Resolution of 1973. This act requires the president to notify Congress within 48 of committing armed forces to military action, and requires the president to seek continued approval for troop deployments within the first 60 days.
+Following the Executive branches continued willingness to engage in military conflicts without a declaration of war, Congress passed the War Powers Resolution of 1973. This act requires the president to notify Congress within 48 hours of committing armed forces to military action, and requires the president to seek continued approval for troop deployments within the first 60 days.
 
 
 ---
@@ -260,6 +260,12 @@ knitr::include_graphics("dem-leadership.jpg")
 
 ```
 
+???
+The first leadership role in the House is the Speaker. The Speaker of the House is the elected leader of the House and their primary role is to lead the majority power and essentially “control the fate” of legislation in the house. She is the second in line for succession after the President and the Vice-President.  Speakers control the fate of legislation by determining which committees bills are assigned to as they work their way through the legislative process. Finally, the Speaker of the House controls the floor schedule, determining when bills will be debated on the floor and for how long they will be debated.
+
+Next, the Majority and Minority Leaders assist leadership by guiding, articulating, planning, and implementing the legislative agenda/strategy of their party. They also determine which committees individuals will serve on. The Majority Leader in the House is currently Steny Hoyer, and the Minority Leader is Kevin McCarthy.
+
+Finally, the Majority and Minority Whips further help leadership in the passage or opposition to proposed pieces of legislation. Their job is literally to “whip” their members into line, and to leverage future pieces of legislation, specific amendments, committee assignments, and future electoral support to encourage their members to vote for/against pieces of legislation. The Majority Whip is currently James Clyburn and the Minority Whip is Steve Scalise.
 
 
 
@@ -331,6 +337,12 @@ knitr::include_graphics("senate-dem.jpg")
 
 ```
 
+???
+The first leadership position in the Senate actually lies in the Executive branch. The Vice President serves as the president of the senate and casts the tie breaking votes within the Senate. 
+
+Next, the President Pro Tempore serves as the president of the Senate when the Vice President is not in Senate session. This position is always given to the longest serving member of the majority party in the Senate. He is the third in line for succession after the speaker of the house. This is generally considered an ornamental title since often the job of senate president is shared among junior senators (of the majority party) in an effort to teach them parliamentary procedure. 
+
+The role of the Majority and Minority Leaders and Whips in the Senate is largely the same as in the House. The only difference is that the Majority Leaders ability to control the floor schedule is minimized in the Senate because of the need for Cloture and the possibility of Fillibusters, but we will talk about both of those in more detail later.
 
 
 
