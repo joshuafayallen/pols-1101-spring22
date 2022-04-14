@@ -220,9 +220,21 @@ Executive Privilege – Nixon and Watergate Scandal
 ---
 ## Bully Pulpit and Policy
 
+
+
+.pull-left[
+
+
+```{r}
+knitr::include_graphics("Roosevelt-1900-campaign.jpeg")
+```
+
+]
+
+.pull-right[
 - A platform through which a President can  push his agenda by swaying public opinion and the media and effect change.
 
-- New Media and the President  
+- New Media and the President  ]
 
 
 ???
@@ -233,8 +245,15 @@ FDR and “the switch in time that saved nine”
 
 Obama and the Affordable Care Act
 
+It turns out that FDR’s landslide 1936 re-election was probably sufficient to swing CJ Hughes & Roberts. Roberts wrote a letter to Hughes in Dec ‘36 saying it was time to switch. 
+Turns out the court-packing threat may have weakened FDR with Congress and the Court.
+
 
 The relationship of the president and the media has developed significantly over time, giving the president vast amount of opportunities with which to utilize this power. This has extended well beyond traditional forms of media like the radio to blogs, twitter, and even Instagram. 
+
+
+
+
 
 ---
 
