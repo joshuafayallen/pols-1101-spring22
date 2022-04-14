@@ -241,7 +241,7 @@ Executive Privilege – Nixon and Watergate Scandal
 
 
 ```{r}
-knitr::include_graphics("Roosevelt-1900-campaign.jpeg")
+vembedr::embed_url("https://www.youtube.com/watch?v=Q3YhruUmPAM")
 ```
 
 ]
