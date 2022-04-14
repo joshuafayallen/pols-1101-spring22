@@ -246,7 +246,7 @@ Article II, Section 3: the President “shall from time to time give to the Cong
 .pull-right[
 
 ```{r}
-vembedr::embed_url("http://youtu.be/R6cGwlxyS2Y")
+vembedr::embed_url("https://www.youtube.com/watch?v=lKWmlIExRAo")
 ```
 
 ]
@@ -265,7 +265,7 @@ Written speech transformed into oral speech – Washington gave first orally, bu
 Media – First Radio – Calvin Coolidge (1923) First Recorded TV – Truman (1947) First Primetime Live Televised – LBJ (1965) First live webcast SOU – Bush (2002) 
 “State of the Union” term coined by FDR in 1934, but not popularized until 1947. 
 
-http://youtu.be/R6cGwlxyS2Y - fun clip for talk about SOU – talks about briefly the constitution and SOU vesting clause;  sets in context the order of succession should something happen to the president at the SOU. An individual from the cabinet does not attend the SOU so that someone can be left to run the country. 
+ 
 
 ---
 
