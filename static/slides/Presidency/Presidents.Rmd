@@ -216,6 +216,8 @@ In modern times, the Senate is in session nearly year-round, making the recess a
 ???
 Although the president’s power is broad, it is not without accepted limitations. Perhaps the most important is that the president can only pardon federal offenses; he cannot interfere with state prosecutions. Also, the pardoning power only extends to criminal offenses; it does not preclude civil actions. 
 
+Unlike a commutation, which shortens or eliminates an individual’s punishment, a pardon absolves the individual of guilt. For example, President Trump commuted Roger Stone’s prison sentence so that Mr. Stone did not serve the punishment for his guilty conduct. 
+
 ---
 
 
@@ -267,7 +269,7 @@ Following the Executive branches continued willingness to engage in military con
 
 
 - History 
-  - GW – The Autonomy of the Executive 
+  - Washington – The Autonomy of the Executive 
   - Jackson – The man and his veto 
   - Lincoln – War Powers expansion 
   - T. Roosevelt – “The Bully” 
