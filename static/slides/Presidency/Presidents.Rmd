@@ -38,14 +38,17 @@ TBH the pollen is kind of
 
 ---
 
-## Qualifications+
+## Qualifications
 
 - 35 years old
+
 - Natural born citizen
+
 - Retain residency in the US for at least 14 years
+
 - 12th Amendment (1804) 
 
-- 22nd Amendment (1951) 
+- 22nd Amendment (1951) fixes the number of terms to 2
 
 ???
 These are the constitutional qualifications to be president as set aside in Article II, Section I, Clause V.  (the twelfth amendment also extends these qualifications to the vice-president (1804).) 
@@ -167,6 +170,14 @@ Executive Orders – are orders signed into effect by presidents in order to ens
 
 
 ---
+---
+
+```{r}
+vembedr::embed_url("https://www.youtube.com/watch?v=oyOf3g-PJ94")
+```
+
+
+---
 
 ---
 ## President as Legislative Leader
@@ -268,7 +279,7 @@ Article II, Section 3: the President “shall from time to time give to the Cong
 .pull-right[
 
 ```{r}
-vembedr::embed_url("https://www.youtube.com/watch?v=lKWmlIExRAo")
+vembedr::embed_url("https://www.youtube.com/watch?v=0TKxu-oxue8")
 ```
 
 ]
