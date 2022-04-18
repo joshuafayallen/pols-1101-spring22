@@ -372,3 +372,8 @@ gsu-blockquote-alt {
 .bold-last-item > ol > li:last-of-type {
   font-weight: bold;
 }
+
+
+.my-one-page-font {
+  font-size: 18px;
+}
