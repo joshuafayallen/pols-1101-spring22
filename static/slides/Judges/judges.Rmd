@@ -24,7 +24,7 @@ output:
 ---
 ## Looming Deadlines
 
-.bold[Exam 3 ]: Next Week
+.bold[Exam 3]: Next Week
 
 
 
@@ -193,9 +193,6 @@ Specifically, the founders considered it the “least dangerous branch” endowe
 
 The founders did not spend a lot of thought on the court structure, basically choosing to mirror the common law system found in Great Britain at the time of the founding. 
 
-Common law system  – key term – a system of laws based on judge’s decisions(precedent) which often supplement the interpretation of statutory laws established through the processes of the executive and legislative branches. 
-
-Precedent – key term – the interpretation of the law that is reached based on the decisions of judges that have served before hand.  It can be developed to create new interpretations, reapplied in the same context, or overturned in an effort to change/develop what the law means. 
 
 
 
@@ -422,13 +419,16 @@ vembedr::embed_url("https://www.youtube.com/watch?v=0xnzGSV66x4")
 ---
 ## Case Selection 
 
-- Standing 
-  -  the right of an individual to initiate a court case. To be a case their must be a controversy in which the - individual has a direct stake in the outcome of the case. 
-- Mootness 
+- .bold[Standing ]
+  -  the right of an individual to initiate a court case. To be a case their must be a controversy in which the individual has a direct stake in the outcome of the case. 
+
+- .bold[Mootness]
   - the point where a legal proceeding or case can be found to have no effect. 
-- Writ of certiorari
-  - a petition from the lower court for the higher court to look at a case on its merits and see if it deserves - to be heard
-- Amicus curie briefs 
+
+- .bold[Writ of certiorari]
+  - a petition from the lower court for the higher court to look at a case on its merits and see if it deserves to be heard
+
+- .bold[Amicus curie briefs]
   - roughly translate to “friend of the court” – it is a position brief that is filed by individual/groups who are not party to a law suit but who seek to make their position known to the court in an effort to have an effect on the courts ultimate decision. 
 
 ???
@@ -452,13 +452,20 @@ Amicus briefs – (key term) – roughly translate to “friend of the court” 
 
 ---
 ## Supreme Court Procedures 
+
 - Petitions for Certiorari 
+
 - Certiorari pool 
+
 - Rule of Four 
   - the procedure by which the judges vote whether to hear a case. At least 4 judges are required to vote to - hear a case for it to be granted cert and be placed on the docket
+
 - Oral Arguments 
+
 - Conference
+
 - Opinion Writing 
+
 - Case Decision 
 
 
@@ -477,6 +484,12 @@ Amicus briefs – (key term) – roughly translate to “friend of the court” 
 
 - .bold[Law Clerks]: the individuals behind the scene who provide assistance to judges in researching issues before the court, writing/editing briefs, and various other jobs. 
 
+???
+
+These are really important actors in the supreme court. Supreme court law clerks are really prestigious positions that are often the top of their class at some of the most prestigious law schools in the country. They also hold a surprising amount of power.
+
+
+In the last thirty years, nearly all the Justices have broadened the clerks' duties. The clerks now review cert petitions, write memoranda summarizing the petitions, and recommend whether to grant or deny review; write bench memoranda that prepare the Justices for oral argument; and prepare the first drafts of majority, concurring, and dissenting opinions.
 
 
 ---
@@ -513,17 +526,25 @@ gt::gt(df) %>%
 
 
 - "Rule of Law” 
+
 - Types of law
+
 - Constitutional 
+
 - Statutory 
+
 - Administrative 
-- Precedent  - the interpretation of the law that is reached based on the decisions of judges that have served -before hand. 
+
+- Precedent  - the interpretation of the law that is reached based on the decisions of judges that have served before hand. 
+  
   - Stare Decisis  - “let the judgment stand” – the legal principle that requires judges to respect the precedent established in cases before now. 
 
 
 ???
 The U.S. Constitution: Highest law of the land
+
 Statutory law: Largest source of law today; comes from Congress.
+
 Administrative law: Comes from bureaucracies/agencies
 Common law tradition: Court’s decision on a case should be consistent with earlier rulings (precedent). 
 
@@ -539,8 +560,10 @@ Stare decisis – “let the judgment stand” – the legal principle that requ
  
 - Majority Opinion 
   - Majority of justices agree on the legal rationale for a decision. At least 5 justices must agree for it to  become precedent.
+
 - Concurring Opinion 
   - Separate opinion by justice who agrees with decision, but disagrees with reason/rationale of the majority - opinion
+
 - Dissenting Opinion 
   - Separate opinion by justices who disagree with the decision.
 
@@ -573,8 +596,15 @@ Judicial Restraint – (key term) – a judicial philosophy who adheres to the t
 
 Judicial Activism – (key term) – the opposing belief of judicial philosophy that posits that the Court and justices need to look beyond the words of the Constitution in interpreting the meaning of the law. 
 
-DQ: Are all judges activists? What do you think influences their decisions? Do you feel that the Constitution is enough for modern society to base its laws on? 
-In what ways are federal judges shielded from political backlash or politics in general? Does the design of the court allow for more or less freedom for judges when it comes to politics
+One way that political scientists and many Con law professors with the exception of ours differ is how we view judges and judicial decision making. The common myth of the supreme court justice and judges in general is that they are these apolitical beings that just call balls and strikes. They look at the case facts and the precedent, intent of the framers, and the then rule based on these things
+
+
+However, they are just policy makers in robes. They are appointed by ideologically similar presidents so they come in with a view of the world. If a question gets to them that means that the legality of the question is still up for grabs and still murky. So they fall back on these ideological priors. The central concept is that of an “attitude,” which
+comprises a relatively enduring “interrelated set of beliefs about an object or situation
+
+
+They have a life tenure and are honestly generally unconstrained actors. 
+
 ---
 
 
