@@ -547,6 +547,12 @@ gt::gt(df) %>%
 
 
 ???
+
+Judges must work within the confines of the law
+
+Types of law
+
+
 The U.S. Constitution: Highest law of the land
 
 Statutory law: Largest source of law today; comes from Congress.
