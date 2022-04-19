@@ -438,6 +438,7 @@ vembedr::embed_url("https://www.youtube.com/watch?v=0xnzGSV66x4")
 ???
 Review discussion of jurisdiction – Supreme Court has discretionary jurisdiction, meaning that they get to select the cases that they wish to hear.
 Any individual that wishes to bring a case before any level of the court is first required to have standing. 
+
 Standing – (key term) – the right of an individual to initiate a court case. To be a case their must be a controversy in which the individual has a direct stake in the outcome of the case. (Example: Brown v. Board – many cases prior to Brown tried to end segregation, but the individuals/organizations that were filing weren’t considered directly harmed by segregation) 
 
 Mootness – (key term) – the point where a legal proceeding or case can be found to have no effect. (Example: Roe vs. Wade – by the time the case reached the SC, Roe would have been pregnant for 56 months; the court decided to hear the case b/c it was such a personal issue) 
