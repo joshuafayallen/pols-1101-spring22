@@ -350,7 +350,7 @@ Jurisdiction – (key term) – it is the legal authority of a court to hear a c
 
 Original – (key term) – the power of the court to hear a case for the first time without needing to go through a trial level case. 
 
-	All trial level courts have original jurisdiction. SCOTUS has limited original jurisdiction concerning specific issues such as State vs State or Ambassador cases. 
+All trial level courts have original jurisdiction. SCOTUS has limited original jurisdiction concerning specific issues such as State vs State or Ambassador cases. 
 
 Appellate – (key term) – the power of a higher court to review a lower court’s decision. This happens in all appellate courts and in most cases heard before the Supreme Court. 
 
