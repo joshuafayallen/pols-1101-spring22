@@ -86,14 +86,18 @@ knitr::include_graphics("bureau.png")
 
 
 implementation – 
+
 the efforts of the bureaucracy to translate sources of law/legislation into specific bureaucratic action and routine 
+
 Standard operating procedures are the rules that lower level bureaucrats must follow when implementing policies which are created through implementation. 
 
 Rule making – 
 the quasi-legislative process of “clarifying” or “producing” understanding of government regulations for implementation by other levels of bureaucratic agents. 
+
 Red tape – the excessive or unnecessary regulation that can be imposed by the bureaucracy. 
 
 Administrative adjudication – 
+
 The process of applying rules and precedents to specific cases to settle disputes or problems between or of parties. 
 
 
