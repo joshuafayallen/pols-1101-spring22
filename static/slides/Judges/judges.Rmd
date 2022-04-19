@@ -209,11 +209,11 @@ The founders did not spend a lot of thought on the court structure, basically ch
 .pull-left[
 ### Civil Law
 
--Roman Origins 
--“Napoleonic Law” 
--a system of laws based entirely on codified statutes and legislation which judges apply to factual -situations of law. This legal tradition rose from natural law) and religious canon. 
--Sources of law: Codes, Statutes, and Legislation 
--Modern Examples: France, Greece, Italy, Germany 
+- Roman Origins 
+- “Napoleonic Law” 
+- a system of laws based entirely on codified statutes and legislation which judges apply to factual situations of law. This legal tradition rose from natural law) and religious canon. 
+- Sources of law: Codes, Statutes, and Legislation 
+- Modern Examples: France, Greece, Italy, Germany 
 
 
 ]
