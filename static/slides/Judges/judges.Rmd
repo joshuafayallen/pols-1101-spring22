@@ -534,15 +534,10 @@ gt::gt(df) %>%
 - "Rule of Law” 
 
 - Types of law
-
-- Constitutional 
-
-- Statutory 
-
-- Administrative 
-
-- Precedent  - the interpretation of the law that is reached based on the decisions of judges that have served before hand. 
-  
+  - Constitutional 
+  - Statutory 
+  - Administrative 
+  - Precedent  - the interpretation of the law that is reached based on the decisions of judges that have served   before hand. 
   - Stare Decisis  - “let the judgment stand” – the legal principle that requires judges to respect the precedent established in cases before now. 
 
 
