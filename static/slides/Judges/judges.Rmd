@@ -46,7 +46,6 @@ class: center, middle, inverse
 
 - Independent regulatory commissions 
 
-- Government corporations
 
 
 
@@ -84,19 +83,20 @@ knitr::include_graphics("bureau.png")
 
 ???
 
-Implementation – 
+
+
+implementation – 
 the efforts of the bureaucracy to translate sources of law/legislation into specific bureaucratic action and routine 
-
 Standard operating procedures are the rules that lower level bureaucrats must follow when implementing policies which are created through implementation. 
+
 Rule making – 
-
 the quasi-legislative process of “clarifying” or “producing” understanding of government regulations for implementation by other levels of bureaucratic agents. 
-
 Red tape – the excessive or unnecessary regulation that can be imposed by the bureaucracy. 
+
 Administrative adjudication – 
-
-
 The process of applying rules and precedents to specific cases to settle disputes or problems between or of parties. 
+
+
 
 Bureaucracies provide an increased amount of specialization and focus to problems that individuals have when they have issues with the federal government.  This can be beneficial since it speeds up the recommended processes for an action, but it can also be problematic since it lends itself to the possibility of too much oversight and red tape. 
 
@@ -486,7 +486,8 @@ Amicus briefs – (key term) – roughly translate to “friend of the court” 
 
 ???
 
-These are really important actors in the supreme court. Supreme court law clerks are really prestigious positions that are often the top of their class at some of the most prestigious law schools in the country. They also hold a surprising amount of power.
+
+Law clerks really important actors in the supreme court. Supreme court law clerks are really prestigious positions that are often the top of their class at some of the most prestigious law schools in the country. They also hold a surprising amount of power.
 
 
 In the last thirty years, nearly all the Justices have broadened the clerks' duties. The clerks now review cert petitions, write memoranda summarizing the petitions, and recommend whether to grant or deny review; write bench memoranda that prepare the Justices for oral argument; and prepare the first drafts of majority, concurring, and dissenting opinions.
