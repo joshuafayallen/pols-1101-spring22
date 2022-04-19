@@ -641,6 +641,14 @@ vembedr::embed_url("https://www.youtube.com/watch?v=hEntVPddsMw&feature=youtu.be
 - Merit system
 
 
+???
+Judges outside of the federal system are selected in a variety of different ways. 
+Some judges are appointed by the governor in a process similar to federal appointments. Others are appointed by the state legislatures. 
+
+ 
+Other states hold elections for judges (including Georgia) that can be either partisan or non-partisan. Where the candidates political party affiliation is written clearly on the ballot when voting. Georgia utilizes non-partisan elections. 
+
+The newest way for judicial selection is the merit system in which candidates are nominated from a list of eligible candidates. After serving a short time (usually a 1 year term) they are then put to vote by the people in democratic elections.
 
 ---
 
